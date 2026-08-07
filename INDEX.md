@@ -1,5 +1,8 @@
 # INDEX — Maternal/Newborn Teaching Resource Suite
 
+> **New to this project? Read [`HANDOFF.md`](HANDOFF.md) first** — it explains the goal, the
+> generator-based workflow, verification commands, the Phase 0 blocker, and what to build next.
+
 Build tracker for the critical-path artifacts (WO-A, WO-B, WO-F, WO-G, WO-I) across
 **RNSG 1523 Nursing I (Antepartum)** and **RNSG 2514 Nursing III (Complications)**.
 
