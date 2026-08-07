@@ -1,0 +1,2240 @@
+{
+  "course": "RNSG2514",
+  "count": 64,
+  "items": [
+    {
+      "id": "2514-D1-101",
+      "objective_id": "2514-D1-3",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Analyze Cues",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Analyze",
+      "difficulty_target": "moderate",
+      "stem": "A patient at 34 weeks reports a sudden gush of bright-red vaginal blood. She has no pain, and the uterus is soft and non-tender. Fetal heart rate is 140 with moderate variability. Which finding pattern does the nurse recognize?",
+      "chart_data": {},
+      "options": [
+        "Placenta previa",
+        "Abruptio placentae",
+        "Uterine rupture",
+        "Ruptured vasa previa"
+      ],
+      "key": [
+        "Placenta previa"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Painless, bright-red bleeding with a soft, non-tender uterus and reassuring fetal status is the classic previa pattern. The transferable principle: in late bleeding, pain and uterine tone separate previa from abruption before any imaging.",
+      "rationale_distractors": {
+        "Abruptio placentae": "Right for painful, dark bleeding with a rigid, tender uterus and often a Category II/III tracing.",
+        "Uterine rupture": "Right when there is loss of station, acute pain, and fetal bradycardia, usually during TOLAC.",
+        "Ruptured vasa previa": "Right when membrane rupture is followed by bleeding plus sudden fetal bradycardia — the blood is fetal."
+      },
+      "source": "Lowdermilk 13th ed.",
+      "keywords": [
+        "previa",
+        "abruption",
+        "late bleeding"
+      ]
+    },
+    {
+      "id": "2514-D1-102",
+      "objective_id": "2514-D1-3",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Take Actions",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Apply",
+      "difficulty_target": "moderate",
+      "stem": "A patient at 32 weeks arrives with painless bright-red vaginal bleeding. Placental location is not yet documented. Which action should the nurse take first?",
+      "chart_data": {},
+      "options": [
+        "Perform a digital cervical exam to assess dilation",
+        "Withhold digital vaginal examination and prepare for ultrasound",
+        "Insert a urinary catheter and begin oxytocin",
+        "Place the patient in Trendelenburg position"
+      ],
+      "key": [
+        "Withhold digital vaginal examination and prepare for ultrasound"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Until previa is excluded by ultrasound, a digital exam can provoke catastrophic hemorrhage. The principle: with undiagnosed late-pregnancy bleeding, imaging precedes any vaginal exam.",
+      "rationale_distractors": {
+        "Perform a digital cervical exam to assess dilation": "Right in normal labor once previa is excluded — here it is contraindicated.",
+        "Insert a urinary catheter and begin oxytocin": "Right for augmenting labor, not for undiagnosed APH; oxytocin does not address bleeding source.",
+        "Place the patient in Trendelenburg position": "Not evidence-based for obstetric bleeding and can impair respiratory effort."
+      },
+      "source": "Lowdermilk 13th ed.",
+      "keywords": [
+        "previa",
+        "no digital exam",
+        "first action"
+      ]
+    },
+    {
+      "id": "2514-D1-103",
+      "objective_id": "2514-D1-3",
+      "item_type": "highlight",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Physiological Adaptation",
+      "bloom": "Analyze",
+      "difficulty_target": "moderate",
+      "stem": "Highlight the findings in the note that point to abruptio placentae rather than previa. Nurses' note: '38 weeks, sudden onset constant abdominal pain, dark vaginal bleeding, uterus firm and tender to palpation, contractions difficult to distinguish from baseline tone, FHR baseline 165 with minimal variability and late decelerations.'",
+      "chart_data": {},
+      "options": [
+        "constant abdominal pain",
+        "dark vaginal bleeding",
+        "uterus firm and tender",
+        "increased resting tone",
+        "late decelerations with minimal variability"
+      ],
+      "key": [
+        "constant abdominal pain",
+        "dark vaginal bleeding",
+        "uterus firm and tender",
+        "increased resting tone",
+        "late decelerations with minimal variability"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Pain, dark blood, a rigid tender uterus with elevated tone, and a deteriorating tracing are the abruption cluster. Principle: abruption threatens both mother (concealed loss, DIC) and fetus (uteroplacental compromise).",
+      "rationale_distractors": {
+        "(distractor findings)": "A note describing painless bright-red bleeding with a soft uterus and a Category I tracing would instead point to previa."
+      },
+      "source": "Lowdermilk 13th ed.",
+      "keywords": [
+        "abruption",
+        "highlight",
+        "recognize cues"
+      ]
+    },
+    {
+      "id": "2514-D1-104",
+      "objective_id": "2514-D1-1",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Physiological Adaptation",
+      "bloom": "Understand",
+      "difficulty_target": "easy",
+      "stem": "A patient at 9 weeks reports heavy bleeding and passage of grape-like vesicular tissue. Serum hCG is markedly higher than expected for dates and no fetal heart tones are found. Which condition do these findings suggest?",
+      "chart_data": {},
+      "options": [
+        "Threatened miscarriage",
+        "Gestational trophoblastic disease (molar pregnancy)",
+        "Ectopic pregnancy",
+        "Implantation bleeding"
+      ],
+      "key": [
+        "Gestational trophoblastic disease (molar pregnancy)"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Vesicular tissue, disproportionately high hCG, and absent fetal heart tones define a molar pregnancy, which needs evacuation and serial hCG follow-up. Principle: hCG far above dates with vesicles is molar until proven otherwise.",
+      "rationale_distractors": {
+        "Threatened miscarriage": "Right for bleeding with a closed cervix and a viable intrauterine pregnancy on ultrasound.",
+        "Ectopic pregnancy": "Right for unilateral pain with lower-than-expected hCG and no intrauterine sac.",
+        "Implantation bleeding": "Right for light spotting around the expected menses with normal hCG rise."
+      },
+      "source": "Lowdermilk 13th ed.",
+      "keywords": [
+        "molar",
+        "GTD",
+        "hCG"
+      ]
+    },
+    {
+      "id": "2514-D1-105",
+      "objective_id": "2514-D1-2",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Analyze Cues",
+      "client_needs": "Physiological Adaptation",
+      "bloom": "Analyze",
+      "difficulty_target": "hard",
+      "stem": "A patient at 7 weeks has unilateral lower abdominal pain and scant bleeding. Serum hCG is 1,900 mIU/mL and transvaginal ultrasound shows no intrauterine gestational sac. Which interpretation is best supported?",
+      "chart_data": {},
+      "options": [
+        "Normal early intrauterine pregnancy",
+        "Completed miscarriage",
+        "Possible ectopic pregnancy requiring close follow-up",
+        "Molar pregnancy"
+      ],
+      "key": [
+        "Possible ectopic pregnancy requiring close follow-up"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "An hCG above the discriminatory zone with no intrauterine sac raises concern for ectopic pregnancy and mandates urgent evaluation. Principle: 'no sac when hCG says there should be one' is an ectopic red flag.",
+      "rationale_distractors": {
+        "Normal early intrauterine pregnancy": "Right when a sac is seen or hCG is below the discriminatory zone and rising appropriately.",
+        "Completed miscarriage": "Right when hCG is falling and the patient reports passage of tissue with resolving symptoms.",
+        "Molar pregnancy": "Right with vesicular tissue and hCG far higher than expected for dates."
+      },
+      "source": "ACOG PB 200 (2018)",
+      "keywords": [
+        "ectopic",
+        "discriminatory zone",
+        "analyze cues"
+      ]
+    },
+    {
+      "id": "2514-D1-106",
+      "objective_id": "2514-D1-4",
+      "item_type": "bowtie",
+      "ncjmm_operation": "Take Actions",
+      "client_needs": "Pharmacological and Parenteral Therapies",
+      "bloom": "Apply",
+      "difficulty_target": "hard",
+      "stem": "Ten minutes after a vaginal birth, the uterus is boggy and above the umbilicus, and there is a steady flow of blood. Select the 2 immediate actions, the 1 condition, and the 2 parameters to monitor.",
+      "chart_data": {},
+      "options": {
+        "actions_options": [
+          "Firmly massage the fundus",
+          "Administer oxytocin per protocol",
+          "Administer methylergonovine to a patient with severe hypertension",
+          "Wait 30 minutes and reassess",
+          "Place the patient in reverse Trendelenburg"
+        ],
+        "condition_options": [
+          "Uterine atony",
+          "Vaginal laceration",
+          "Retained placenta",
+          "Amniotic fluid embolism"
+        ],
+        "parameter_options": [
+          "Fundal tone and position",
+          "Quantified blood loss and vital signs",
+          "Deep tendon reflexes",
+          "Blood glucose"
+        ]
+      },
+      "key": {
+        "actions": [
+          "Firmly massage the fundus",
+          "Administer oxytocin per protocol"
+        ],
+        "condition": [
+          "Uterine atony"
+        ],
+        "parameters": [
+          "Fundal tone and position",
+          "Quantified blood loss and vital signs"
+        ]
+      },
+      "scoring": "+/-",
+      "rationale_correct": "A boggy, high uterus with bleeding is atony — the first of the 4 Ts and the leading PPH cause. Massage plus oxytocin are first-line; tone and quantified loss track the response. Principle: treat tone first because atony causes most PPH.",
+      "rationale_distractors": {
+        "Administer methylergonovine to a patient with severe hypertension": "Methylergonovine is a correct uterotonic but is contraindicated in hypertension.",
+        "Retained placenta / Vaginal laceration": "Each is a real PPH cause (Tissue, Trauma) but the boggy fundus points to Tone first.",
+        "Deep tendon reflexes": "Right to monitor on magnesium therapy, not for hemorrhage."
+      },
+      "source": "ACOG PB 183 (2017)",
+      "keywords": [
+        "PPH",
+        "atony",
+        "4 Ts",
+        "bowtie"
+      ]
+    },
+    {
+      "id": "2514-D1-107",
+      "objective_id": "2514-D1-4",
+      "item_type": "extended_drag_drop",
+      "ncjmm_operation": "Take Actions",
+      "client_needs": "Management of Care",
+      "bloom": "Apply",
+      "difficulty_target": "hard",
+      "stem": "A patient has an estimated 1,200 mL blood loss from uterine atony unresponsive to fundal massage and oxytocin. Place the next nursing actions in the correct priority order.",
+      "chart_data": {},
+      "options": [
+        "Call for help and notify the provider",
+        "Ensure two large-bore IVs and give isotonic fluid",
+        "Administer a second-line uterotonic per order (e.g., carboprost if no asthma)",
+        "Prepare for possible transfusion and quantify ongoing loss",
+        "Document the event timeline and blood loss"
+      ],
+      "key": [
+        "Call for help and notify the provider",
+        "Ensure two large-bore IVs and give isotonic fluid",
+        "Administer a second-line uterotonic per order (e.g., carboprost if no asthma)",
+        "Prepare for possible transfusion and quantify ongoing loss",
+        "Document the event timeline and blood loss"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "PPH escalation follows a bundle: summon help, secure access and volume, escalate uterotonics, prepare blood products, and document. Principle: staged hemorrhage response prevents the delay that drives maternal mortality.",
+      "rationale_distractors": {
+        "Administer a second-line uterotonic (carboprost)": "Carboprost is correct only when asthma is absent; order matters — help and access come first.",
+        "Document the event timeline": "Essential but never ahead of active resuscitation."
+      },
+      "source": "ACOG PB 183 (2017)",
+      "keywords": [
+        "PPH bundle",
+        "escalation",
+        "drag drop"
+      ]
+    },
+    {
+      "id": "2514-D1-108",
+      "objective_id": "2514-D1-4",
+      "item_type": "sata",
+      "ncjmm_operation": "Analyze Cues",
+      "client_needs": "Pharmacological and Parenteral Therapies",
+      "bloom": "Analyze",
+      "difficulty_target": "moderate",
+      "stem": "A patient with postpartum hemorrhage has a history of asthma and a blood pressure of 168/104. Select all uterotonic considerations that apply.",
+      "chart_data": {},
+      "options": [
+        "Oxytocin is appropriate first-line",
+        "Methylergonovine is contraindicated because of hypertension",
+        "Carboprost (PGF2α) is used cautiously or avoided because of asthma",
+        "Tranexamic acid may be given within 3 hours as an adjunct",
+        "Misoprostol cannot be used under any circumstance"
+      ],
+      "key": [
+        "Oxytocin is appropriate first-line",
+        "Methylergonovine is contraindicated because of hypertension",
+        "Carboprost (PGF2α) is used cautiously or avoided because of asthma",
+        "Tranexamic acid may be given within 3 hours as an adjunct"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Uterotonic choice is driven by comorbidity: ergot agents avoid hypertension, carboprost avoids asthma, oxytocin is first-line, and TXA is a timed adjunct. Principle: match the uterotonic to the patient's contraindications.",
+      "rationale_distractors": {
+        "Misoprostol cannot be used under any circumstance": "False — misoprostol is often the usable option precisely when both ergots and carboprost are contraindicated."
+      },
+      "source": "ACOG PB 183 (2017)",
+      "keywords": [
+        "uterotonics",
+        "contraindications",
+        "SATA"
+      ]
+    },
+    {
+      "id": "2514-D1-109",
+      "objective_id": "2514-D1-4",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Analyze Cues",
+      "client_needs": "Physiological Adaptation",
+      "bloom": "Analyze",
+      "difficulty_target": "hard",
+      "stem": "A postpartum patient has oozing from her IV site and gums, bruising, and continued vaginal bleeding. Fibrinogen is low and platelets are falling. Which process do these findings indicate?",
+      "chart_data": {},
+      "options": [
+        "Normal postpartum involution",
+        "Disseminated intravascular coagulation",
+        "Isolated vaginal laceration",
+        "Von Willebrand carrier state at baseline"
+      ],
+      "key": [
+        "Disseminated intravascular coagulation"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Bleeding from multiple sites with falling fibrinogen and platelets is consumptive coagulopathy (DIC), often triggered by abruption, HELLP, or massive PPH. Principle: oozing from many sites means the clotting system itself has failed.",
+      "rationale_distractors": {
+        "Normal postpartum involution": "Right for a firm fundus with decreasing lochia and stable labs.",
+        "Isolated vaginal laceration": "Right for localized bright bleeding from a visualized tear with normal coagulation.",
+        "Von Willebrand carrier state at baseline": "Right as a chronic history clue, but does not explain acutely falling fibrinogen and platelets."
+      },
+      "source": "ACOG PB 183 (2017)",
+      "keywords": [
+        "DIC",
+        "coagulopathy"
+      ]
+    },
+    {
+      "id": "2514-D1-110",
+      "objective_id": "2514-D1-5",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Take Actions",
+      "client_needs": "Pharmacological and Parenteral Therapies",
+      "bloom": "Apply",
+      "difficulty_target": "moderate",
+      "stem": "An Rh-negative patient experiences a first-trimester pregnancy loss with bleeding. Her antibody screen is negative. Which nursing action is indicated?",
+      "chart_data": {},
+      "options": [
+        "No intervention is needed because it was early",
+        "Administer Rh(D) immune globulin as ordered",
+        "Administer the rubella vaccine now",
+        "Schedule the anti-D only if a future pregnancy occurs"
+      ],
+      "key": [
+        "Administer Rh(D) immune globulin as ordered"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Bleeding or loss in an Rh-negative, unsensitized patient is an indication for Rh(D) immune globulin to prevent alloimmunization. Principle: any fetomaternal bleeding event in an Rh-negative patient triggers anti-D.",
+      "rationale_distractors": {
+        "No intervention is needed because it was early": "Sensitization can occur even in early loss; 'early' does not remove the indication.",
+        "Administer the rubella vaccine now": "Right to offer rubella-non-immune patients postpartum, unrelated to Rh status.",
+        "Schedule the anti-D only if a future pregnancy occurs": "Too late — prophylaxis must be given at the sensitizing event."
+      },
+      "source": "ACOG PB 181 (2017)",
+      "keywords": [
+        "RhIG",
+        "Rh-negative",
+        "loss"
+      ]
+    },
+    {
+      "id": "2514-D1-111",
+      "objective_id": "2514-D1-4",
+      "item_type": "trend",
+      "ncjmm_operation": "Evaluate Outcomes",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Analyze",
+      "difficulty_target": "moderate",
+      "stem": "The nurse reviews the postpartum record after treating atony. Evaluate the trend and select the interpretation that best reflects the response to therapy.",
+      "chart_data": {
+        "flowsheet": "hour 0: fundus boggy 2 cm above umbilicus, QBL 900 mL, BP 96/58, HR 118; hour 1: fundus firm at umbilicus, QBL +150 mL, BP 108/64, HR 96; hour 2: fundus firm 1 cm below umbilicus, QBL +40 mL, BP 116/70, HR 82"
+      },
+      "options": [
+        "The patient is stabilizing and therapy is effective",
+        "The patient is deteriorating and needs escalation",
+        "The data are unchanged and therapy has no effect",
+        "The fundus is rising, indicating clot retention"
+      ],
+      "key": [
+        "The patient is stabilizing and therapy is effective"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Across the three time points the fundus becomes firm, blood loss slows, and vitals normalize — an effective response. Principle: evaluate a hemorrhage intervention by trend in fundal tone, cumulative loss, and perfusion, not a single reading.",
+      "rationale_distractors": {
+        "deteriorating / unchanged / rising fundus": "Each would be correct for a different trend; the recorded values here show improvement, so those readings do not fit."
+      },
+      "source": "ACOG PB 183 (2017)",
+      "keywords": [
+        "PPH",
+        "trend",
+        "evaluate outcomes"
+      ]
+    },
+    {
+      "id": "2514-D1-112",
+      "objective_id": "2514-D1-2",
+      "item_type": "cloze_dropdown",
+      "ncjmm_operation": "Prioritize Hypotheses",
+      "client_needs": "Physiological Adaptation",
+      "bloom": "Analyze",
+      "difficulty_target": "moderate",
+      "stem": "Complete the statement. A patient at 6 weeks with unilateral pain, a positive pregnancy test, and no intrauterine sac on ultrasound is most likely experiencing a(n) [1], and the priority concern is [2].",
+      "chart_data": {},
+      "options": {
+        "1": [
+          "ectopic pregnancy",
+          "molar pregnancy",
+          "complete miscarriage"
+        ],
+        "2": [
+          "tubal rupture and hemorrhage",
+          "gestational hypertension",
+          "preterm labor"
+        ]
+      },
+      "key": {
+        "1": "ectopic pregnancy",
+        "2": "tubal rupture and hemorrhage"
+      },
+      "scoring": "0/1",
+      "rationale_correct": "The cue cluster indicates ectopic pregnancy, whose life threat is tubal rupture with intra-abdominal hemorrhage. Principle: for ectopic pregnancy, the hypothesis and the priority risk are inseparable — anticipate rupture.",
+      "rationale_distractors": {
+        "molar pregnancy / complete miscarriage": "Each is a real early-pregnancy diagnosis but does not match unilateral pain with an empty uterus and positive test.",
+        "gestational hypertension / preterm labor": "Both are later-pregnancy concerns, not applicable at 6 weeks."
+      },
+      "source": "ACOG PB 200 (2018)",
+      "keywords": [
+        "ectopic",
+        "cloze",
+        "prioritize"
+      ]
+    },
+    {
+      "id": "2514-D1-113",
+      "objective_id": "2514-D1-3",
+      "item_type": "matrix_multiple_choice",
+      "ncjmm_operation": "Analyze Cues",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Analyze",
+      "difficulty_target": "hard",
+      "stem": "For each finding, select whether it is more consistent with Placenta previa or Abruptio placentae.",
+      "chart_data": {},
+      "options": {
+        "rows": [
+          "Painless bleeding",
+          "Dark bleeding with pain",
+          "Soft non-tender uterus",
+          "Rigid, tender uterus with high tone",
+          "Bright-red external bleeding"
+        ],
+        "columns": [
+          "Placenta previa",
+          "Abruptio placentae"
+        ]
+      },
+      "key": {
+        "Painless bleeding": "Placenta previa",
+        "Dark bleeding with pain": "Abruptio placentae",
+        "Soft non-tender uterus": "Placenta previa",
+        "Rigid, tender uterus with high tone": "Abruptio placentae",
+        "Bright-red external bleeding": "Placenta previa"
+      },
+      "scoring": "0/1",
+      "rationale_correct": "Previa: painless, bright, soft uterus. Abruption: painful, dark, rigid uterus, and bleeding may be concealed. Principle: tone and pain discriminate the two faster than blood color alone.",
+      "rationale_distractors": {
+        "(any misassignment)": "Swapping a row assigns an abruption feature to previa or vice versa — each feature is decisive only for its own condition."
+      },
+      "source": "Lowdermilk 13th ed.",
+      "keywords": [
+        "previa",
+        "abruption",
+        "matrix"
+      ]
+    },
+    {
+      "id": "2514-D2-201",
+      "objective_id": "2514-D2-1",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Analyze Cues",
+      "client_needs": "Physiological Adaptation",
+      "bloom": "Analyze",
+      "difficulty_target": "moderate",
+      "stem": "A patient at 33 weeks with no prior hypertension has a blood pressure of 148/94 on two readings 4 hours apart and a urine protein-to-creatinine ratio of 0.2. Which classification do the findings support?",
+      "chart_data": {},
+      "options": [
+        "Chronic hypertension",
+        "Gestational hypertension",
+        "Preeclampsia with severe features",
+        "Normal pregnancy blood pressure"
+      ],
+      "key": [
+        "Gestational hypertension"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "New hypertension after 20 weeks without significant proteinuria (P:C < 0.3) or severe features is gestational hypertension. Principle: timing after 20 weeks plus absence of proteinuria separates gHTN from chronic HTN and preeclampsia.",
+      "rationale_distractors": {
+        "Chronic hypertension": "Right when hypertension predates pregnancy or appears before 20 weeks.",
+        "Preeclampsia with severe features": "Right with severe-range BP or end-organ signs, absent here.",
+        "Normal pregnancy blood pressure": "Incorrect — 148/94 exceeds the 140/90 threshold."
+      },
+      "source": "ACOG PB 222 (2020)",
+      "keywords": [
+        "gHTN",
+        "classification"
+      ]
+    },
+    {
+      "id": "2514-D2-202",
+      "objective_id": "2514-D2-2",
+      "item_type": "highlight",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Analyze",
+      "difficulty_target": "hard",
+      "stem": "Highlight the findings that indicate severe features. Note: '36 weeks, BP 164/112, reports a persistent headache unrelieved by acetaminophen and new visual scotomata, platelets 88,000, AST 140, reports right upper quadrant pain, urine output 90 mL over 4 hours.'",
+      "chart_data": {},
+      "options": [
+        "BP 164/112",
+        "persistent headache unrelieved",
+        "visual scotomata",
+        "platelets 88,000",
+        "AST 140",
+        "right upper quadrant pain"
+      ],
+      "key": [
+        "BP 164/112",
+        "persistent headache unrelieved",
+        "visual scotomata",
+        "platelets 88,000",
+        "AST 140",
+        "right upper quadrant pain"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Severe-range BP, CNS symptoms, thrombocytopenia < 100,000, transaminase elevation, and RUQ pain each qualify as severe features. Principle: any one severe feature — not proteinuria — defines preeclampsia with severe features.",
+      "rationale_distractors": {
+        "urine output 90 mL over 4 hours": "About 22 mL/hr is low-normal and, alone, is not a listed severe feature, though it warrants monitoring."
+      },
+      "source": "ACOG PB 222 (2020)",
+      "keywords": [
+        "severe features",
+        "highlight",
+        "preeclampsia"
+      ]
+    },
+    {
+      "id": "2514-D2-203",
+      "objective_id": "2514-D2-2",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Analyze",
+      "difficulty_target": "hard",
+      "stem": "A patient at 37 weeks has a blood pressure of 162/110 and platelets of 84,000 but a urine protein-to-creatinine ratio of 0.1. Which statement best reflects the diagnostic reasoning?",
+      "chart_data": {},
+      "options": [
+        "Preeclampsia is excluded because proteinuria is absent",
+        "Preeclampsia with severe features can be diagnosed without proteinuria",
+        "This is gestational hypertension only",
+        "This requires a 24-hour urine before any diagnosis"
+      ],
+      "key": [
+        "Preeclampsia with severe features can be diagnosed without proteinuria"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Since 2013, preeclampsia can be diagnosed without proteinuria when severe-range BP plus a severe feature (here, thrombocytopenia) are present. Principle: absence of proteinuria never rules out preeclampsia.",
+      "rationale_distractors": {
+        "Preeclampsia is excluded because proteinuria is absent": "Reflects the outdated rule that proteinuria is required.",
+        "This is gestational hypertension only": "Right only if there were no proteinuria AND no severe features; a severe feature is present.",
+        "This requires a 24-hour urine before any diagnosis": "Right as a quantification method in some cases, but it is not required to act on severe features."
+      },
+      "source": "ACOG PB 222 (2020)",
+      "keywords": [
+        "preeclampsia",
+        "no proteinuria",
+        "severe features"
+      ]
+    },
+    {
+      "id": "2514-D2-204",
+      "objective_id": "2514-D2-3",
+      "item_type": "matrix_grid",
+      "ncjmm_operation": "Analyze Cues",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Analyze",
+      "difficulty_target": "hard",
+      "stem": "A patient reports malaise and RUQ pain. For each lab, indicate whether the value is Expected or Abnormal for HELLP syndrome.",
+      "chart_data": {},
+      "options": {
+        "rows": [
+          "Platelets 92,000",
+          "AST 130 U/L",
+          "LDH 700 U/L",
+          "Haptoglobin low",
+          "Fasting glucose 88 mg/dL"
+        ],
+        "columns": [
+          "Consistent with HELLP",
+          "Not related to HELLP"
+        ]
+      },
+      "key": {
+        "Platelets 92,000": "Consistent with HELLP",
+        "AST 130 U/L": "Consistent with HELLP",
+        "LDH 700 U/L": "Consistent with HELLP",
+        "Haptoglobin low": "Consistent with HELLP",
+        "Fasting glucose 88 mg/dL": "Not related to HELLP"
+      },
+      "scoring": "0/1",
+      "rationale_correct": "HELLP is hemolysis (high LDH, low haptoglobin), elevated liver enzymes, and low platelets. Glucose is unrelated. Principle: read HELLP as a three-part lab pattern, not a single value.",
+      "rationale_distractors": {
+        "Fasting glucose 88 mg/dL": "A normal glucose is relevant to GDM screening, not to HELLP."
+      },
+      "source": "ACOG PB 222 (2020)",
+      "keywords": [
+        "HELLP",
+        "labs",
+        "matrix grid"
+      ]
+    },
+    {
+      "id": "2514-D2-205",
+      "objective_id": "2514-D2-4",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Take Actions",
+      "client_needs": "Pharmacological and Parenteral Therapies",
+      "bloom": "Apply",
+      "difficulty_target": "moderate",
+      "stem": "A patient receiving IV magnesium sulfate for seizure prophylaxis has a respiratory rate of 10, absent patellar reflexes, and urine output of 20 mL over the last 2 hours. Which action is the priority?",
+      "chart_data": {},
+      "options": [
+        "Increase the magnesium infusion rate",
+        "Stop the magnesium infusion and prepare calcium gluconate",
+        "Administer an additional loading dose",
+        "Document and reassess in 1 hour"
+      ],
+      "key": [
+        "Stop the magnesium infusion and prepare calcium gluconate"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Loss of reflexes with respiratory depression signals magnesium toxicity; stop the infusion and give the antidote, calcium gluconate. Principle: reflexes disappear before respiratory and cardiac depression — treat at the first toxicity sign.",
+      "rationale_distractors": {
+        "Increase the magnesium infusion rate": "Right only when reflexes are present and levels are subtherapeutic — dangerous here.",
+        "Administer an additional loading dose": "Correct at initiation of therapy, not during toxicity.",
+        "Document and reassess in 1 hour": "Delays antidote during a life-threatening trend."
+      },
+      "source": "ACOG PB 222 (2020)",
+      "keywords": [
+        "magnesium toxicity",
+        "calcium gluconate",
+        "first action"
+      ]
+    },
+    {
+      "id": "2514-D2-206",
+      "objective_id": "2514-D2-4",
+      "item_type": "trend",
+      "ncjmm_operation": "Evaluate Outcomes",
+      "client_needs": "Pharmacological and Parenteral Therapies",
+      "bloom": "Analyze",
+      "difficulty_target": "hard",
+      "stem": "Review the magnesium monitoring record and select the interpretation that should drive the nurse's next decision.",
+      "chart_data": {
+        "monitoring": "hour 0: DTR 2+, RR 18, UOP 60 mL; hour 2: DTR 1+, RR 14, UOP 35 mL; hour 4: DTR absent, RR 10, UOP 18 mL"
+      },
+      "options": [
+        "Therapy is within a safe range; continue monitoring",
+        "A toxicity trend is emerging; hold and reassess per protocol",
+        "The patient is subtherapeutic and needs a higher rate",
+        "The values reflect normal labor progress"
+      ],
+      "key": [
+        "A toxicity trend is emerging; hold and reassess per protocol"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Across the three checks, reflexes diminish, respiratory rate falls, and urine output drops — an early toxicity trajectory even before a level returns. Principle: serial clinical signs detect magnesium toxicity earlier than any single serum level.",
+      "rationale_distractors": {
+        "safe range / subtherapeutic / normal labor": "Each matches a different trend; the declining reflexes and respirations recorded here contradict all three."
+      },
+      "source": "ACOG PB 222 (2020)",
+      "keywords": [
+        "magnesium",
+        "trend",
+        "toxicity"
+      ]
+    },
+    {
+      "id": "2514-D2-207",
+      "objective_id": "2514-D2-4",
+      "item_type": "sata",
+      "ncjmm_operation": "Take Actions",
+      "client_needs": "Safety and Infection Control",
+      "bloom": "Apply",
+      "difficulty_target": "moderate",
+      "stem": "A patient is starting IV magnesium sulfate. Select all appropriate nursing safety measures.",
+      "chart_data": {},
+      "options": [
+        "Keep calcium gluconate readily available",
+        "Monitor deep tendon reflexes, respirations, and urine output",
+        "Use the magnesium as the antihypertensive to lower blood pressure",
+        "Assess for signs of pulmonary edema",
+        "Ensure continuous fetal and maternal monitoring"
+      ],
+      "key": [
+        "Keep calcium gluconate readily available",
+        "Monitor deep tendon reflexes, respirations, and urine output",
+        "Assess for signs of pulmonary edema",
+        "Ensure continuous fetal and maternal monitoring"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Magnesium safety centers on the antidote at bedside, serial reflex/respiration/output checks, watching for pulmonary edema, and monitoring. Principle: magnesium prevents seizures — it does not treat blood pressure.",
+      "rationale_distractors": {
+        "Use the magnesium as the antihypertensive to lower blood pressure": "False — labetalol, hydralazine, or nifedipine lower BP; magnesium is for seizure prophylaxis."
+      },
+      "source": "ACOG PB 222 (2020)",
+      "keywords": [
+        "magnesium",
+        "safety",
+        "SATA"
+      ]
+    },
+    {
+      "id": "2514-D2-208",
+      "objective_id": "2514-D2-5",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Generate Solutions",
+      "client_needs": "Health Promotion and Maintenance",
+      "bloom": "Apply",
+      "difficulty_target": "moderate",
+      "stem": "A patient at 13 weeks has a history of preeclampsia in a prior pregnancy and chronic hypertension. Which preventive intervention is most appropriate to discuss?",
+      "chart_data": {},
+      "options": [
+        "Begin low-dose aspirin 81 mg daily",
+        "Start full-dose ibuprofen for prophylaxis",
+        "Begin magnesium sulfate now",
+        "No preventive therapy is indicated"
+      ],
+      "key": [
+        "Begin low-dose aspirin 81 mg daily"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "High-risk patients benefit from low-dose aspirin started between 12 and 28 weeks to reduce preeclampsia. Principle: identify high-risk patients early and offer aspirin prophylaxis in the window.",
+      "rationale_distractors": {
+        "Start full-dose ibuprofen for prophylaxis": "NSAIDs are not used for preeclampsia prophylaxis and are avoided later in pregnancy.",
+        "Begin magnesium sulfate now": "Right for seizure prophylaxis in active severe disease, not for prevention at 13 weeks.",
+        "No preventive therapy is indicated": "Incorrect — this patient has clear high-risk criteria."
+      },
+      "source": "ACOG CO 743 (2018)",
+      "keywords": [
+        "aspirin",
+        "preeclampsia prevention"
+      ]
+    },
+    {
+      "id": "2514-D2-209",
+      "objective_id": "2514-D2-6",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Generate Solutions",
+      "client_needs": "Basic Care and Comfort",
+      "bloom": "Apply",
+      "difficulty_target": "easy",
+      "stem": "A patient at 10 weeks has persistent vomiting, a 6% weight loss, and ketones in the urine. Which initial intervention is most appropriate?",
+      "chart_data": {},
+      "options": [
+        "Encourage a large high-fat meal now",
+        "Provide IV fluids with electrolyte replacement and antiemetics as ordered",
+        "Withhold all antiemetics",
+        "Delay treatment until 14 weeks"
+      ],
+      "key": [
+        "Provide IV fluids with electrolyte replacement and antiemetics as ordered"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Hyperemesis with weight loss and ketosis needs rehydration, electrolyte correction, and antiemetics. Principle: treat the dehydration and electrolyte deficit first, then advance nutrition.",
+      "rationale_distractors": {
+        "Encourage a large high-fat meal now": "Right approach is small, bland, frequent intake — large fatty meals worsen nausea.",
+        "Withhold all antiemetics": "Antiemetics are indicated; withholding them prolongs suffering.",
+        "Delay treatment until 14 weeks": "Dangerous — dehydration and electrolyte loss need prompt care."
+      },
+      "source": "ACOG PB 189 (2018)",
+      "keywords": [
+        "hyperemesis",
+        "fluids"
+      ]
+    },
+    {
+      "id": "2514-D2-210",
+      "objective_id": "2514-D2-7",
+      "item_type": "cloze_dropdown",
+      "ncjmm_operation": "Generate Solutions",
+      "client_needs": "Health Promotion and Maintenance",
+      "bloom": "Apply",
+      "difficulty_target": "moderate",
+      "stem": "Complete the teaching. For a patient with diet-controlled gestational diabetes, the nurse explains that the first-line management is [1], and if glucose targets are not met the usual next step is [2].",
+      "chart_data": {},
+      "options": {
+        "1": [
+          "medical nutrition therapy and exercise",
+          "immediate insulin",
+          "prolonged fasting"
+        ],
+        "2": [
+          "adding insulin",
+          "stopping all carbohydrates",
+          "bed rest"
+        ]
+      },
+      "key": {
+        "1": "medical nutrition therapy and exercise",
+        "2": "adding insulin"
+      },
+      "scoring": "0/1",
+      "rationale_correct": "GDM management begins with nutrition and activity (class A1); insulin is added when targets are missed (class A2). Principle: escalate GDM stepwise from lifestyle to pharmacotherapy.",
+      "rationale_distractors": {
+        "immediate insulin / prolonged fasting": "Insulin is not first-line for diet-controlled GDM, and fasting is unsafe in pregnancy.",
+        "stopping all carbohydrates / bed rest": "Neither is recommended; balanced carbohydrate intake is part of therapy."
+      },
+      "source": "ACOG PB 190 (2018)",
+      "keywords": [
+        "GDM",
+        "cloze",
+        "insulin"
+      ]
+    },
+    {
+      "id": "2514-D2-211",
+      "objective_id": "2514-D2-7",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Analyze Cues",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Analyze",
+      "difficulty_target": "moderate",
+      "stem": "A patient completes a 1-hour 50 g glucose challenge test with a result of 155 mg/dL. Which interpretation and next step are correct?",
+      "chart_data": {},
+      "options": [
+        "Normal result; no further testing",
+        "Elevated screen; proceed to the 3-hour oral glucose tolerance test",
+        "Diagnostic of overt diabetes; start insulin",
+        "Repeat the same 1-hour test next week"
+      ],
+      "key": [
+        "Elevated screen; proceed to the 3-hour oral glucose tolerance test"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "An abnormal 1-hour screen is followed by the diagnostic 3-hour OGTT; the screen alone does not diagnose GDM. Principle: a positive screen raises suspicion, a diagnostic test confirms.",
+      "rationale_distractors": {
+        "Normal result; no further testing": "Right only when the 1-hour value is below the institutional threshold.",
+        "Diagnostic of overt diabetes; start insulin": "Right for markedly elevated values or known diabetes, not a borderline screen.",
+        "Repeat the same 1-hour test next week": "Screening is not repeated in place of the diagnostic OGTT."
+      },
+      "source": "ACOG PB 190 (2018); ACOG (2024)",
+      "keywords": [
+        "GDM",
+        "GCT",
+        "OGTT"
+      ]
+    },
+    {
+      "id": "2514-D2-212",
+      "objective_id": "2514-D2-1",
+      "item_type": "extended_multiple_response",
+      "ncjmm_operation": "Prioritize Hypotheses",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Analyze",
+      "difficulty_target": "hard",
+      "stem": "A patient at 38 weeks has BP 158/108, a headache, and brisk reflexes. Select the 3 findings that would most raise concern for progression to eclampsia.",
+      "chart_data": {},
+      "options": [
+        "Persistent severe headache",
+        "Visual disturbances",
+        "Clonus on reflex testing",
+        "Mild ankle edema",
+        "Blood pressure 118/70 earlier in pregnancy",
+        "Reports of fetal movement"
+      ],
+      "key": [
+        "Persistent severe headache",
+        "Visual disturbances",
+        "Clonus on reflex testing"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "CNS irritability — severe headache, visual change, and clonus — predicts impending seizure. Principle: neurologic signs, not blood pressure alone, herald eclampsia.",
+      "rationale_distractors": {
+        "Mild ankle edema": "Common and non-specific in normal pregnancy.",
+        "Blood pressure 118/70 earlier": "A normal prior value is reassuring history, not a current warning sign.",
+        "Reports of fetal movement": "A reassuring finding, not a warning sign."
+      },
+      "source": "ACOG PB 222 (2020)",
+      "keywords": [
+        "eclampsia",
+        "CNS",
+        "extended response"
+      ]
+    },
+    {
+      "id": "2514-D2-213",
+      "objective_id": "2514-D2-6",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Physiological Adaptation",
+      "bloom": "Understand",
+      "difficulty_target": "easy",
+      "stem": "A patient with severe vomiting has dry mucous membranes, tachycardia, and a low serum potassium. Which imbalance do these findings most reflect?",
+      "chart_data": {},
+      "options": [
+        "Fluid volume excess",
+        "Dehydration with hypokalemia",
+        "Respiratory alkalosis from hyperventilation",
+        "Hyperkalemia"
+      ],
+      "key": [
+        "Dehydration with hypokalemia"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Vomiting produces volume depletion and potassium loss, shown by dry membranes, tachycardia, and low potassium. Principle: match the electrolyte pattern to the route of loss.",
+      "rationale_distractors": {
+        "Fluid volume excess": "Right for edema, crackles, and weight gain — opposite of this picture.",
+        "Respiratory alkalosis from hyperventilation": "Right for a primary breathing disturbance, not vomiting-driven loss.",
+        "Hyperkalemia": "Opposite of the measured low potassium."
+      },
+      "source": "ACOG PB 189 (2018)",
+      "keywords": [
+        "hyperemesis",
+        "hypokalemia"
+      ]
+    },
+    {
+      "id": "2514-D3-301",
+      "objective_id": "2514-D3-1",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Prioritize Hypotheses",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Analyze",
+      "difficulty_target": "moderate",
+      "stem": "A patient at 29 weeks reports regular painful contractions every 5 minutes. Cervical exam shows 2 cm dilation with change over 2 hours. Which is the priority goal of care?",
+      "chart_data": {},
+      "options": [
+        "Deliver immediately regardless of gestational age",
+        "Delay birth long enough to give antenatal corticosteroids and magnesium neuroprotection",
+        "Discharge home with activity restriction only",
+        "Begin oxytocin augmentation"
+      ],
+      "key": [
+        "Delay birth long enough to give antenatal corticosteroids and magnesium neuroprotection"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Confirmed preterm labor before 32 weeks prioritizes buying time for steroids (lung maturity) and magnesium (neuroprotection). Principle: in previable-to-preterm labor, the goal is latency for fetal benefit, not immediate birth.",
+      "rationale_distractors": {
+        "Deliver immediately regardless of gestational age": "Right only for contraindications to continuing (e.g., abruption, Category III), absent here.",
+        "Discharge home with activity restriction only": "Unsafe with documented cervical change.",
+        "Begin oxytocin augmentation": "Contradicts the goal of stopping preterm contractions."
+      },
+      "source": "ACOG PB 171 (2016); PB 234 (2021)",
+      "keywords": [
+        "preterm labor",
+        "steroids",
+        "neuroprotection"
+      ]
+    },
+    {
+      "id": "2514-D3-302",
+      "objective_id": "2514-D3-2",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Take Actions",
+      "client_needs": "Pharmacological and Parenteral Therapies",
+      "bloom": "Apply",
+      "difficulty_target": "moderate",
+      "stem": "A patient at 30 weeks in preterm labor is ordered betamethasone. The patient asks what it does. Which response is most accurate?",
+      "chart_data": {},
+      "options": [
+        "It stops contractions immediately",
+        "It accelerates fetal lung maturity to reduce respiratory distress",
+        "It treats an infection",
+        "It lowers your blood pressure"
+      ],
+      "key": [
+        "It accelerates fetal lung maturity to reduce respiratory distress"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Antenatal corticosteroids speed surfactant production, reducing RDS, IVH, and NEC. Principle: steroids protect the fetus; tocolytics only buy the time to give them.",
+      "rationale_distractors": {
+        "It stops contractions immediately": "That is the tocolytic's role, not the steroid's.",
+        "It treats an infection": "Right description for an antibiotic, not a corticosteroid.",
+        "It lowers your blood pressure": "Describes an antihypertensive, unrelated to ACS."
+      },
+      "source": "ACOG CO 713 (2017)",
+      "keywords": [
+        "betamethasone",
+        "ACS",
+        "lung maturity"
+      ]
+    },
+    {
+      "id": "2514-D3-303",
+      "objective_id": "2514-D3-3",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Prioritize Hypotheses",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Analyze",
+      "difficulty_target": "hard",
+      "stem": "A patient at 30 weeks has a sudden gush of clear fluid; nitrazine turns blue and ferning is seen. She is afebrile with no contractions. Which management approach is most appropriate?",
+      "chart_data": {},
+      "options": [
+        "Immediate induction of labor",
+        "Expectant management with monitoring, antibiotics, and steroids",
+        "Repeated digital cervical exams every 2 hours",
+        "Discharge home with no follow-up"
+      ],
+      "key": [
+        "Expectant management with monitoring, antibiotics, and steroids"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "PPROM before 34 weeks without infection or labor is managed expectantly with latency antibiotics and steroids while monitoring for infection. Principle: before 34 weeks, prematurity risk usually outweighs the risk of waiting — unless infection intervenes.",
+      "rationale_distractors": {
+        "Immediate induction of labor": "Right at or beyond 34 weeks or if infection/Category III develops.",
+        "Repeated digital cervical exams every 2 hours": "Digital exams raise infection risk and are minimized after ROM.",
+        "Discharge home with no follow-up": "Unsafe; PPROM requires inpatient surveillance."
+      },
+      "source": "ACOG PB 217 (2020)",
+      "keywords": [
+        "PPROM",
+        "expectant management"
+      ]
+    },
+    {
+      "id": "2514-D3-304",
+      "objective_id": "2514-D3-3",
+      "item_type": "matrix_multiple_choice",
+      "ncjmm_operation": "Analyze Cues",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Analyze",
+      "difficulty_target": "moderate",
+      "stem": "For each feature, indicate whether it describes PROM (term) or PPROM (preterm).",
+      "chart_data": {},
+      "options": {
+        "rows": [
+          "Rupture at 39 weeks",
+          "Rupture at 31 weeks",
+          "Higher infection latency concern",
+          "Often proceeds to prompt delivery at term"
+        ],
+        "columns": [
+          "PROM (term)",
+          "PPROM (preterm)"
+        ]
+      },
+      "key": {
+        "Rupture at 39 weeks": "PROM (term)",
+        "Rupture at 31 weeks": "PPROM (preterm)",
+        "Higher infection latency concern": "PPROM (preterm)",
+        "Often proceeds to prompt delivery at term": "PROM (term)"
+      },
+      "scoring": "0/1",
+      "rationale_correct": "PROM is rupture at term; PPROM is before 37 weeks and carries greater infection and prematurity concern during latency. Principle: gestational age at rupture drives the whole management plan.",
+      "rationale_distractors": {
+        "(any swap)": "Assigning a preterm feature to term (or vice versa) reverses the age-based logic that governs care."
+      },
+      "source": "ACOG PB 217 (2020)",
+      "keywords": [
+        "PROM",
+        "PPROM",
+        "matrix"
+      ]
+    },
+    {
+      "id": "2514-D3-305",
+      "objective_id": "2514-D3-4",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Take Actions",
+      "client_needs": "Pharmacological and Parenteral Therapies",
+      "bloom": "Apply",
+      "difficulty_target": "hard",
+      "stem": "During an oxytocin induction, the monitor shows 7 contractions in 10 minutes with a Category II tracing showing recurrent late decelerations. Which action should the nurse take first?",
+      "chart_data": {},
+      "options": [
+        "Increase the oxytocin rate",
+        "Stop or decrease the oxytocin and reposition the patient",
+        "Perform an immediate cesarean without other measures",
+        "Document and continue as ordered"
+      ],
+      "key": [
+        "Stop or decrease the oxytocin and reposition the patient"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Tachysystole with a concerning tracing calls for reducing uterine stimulation first — stop or decrease oxytocin, reposition, and give fluids/oxygen as indicated. Principle: remove the cause (excess stimulation) before escalating to surgery.",
+      "rationale_distractors": {
+        "Increase the oxytocin rate": "Would worsen tachysystole and fetal compromise.",
+        "Perform an immediate cesarean without other measures": "Right if intrauterine resuscitation fails or the tracing becomes Category III.",
+        "Document and continue as ordered": "Ignores an actionable, correctable problem."
+      },
+      "source": "ACOG-SMFM OCC No. 1 (2014)",
+      "keywords": [
+        "tachysystole",
+        "oxytocin",
+        "first action"
+      ]
+    },
+    {
+      "id": "2514-D3-306",
+      "objective_id": "2514-D3-4",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Analyze Cues",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Apply",
+      "difficulty_target": "moderate",
+      "stem": "Before an induction, a patient has a Bishop score of 3. Which statement best guides planning?",
+      "chart_data": {},
+      "options": [
+        "The cervix is favorable; expect rapid response to oxytocin",
+        "The cervix is unfavorable; cervical ripening is likely needed first",
+        "Induction is contraindicated at any Bishop score",
+        "A cesarean is mandatory"
+      ],
+      "key": [
+        "The cervix is unfavorable; cervical ripening is likely needed first"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "A low Bishop score signals an unfavorable cervix and predicts a longer induction, so ripening agents are often used first. Principle: the Bishop score sets expectations and the ripening plan before oxytocin.",
+      "rationale_distractors": {
+        "The cervix is favorable; expect rapid response": "Describes a high Bishop score.",
+        "Induction is contraindicated at any Bishop score": "Untrue; a low score guides method, not prohibition.",
+        "A cesarean is mandatory": "Not indicated by a low Bishop score alone."
+      },
+      "source": "ACOG-SMFM OCC No. 1 (2014)",
+      "keywords": [
+        "Bishop score",
+        "ripening"
+      ]
+    },
+    {
+      "id": "2514-D3-307",
+      "objective_id": "2514-D3-5",
+      "item_type": "cloze_dropdown",
+      "ncjmm_operation": "Analyze Cues",
+      "client_needs": "Physiological Adaptation",
+      "bloom": "Analyze",
+      "difficulty_target": "hard",
+      "stem": "Complete the statement. A nulliparous patient in active labor has no cervical change over 4 hours despite contractions of [1] adequacy. This pattern is documented as [2] rather than the outdated term 'failure to progress'.",
+      "chart_data": {},
+      "options": {
+        "1": [
+          "adequate (≥200 Montevideo units)",
+          "absent",
+          "irregular and weak"
+        ],
+        "2": [
+          "labor arrest",
+          "precipitous labor",
+          "normal latent phase"
+        ]
+      },
+      "key": {
+        "1": "adequate (≥200 Montevideo units)",
+        "2": "labor arrest"
+      },
+      "scoring": "0/1",
+      "rationale_correct": "Arrest requires adequate contractions with no cervical change over a defined interval; the current term is labor arrest with stated criteria. Principle: name the specific arrest diagnosis, not the vague legacy phrase.",
+      "rationale_distractors": {
+        "absent / irregular contractions": "Inadequate contractions would be a protraction issue, not true arrest.",
+        "precipitous labor / normal latent phase": "Both describe different labor patterns that do not fit a stalled active phase."
+      },
+      "source": "ACOG-SMFM OCC No. 1 (2014)",
+      "keywords": [
+        "labor arrest",
+        "cloze",
+        "5 Ps"
+      ]
+    },
+    {
+      "id": "2514-D3-308",
+      "objective_id": "2514-D3-1",
+      "item_type": "sata",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Understand",
+      "difficulty_target": "easy",
+      "stem": "Select all findings that should prompt evaluation for preterm labor before 37 weeks.",
+      "chart_data": {},
+      "options": [
+        "Regular uterine contractions",
+        "Low, dull backache and pelvic pressure",
+        "Change in vaginal discharge or leaking fluid",
+        "Occasional fetal hiccups",
+        "Menstrual-like cramping"
+      ],
+      "key": [
+        "Regular uterine contractions",
+        "Low, dull backache and pelvic pressure",
+        "Change in vaginal discharge or leaking fluid",
+        "Menstrual-like cramping"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Regular contractions, pelvic pressure, discharge change, and cramping are preterm-labor warning signs warranting evaluation. Principle: teach patients the subtle preterm cues, not only overt contractions.",
+      "rationale_distractors": {
+        "Occasional fetal hiccups": "A normal, benign fetal finding unrelated to preterm labor."
+      },
+      "source": "ACOG PB 171 (2016)",
+      "keywords": [
+        "preterm labor",
+        "warning signs",
+        "SATA"
+      ]
+    },
+    {
+      "id": "2514-D3-309",
+      "objective_id": "2514-D3-2",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Prioritize Hypotheses",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Analyze",
+      "difficulty_target": "moderate",
+      "stem": "Two patients are in preterm labor: Patient A at 26 weeks and Patient B at 36 weeks, both afebrile and stable. For which patient is antenatal corticosteroid benefit greatest?",
+      "chart_data": {},
+      "options": [
+        "Patient B, because she is closer to term",
+        "Patient A, because earlier gestation carries higher risk of respiratory distress",
+        "Neither, because steroids are not used in preterm labor",
+        "Both equally, gestational age does not matter"
+      ],
+      "key": [
+        "Patient A, because earlier gestation carries higher risk of respiratory distress"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "The earlier the gestation within the window, the greater the absolute reduction in RDS, IVH, and NEC from steroids. Principle: prioritize interventions where the baseline risk — and thus the benefit — is highest.",
+      "rationale_distractors": {
+        "Patient B, because she is closer to term": "Steroids still have a role near 34–36 weeks but the absolute benefit is smaller.",
+        "Neither, because steroids are not used": "False; ACS is standard in this window.",
+        "Both equally": "Ignores the gestational-age gradient of benefit."
+      },
+      "source": "ACOG CO 713 (2017)",
+      "keywords": [
+        "ACS",
+        "prioritize",
+        "gestational age"
+      ]
+    },
+    {
+      "id": "2514-D3-310",
+      "objective_id": "2514-D3-3",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Take Actions",
+      "client_needs": "Safety and Infection Control",
+      "bloom": "Apply",
+      "difficulty_target": "moderate",
+      "stem": "A patient with PPROM at 31 weeks is admitted. Which nursing measure best reduces her infection risk?",
+      "chart_data": {},
+      "options": [
+        "Perform frequent digital cervical checks",
+        "Minimize digital vaginal examinations and monitor temperature and fetal heart rate",
+        "Encourage tub bathing",
+        "Discontinue all monitoring to promote rest"
+      ],
+      "key": [
+        "Minimize digital vaginal examinations and monitor temperature and fetal heart rate"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "After ROM, each digital exam introduces organisms; minimizing exams and monitoring for infection protects the patient. Principle: fewer digital exams after ROM means fewer intraamniotic infections.",
+      "rationale_distractors": {
+        "Perform frequent digital cervical checks": "The opposite of safe practice after ROM.",
+        "Encourage tub bathing": "Not recommended after membrane rupture.",
+        "Discontinue all monitoring to promote rest": "Unsafe; surveillance for infection and fetal status is essential."
+      },
+      "source": "ACOG PB 217 (2020)",
+      "keywords": [
+        "PPROM",
+        "infection control"
+      ]
+    },
+    {
+      "id": "2514-D3-311",
+      "objective_id": "2514-D3-4",
+      "item_type": "trend",
+      "ncjmm_operation": "Evaluate Outcomes",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Analyze",
+      "difficulty_target": "hard",
+      "stem": "After oxytocin was decreased for tachysystole, review the tracing summary and select the interpretation that reflects the fetal response.",
+      "chart_data": {
+        "tracing": "hour 0: 7 contractions/10 min, late decels, minimal variability; hour 1: 5 contractions/10 min, occasional late decel, variability returning; hour 2: 4 contractions/10 min, no decels, moderate variability"
+      },
+      "options": [
+        "The intervention worked; contraction frequency and tracing improved",
+        "The fetus is deteriorating despite intervention",
+        "No change occurred after the intervention",
+        "Uterine activity increased further"
+      ],
+      "key": [
+        "The intervention worked; contraction frequency and tracing improved"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Across the three checks, contraction frequency falls to normal and variability recovers with resolving decelerations — an effective response. Principle: confirm intrauterine resuscitation worked by trending contractions and the tracing, not one strip.",
+      "rationale_distractors": {
+        "deteriorating / no change / increased activity": "Each fits a different trend; the recorded improvement excludes them."
+      },
+      "source": "ACOG-SMFM OCC No. 1 (2014)",
+      "keywords": [
+        "tachysystole",
+        "trend",
+        "evaluate"
+      ]
+    },
+    {
+      "id": "2514-D3-312",
+      "objective_id": "2514-D3-5",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Analyze Cues",
+      "client_needs": "Physiological Adaptation",
+      "bloom": "Analyze",
+      "difficulty_target": "moderate",
+      "stem": "A laboring patient with a fetus in the occiput posterior position reports intense back pain and slow progress. Using the 5 Ps, which factor best explains this pattern?",
+      "chart_data": {},
+      "options": [
+        "Powers (contraction strength)",
+        "Passenger (fetal position)",
+        "Psyche (maternal coping)",
+        "Passageway is absolutely inadequate"
+      ],
+      "key": [
+        "Passenger (fetal position)"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Occiput posterior positioning is a Passenger issue that causes back labor and slows descent. Principle: use the 5 Ps to localize the cause of dysfunctional labor before intervening.",
+      "rationale_distractors": {
+        "Powers (contraction strength)": "Right when contractions are inadequate by Montevideo units.",
+        "Psyche (maternal coping)": "Right when fear or exhaustion is impeding labor, not positional back pain.",
+        "Passageway is absolutely inadequate": "Overstates the data; malposition, not a fixed pelvic block, fits here."
+      },
+      "source": "ACOG-SMFM OCC No. 1 (2014)",
+      "keywords": [
+        "5 Ps",
+        "occiput posterior",
+        "dystocia"
+      ]
+    },
+    {
+      "id": "2514-D4-401",
+      "objective_id": "2514-D4-4",
+      "item_type": "extended_drag_drop",
+      "ncjmm_operation": "Take Actions",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Apply",
+      "difficulty_target": "hard",
+      "stem": "During a vaginal exam after rupture of membranes, the nurse palpates a pulsating cord in the vagina and the fetal heart rate drops to 70. Place the actions in the correct order.",
+      "chart_data": {},
+      "options": [
+        "Call for help and press the emergency call light",
+        "Use a gloved hand to lift the presenting part off the cord",
+        "Place the patient in knee-chest or steep Trendelenburg position",
+        "Prepare for immediate cesarean birth",
+        "Keep the examining hand in place during transport"
+      ],
+      "key": [
+        "Call for help and press the emergency call light",
+        "Use a gloved hand to lift the presenting part off the cord",
+        "Place the patient in knee-chest or steep Trendelenburg position",
+        "Prepare for immediate cesarean birth",
+        "Keep the examining hand in place during transport"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Cord prolapse is relieved by immediately lifting the presenting part and repositioning to offload the cord while expediting cesarean birth. Principle: the hand that finds the prolapse stays to protect perfusion until delivery.",
+      "rationale_distractors": {
+        "Place in knee-chest position": "Correct step, but manual elevation of the presenting part comes first to relieve compression instantly.",
+        "Keep the examining hand in place": "Correct — but it is a continuous action during transport, not the first step."
+      },
+      "source": "Lowdermilk 13th ed.",
+      "keywords": [
+        "cord prolapse",
+        "ordering",
+        "emergency"
+      ]
+    },
+    {
+      "id": "2514-D4-402",
+      "objective_id": "2514-D4-4",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Take Actions",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Apply",
+      "difficulty_target": "moderate",
+      "stem": "A patient's membranes rupture and the fetal heart rate immediately falls to the 70s with a cord palpable at the introitus. Which is the nurse's priority action?",
+      "chart_data": {},
+      "options": [
+        "Reinsert the cord into the uterus",
+        "Manually elevate the presenting part off the cord and call for help",
+        "Administer oxytocin to speed delivery",
+        "Place the patient supine and flat"
+      ],
+      "key": [
+        "Manually elevate the presenting part off the cord and call for help"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Relieving cord compression by lifting the presenting part restores fetal perfusion while help and cesarean are mobilized. Principle: in cord prolapse, offload the cord first — everything else follows.",
+      "rationale_distractors": {
+        "Reinsert the cord into the uterus": "Never done; handling the cord causes vasospasm.",
+        "Administer oxytocin to speed delivery": "Increases compression and worsens hypoxia.",
+        "Place the patient supine and flat": "Wrong position; knee-chest or Trendelenburg offloads the cord."
+      },
+      "source": "Lowdermilk 13th ed.",
+      "keywords": [
+        "cord prolapse",
+        "first action"
+      ]
+    },
+    {
+      "id": "2514-D4-403",
+      "objective_id": "2514-D4-5",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Prioritize Hypotheses",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Analyze",
+      "difficulty_target": "hard",
+      "stem": "A term fetal tracing shows recurrent late decelerations with minimal variability during a Category II pattern. The patient's oxygen saturation is 99% on room air. Which intervention is supported by current guidance?",
+      "chart_data": {},
+      "options": [
+        "Apply routine maternal oxygen by facemask",
+        "Reposition the patient, give IV fluids, and reduce uterine stimulation",
+        "Increase the oxytocin infusion",
+        "Take no action while variability is minimal"
+      ],
+      "key": [
+        "Reposition the patient, give IV fluids, and reduce uterine stimulation"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Current intrapartum guidance recommends against routine maternal oxygen for Category II/III without maternal hypoxia; intrauterine resuscitation is positioning, fluids, and reducing stimulation. Principle: with normal maternal saturation, oxygen adds no fetal benefit and is no longer routine.",
+      "rationale_distractors": {
+        "Apply routine maternal oxygen by facemask": "The 2025 ACOG guidance advises against this when maternal saturation is adequate — a superseded practice.",
+        "Increase the oxytocin infusion": "Worsens a concerning tracing by adding stimulation.",
+        "Take no action while variability is minimal": "Minimal variability with late decels demands active resuscitation."
+      },
+      "source": "ACOG (2025) intrapartum FHR CPG",
+      "keywords": [
+        "FHR",
+        "oxygen reversal",
+        "Category II"
+      ]
+    },
+    {
+      "id": "2514-D4-404",
+      "objective_id": "2514-D4-5",
+      "item_type": "matrix_multiple_choice",
+      "ncjmm_operation": "Analyze Cues",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Analyze",
+      "difficulty_target": "moderate",
+      "stem": "Using VEAL CHOP, match each fetal heart rate pattern to its most likely cause.",
+      "chart_data": {},
+      "options": {
+        "rows": [
+          "Variable decelerations",
+          "Early decelerations",
+          "Accelerations",
+          "Late decelerations"
+        ],
+        "columns": [
+          "Cord compression",
+          "Head compression",
+          "Well-oxygenated (OK)",
+          "Placental insufficiency"
+        ]
+      },
+      "key": {
+        "Variable decelerations": "Cord compression",
+        "Early decelerations": "Head compression",
+        "Accelerations": "Well-oxygenated (OK)",
+        "Late decelerations": "Placental insufficiency"
+      },
+      "scoring": "0/1",
+      "rationale_correct": "VEAL CHOP maps Variable→Cord, Early→Head, Accelerations→OK, Late→Placental insufficiency. Principle: name the physiology behind each deceleration to choose the right response.",
+      "rationale_distractors": {
+        "(any mismatch)": "Each pairing is specific; swapping late and variable, for example, would misdirect the intervention."
+      },
+      "source": "Macones et al. (2008)",
+      "keywords": [
+        "VEAL CHOP",
+        "decelerations",
+        "matrix"
+      ]
+    },
+    {
+      "id": "2514-D4-405",
+      "objective_id": "2514-D4-3",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Prioritize Hypotheses",
+      "client_needs": "Physiological Adaptation",
+      "bloom": "Analyze",
+      "difficulty_target": "hard",
+      "stem": "A patient attempting labor after a prior cesarean suddenly reports severe, tearing abdominal pain; the fetal station rises and the heart rate becomes bradycardic. Which complication is the priority concern?",
+      "chart_data": {},
+      "options": [
+        "Normal transition to second stage",
+        "Uterine rupture",
+        "Placenta previa",
+        "Braxton Hicks contractions"
+      ],
+      "key": [
+        "Uterine rupture"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Acute tearing pain, loss of station, and fetal bradycardia during TOLAC signal uterine rupture, requiring immediate surgery. Principle: sudden pain plus a rising station plus bradycardia during TOLAC is rupture until proven otherwise.",
+      "rationale_distractors": {
+        "Normal transition to second stage": "Station descends, not rises, and the fetus is not bradycardic.",
+        "Placenta previa": "Presents as painless bleeding, not tearing pain with lost station.",
+        "Braxton Hicks contractions": "Irregular and painless, not an acute deterioration."
+      },
+      "source": "ACOG PB 205 (2019)",
+      "keywords": [
+        "uterine rupture",
+        "TOLAC",
+        "prioritize"
+      ]
+    },
+    {
+      "id": "2514-D4-406",
+      "objective_id": "2514-D4-2",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Analyze",
+      "difficulty_target": "moderate",
+      "stem": "At 32 weeks, ultrasound shows an estimated fetal weight at the 6th percentile with an abdominal circumference lagging behind the head. Which condition do these findings indicate?",
+      "chart_data": {},
+      "options": [
+        "Macrosomia",
+        "Asymmetric fetal growth restriction",
+        "Normal growth variation",
+        "Polyhydramnios"
+      ],
+      "key": [
+        "Asymmetric fetal growth restriction"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "An EFW below the 10th percentile with head-sparing (lagging abdomen) is asymmetric FGR, often from placental insufficiency. Principle: head-sparing asymmetry points to a placental cause and prompts Doppler surveillance.",
+      "rationale_distractors": {
+        "Macrosomia": "Right for an EFW above the 90th percentile, the opposite finding.",
+        "Normal growth variation": "An EFW below the 10th percentile exceeds normal variation.",
+        "Polyhydramnios": "Describes excess amniotic fluid, a different measurement."
+      },
+      "source": "ACOG PB 227 (2021)",
+      "keywords": [
+        "FGR",
+        "asymmetric",
+        "recognize cues"
+      ]
+    },
+    {
+      "id": "2514-D4-407",
+      "objective_id": "2514-D4-6",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Take Actions",
+      "client_needs": "Physiological Adaptation",
+      "bloom": "Apply",
+      "difficulty_target": "moderate",
+      "stem": "A newborn is apneic and limp after birth with a heart rate of 80. After warming, drying, stimulating, and positioning the airway, what is the priority next step?",
+      "chart_data": {},
+      "options": [
+        "Begin chest compressions immediately",
+        "Initiate positive pressure ventilation",
+        "Administer epinephrine",
+        "Obtain a blood glucose"
+      ],
+      "key": [
+        "Initiate positive pressure ventilation"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "In NRP, effective ventilation is the priority for a non-breathing newborn with a heart rate below 100 after initial steps; compressions and epinephrine follow only if the rate stays low despite ventilation. Principle: ventilation is the cornerstone of newborn resuscitation.",
+      "rationale_distractors": {
+        "Begin chest compressions immediately": "Indicated only if the heart rate is below 60 after effective ventilation.",
+        "Administer epinephrine": "Reserved for persistent bradycardia despite ventilation and compressions.",
+        "Obtain a blood glucose": "Important later, not the resuscitation priority."
+      },
+      "source": "Weiner & Zaichkin (2021)",
+      "keywords": [
+        "NRP",
+        "PPV",
+        "neonate"
+      ]
+    },
+    {
+      "id": "2514-D4-408",
+      "objective_id": "2514-D4-1",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Generate Solutions",
+      "client_needs": "Management of Care",
+      "bloom": "Apply",
+      "difficulty_target": "easy",
+      "stem": "A patient is scheduled for a vacuum-assisted vaginal birth. Which nursing action supports safe care?",
+      "chart_data": {},
+      "options": [
+        "Encourage prolonged repeated vacuum attempts",
+        "Monitor for and document number and duration of vacuum applications and fetal status",
+        "Withhold information about the procedure from the patient",
+        "Discourage any analgesia"
+      ],
+      "key": [
+        "Monitor for and document number and duration of vacuum applications and fetal status"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Safe operative vaginal birth requires monitoring and limiting vacuum applications and tracking fetal status. Principle: bounded attempts and documentation protect both patient and fetus.",
+      "rationale_distractors": {
+        "Encourage prolonged repeated vacuum attempts": "Excess attempts raise neonatal injury risk.",
+        "Withhold information about the procedure": "Violates informed consent.",
+        "Discourage any analgesia": "Comfort measures are appropriate; nothing supports withholding them."
+      },
+      "source": "ACOG PB 219 (2020)",
+      "keywords": [
+        "operative birth",
+        "vacuum"
+      ]
+    },
+    {
+      "id": "2514-D4-409",
+      "objective_id": "2514-D4-7",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Evaluate Outcomes",
+      "client_needs": "Psychosocial Integrity",
+      "bloom": "Apply",
+      "difficulty_target": "moderate",
+      "stem": "A patient has experienced an intrauterine fetal demise at 36 weeks. Which nursing approach best supports the family?",
+      "chart_data": {},
+      "options": [
+        "Avoid mentioning the baby to spare feelings",
+        "Offer the option to see and hold the infant and create keepsakes if they wish",
+        "Encourage them to move on quickly",
+        "Limit the family's time with the infant"
+      ],
+      "key": [
+        "Offer the option to see and hold the infant and create keepsakes if they wish"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Bereavement care offers, without pressure, the chance to see, hold, name, and memorialize the infant, honoring individual and cultural wishes. Principle: follow the family's lead and support meaning-making rather than steering their grief.",
+      "rationale_distractors": {
+        "Avoid mentioning the baby": "Silence can feel dismissive; gentle acknowledgment is supportive.",
+        "Encourage them to move on quickly": "Rushing grief is harmful and disrespectful.",
+        "Limit the family's time with the infant": "Time with the infant should be the family's choice, not restricted."
+      },
+      "source": "ACOG OCC No. 10 (2020)",
+      "keywords": [
+        "bereavement",
+        "IUFD",
+        "evaluate outcomes"
+      ]
+    },
+    {
+      "id": "2514-D4-410",
+      "objective_id": "2514-D4-5",
+      "item_type": "bowtie",
+      "ncjmm_operation": "Prioritize Hypotheses",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Analyze",
+      "difficulty_target": "hard",
+      "stem": "A term tracing shows recurrent late decelerations with minimal variability; maternal SpO2 is 98%. Select the 2 immediate actions, the 1 most likely condition, and the 2 parameters to monitor.",
+      "chart_data": {},
+      "options": {
+        "actions_options": [
+          "Reposition to left lateral and give an IV fluid bolus",
+          "Reduce or stop uterine stimulants",
+          "Apply routine maternal oxygen despite normal saturation",
+          "Increase oxytocin",
+          "Place supine and flat"
+        ],
+        "condition_options": [
+          "Uteroplacental insufficiency",
+          "Head compression",
+          "Maternal hypoxia",
+          "Cord entanglement only"
+        ],
+        "parameter_options": [
+          "Fetal heart rate variability and decelerations",
+          "Contraction frequency",
+          "Maternal blood glucose",
+          "Deep tendon reflexes"
+        ]
+      },
+      "key": {
+        "actions": [
+          "Reposition to left lateral and give an IV fluid bolus",
+          "Reduce or stop uterine stimulants"
+        ],
+        "condition": [
+          "Uteroplacental insufficiency"
+        ],
+        "parameters": [
+          "Fetal heart rate variability and decelerations",
+          "Contraction frequency"
+        ]
+      },
+      "scoring": "+/-",
+      "rationale_correct": "Recurrent late decelerations reflect uteroplacental insufficiency; intrauterine resuscitation is repositioning, fluids, and reducing stimulation, tracked by variability and contractions. Principle: with normal maternal saturation, routine oxygen is not indicated.",
+      "rationale_distractors": {
+        "Apply routine maternal oxygen despite normal saturation": "Superseded by 2025 guidance when maternal SpO2 is adequate.",
+        "Head compression": "Would cause early, not late, decelerations.",
+        "Deep tendon reflexes": "Monitored on magnesium, not for this tracing."
+      },
+      "source": "ACOG (2025) intrapartum FHR CPG",
+      "keywords": [
+        "late decels",
+        "bowtie",
+        "oxygen reversal"
+      ]
+    },
+    {
+      "id": "2514-D4-411",
+      "objective_id": "2514-D4-6",
+      "item_type": "sata",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Physiological Adaptation",
+      "bloom": "Understand",
+      "difficulty_target": "easy",
+      "stem": "Select all findings that indicate a newborn needs further resuscitation rather than routine care.",
+      "chart_data": {},
+      "options": [
+        "Apneic or gasping respirations",
+        "Heart rate below 100",
+        "Central cyanosis persisting",
+        "Strong cry with flexed tone",
+        "Limp muscle tone"
+      ],
+      "key": [
+        "Apneic or gasping respirations",
+        "Heart rate below 100",
+        "Central cyanosis persisting",
+        "Limp muscle tone"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Apnea/gasping, heart rate under 100, persistent central cyanosis, and limp tone signal the need for resuscitation. Principle: breathing and heart rate drive the NRP decision, not color alone.",
+      "rationale_distractors": {
+        "Strong cry with flexed tone": "A reassuring sign of a vigorous newborn who needs only routine care."
+      },
+      "source": "Weiner & Zaichkin (2021)",
+      "keywords": [
+        "NRP",
+        "newborn",
+        "SATA"
+      ]
+    },
+    {
+      "id": "2514-D4-412",
+      "objective_id": "2514-D4-2",
+      "item_type": "extended_multiple_response",
+      "ncjmm_operation": "Generate Solutions",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Apply",
+      "difficulty_target": "moderate",
+      "stem": "For a fetus with growth restriction and abnormal umbilical artery Doppler, select the 3 surveillance or management measures that are appropriate.",
+      "chart_data": {},
+      "options": [
+        "Increased antenatal testing (NST/BPP and Doppler)",
+        "Plan timing of birth based on surveillance and gestational age",
+        "Corticosteroids if preterm birth is anticipated",
+        "Immediate discharge with routine visits only",
+        "Encourage a high-sodium diet to raise fetal weight",
+        "Stop all fetal monitoring"
+      ],
+      "key": [
+        "Increased antenatal testing (NST/BPP and Doppler)",
+        "Plan timing of birth based on surveillance and gestational age",
+        "Corticosteroids if preterm birth is anticipated"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "FGR with abnormal Doppler needs intensified surveillance, individualized delivery timing, and steroids if preterm birth is likely. Principle: FGR management balances the risks of prematurity against ongoing placental compromise.",
+      "rationale_distractors": {
+        "Immediate discharge with routine visits only": "Under-surveils a high-risk fetus.",
+        "Encourage a high-sodium diet": "Does not treat placental insufficiency and is not recommended.",
+        "Stop all fetal monitoring": "Directly unsafe for a compromised fetus."
+      },
+      "source": "ACOG PB 227 (2021)",
+      "keywords": [
+        "FGR",
+        "Doppler",
+        "extended response"
+      ]
+    },
+    {
+      "id": "2514-D4-413",
+      "objective_id": "2514-D4-3",
+      "item_type": "cloze_dropdown",
+      "ncjmm_operation": "Take Actions",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Apply",
+      "difficulty_target": "hard",
+      "stem": "Complete the statement. When uterine rupture is suspected during TOLAC, the priority is [1], and the nurse should anticipate [2].",
+      "chart_data": {},
+      "options": {
+        "1": [
+          "immediate preparation for emergency cesarean",
+          "increasing oxytocin",
+          "continued expectant management"
+        ],
+        "2": [
+          "neonatal resuscitation and maternal hemorrhage management",
+          "discharge planning",
+          "routine postpartum care"
+        ]
+      },
+      "key": {
+        "1": "immediate preparation for emergency cesarean",
+        "2": "neonatal resuscitation and maternal hemorrhage management"
+      },
+      "scoring": "0/1",
+      "rationale_correct": "Suspected rupture demands immediate surgical delivery with readiness for neonatal resuscitation and maternal hemorrhage. Principle: rupture is a dual emergency — fetal hypoxia and maternal bleeding — so prepare for both.",
+      "rationale_distractors": {
+        "increasing oxytocin / continued expectant management": "Both worsen a rupturing uterus.",
+        "discharge planning / routine postpartum care": "Irrelevant during an acute emergency."
+      },
+      "source": "ACOG PB 205 (2019)",
+      "keywords": [
+        "uterine rupture",
+        "cloze",
+        "take actions"
+      ]
+    },
+    {
+      "id": "2514-D4-414",
+      "objective_id": "2514-D4-7",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Evaluate Outcomes",
+      "client_needs": "Psychosocial Integrity",
+      "bloom": "Apply",
+      "difficulty_target": "easy",
+      "stem": "After a perinatal loss, which statement by the nurse best reflects culturally sensitive bereavement care?",
+      "chart_data": {},
+      "options": [
+        "\"You are young; you can have another baby.\"",
+        "\"Would you like to tell me how your family honors a loss like this?\"",
+        "\"It is best not to talk about it.\"",
+        "\"At least it happened early.\""
+      ],
+      "key": [
+        "\"Would you like to tell me how your family honors a loss like this?\""
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Inviting the family to share their traditions centers their values and supports individualized grieving. Principle: ask and follow the family's cultural and spiritual lead rather than minimizing the loss.",
+      "rationale_distractors": {
+        "\"You are young; you can have another baby.\"": "Minimizes the loss and dismisses this baby.",
+        "\"It is best not to talk about it.\"": "Discourages needed expression of grief.",
+        "\"At least it happened early.\"": "Invalidates the family's grief."
+      },
+      "source": "ACOG OCC No. 10 (2020)",
+      "keywords": [
+        "bereavement",
+        "culture",
+        "communication"
+      ]
+    },
+    {
+      "id": "2514-D1-114",
+      "objective_id": "2514-D1-2",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Physiological Adaptation",
+      "bloom": "Understand",
+      "difficulty_target": "easy",
+      "stem": "A patient reports a missed period, a positive home pregnancy test, and unilateral pelvic pain with light spotting at about 6 weeks. Which finding would most increase concern for a serious problem?",
+      "chart_data": {},
+      "options": [
+        "Mild breast tenderness",
+        "Unilateral pelvic pain with spotting",
+        "Fatigue",
+        "Nausea in the morning"
+      ],
+      "key": [
+        "Unilateral pelvic pain with spotting"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Localized pain with bleeding in early pregnancy raises concern for ectopic pregnancy. Principle: focal pain plus bleeding early is a red flag, unlike the diffuse normal symptoms of pregnancy.",
+      "rationale_distractors": {
+        "Mild breast tenderness / Fatigue / Nausea in the morning": "Each is a common, expected early pregnancy symptom and not a warning sign by itself."
+      },
+      "source": "ACOG PB 200 (2018)",
+      "keywords": [
+        "ectopic",
+        "early pregnancy"
+      ]
+    },
+    {
+      "id": "2514-D1-115",
+      "objective_id": "2514-D1-4",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Understand",
+      "difficulty_target": "easy",
+      "stem": "Which assessment finding in the fourth stage of labor is the earliest sign of excessive blood loss the nurse should act on?",
+      "chart_data": {},
+      "options": [
+        "A firm fundus at the umbilicus",
+        "A rising, sustained maternal heart rate",
+        "Report of mild afterpains",
+        "Colostrum expression"
+      ],
+      "key": [
+        "A rising, sustained maternal heart rate"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Tachycardia is an early compensatory sign of hypovolemia, often preceding a fall in blood pressure. Principle: heart rate rises before blood pressure drops in early hemorrhage.",
+      "rationale_distractors": {
+        "A firm fundus at the umbilicus": "A reassuring normal finding.",
+        "Report of mild afterpains": "Expected, especially in multiparas or while breastfeeding.",
+        "Colostrum expression": "A normal postpartum finding, unrelated to blood loss."
+      },
+      "source": "ACOG PB 183 (2017)",
+      "keywords": [
+        "PPH",
+        "early sign",
+        "tachycardia"
+      ]
+    },
+    {
+      "id": "2514-D2-214",
+      "objective_id": "2514-D2-1",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Physiological Adaptation",
+      "bloom": "Understand",
+      "difficulty_target": "easy",
+      "stem": "At a prenatal visit at 30 weeks, which blood pressure reading should the nurse recognize as meeting the threshold to report for possible hypertensive disorder?",
+      "chart_data": {},
+      "options": [
+        "118/72",
+        "126/80",
+        "142/92",
+        "130/78"
+      ],
+      "key": [
+        "142/92"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "A reading of 140/90 or higher after 20 weeks meets the threshold for a hypertensive disorder and should be reported. Principle: 140/90 is the actionable cutoff in pregnancy.",
+      "rationale_distractors": {
+        "118/72 / 126/80 / 130/78": "All are below the 140/90 threshold and are within acceptable range."
+      },
+      "source": "ACOG PB 222 (2020)",
+      "keywords": [
+        "hypertension",
+        "threshold",
+        "recognize"
+      ]
+    },
+    {
+      "id": "2514-D2-215",
+      "objective_id": "2514-D2-4",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Pharmacological and Parenteral Therapies",
+      "bloom": "Understand",
+      "difficulty_target": "easy",
+      "stem": "The nurse is preparing to monitor a patient on magnesium sulfate. Which item must be available at the bedside?",
+      "chart_data": {},
+      "options": [
+        "Naloxone",
+        "Calcium gluconate",
+        "Protamine sulfate",
+        "Vitamin K"
+      ],
+      "key": [
+        "Calcium gluconate"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Calcium gluconate is the antidote for magnesium toxicity and must be immediately available. Principle: pair every high-alert infusion with its antidote at the bedside.",
+      "rationale_distractors": {
+        "Naloxone": "Reverses opioids, not magnesium.",
+        "Protamine sulfate": "Reverses heparin.",
+        "Vitamin K": "Reverses warfarin."
+      },
+      "source": "ACOG PB 222 (2020)",
+      "keywords": [
+        "magnesium",
+        "antidote",
+        "calcium gluconate"
+      ]
+    },
+    {
+      "id": "2514-D2-216",
+      "objective_id": "2514-D2-7",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Generate Solutions",
+      "client_needs": "Health Promotion and Maintenance",
+      "bloom": "Apply",
+      "difficulty_target": "easy",
+      "stem": "A patient with gestational diabetes asks how to help control her blood glucose. Which teaching is most appropriate?",
+      "chart_data": {},
+      "options": [
+        "Skip meals to lower glucose",
+        "Distribute carbohydrates across small frequent meals and stay active as advised",
+        "Eliminate all carbohydrates",
+        "Drink sugary beverages before testing"
+      ],
+      "key": [
+        "Distribute carbohydrates across small frequent meals and stay active as advised"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Balanced, distributed carbohydrate intake with activity supports glucose control in GDM. Principle: manage GDM by spacing carbohydrates, not by starving or eliminating them.",
+      "rationale_distractors": {
+        "Skip meals to lower glucose": "Causes swings and is unsafe in pregnancy.",
+        "Eliminate all carbohydrates": "Not recommended; the fetus needs balanced nutrition.",
+        "Drink sugary beverages before testing": "Would falsely raise readings and worsen control."
+      },
+      "source": "ACOG PB 190 (2018)",
+      "keywords": [
+        "GDM",
+        "nutrition",
+        "teaching"
+      ]
+    },
+    {
+      "id": "2514-D3-313",
+      "objective_id": "2514-D3-3",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Understand",
+      "difficulty_target": "easy",
+      "stem": "A patient reports leaking fluid. Which combination of bedside findings best supports rupture of membranes?",
+      "chart_data": {},
+      "options": [
+        "Nitrazine paper turns yellow and no ferning",
+        "Nitrazine paper turns blue and ferning is seen on microscopy",
+        "Acidic pH with heavy discharge",
+        "Absent fluid with intact membranes on exam"
+      ],
+      "key": [
+        "Nitrazine paper turns blue and ferning is seen on microscopy"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Alkaline amniotic fluid turns nitrazine blue and dries in a fern pattern, confirming rupture. Principle: blue nitrazine plus ferning together support ROM more than either alone.",
+      "rationale_distractors": {
+        "Nitrazine paper turns yellow and no ferning": "Suggests intact membranes or acidic secretions.",
+        "Acidic pH with heavy discharge": "Points away from amniotic fluid.",
+        "Absent fluid with intact membranes on exam": "Argues against rupture."
+      },
+      "source": "ACOG PB 217 (2020)",
+      "keywords": [
+        "ROM",
+        "nitrazine",
+        "ferning"
+      ]
+    },
+    {
+      "id": "2514-D3-314",
+      "objective_id": "2514-D3-1",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Understand",
+      "difficulty_target": "easy",
+      "stem": "Which gestational-age range defines preterm birth that the nurse teaches patients to watch for?",
+      "chart_data": {},
+      "options": [
+        "Before 20 weeks",
+        "20 0/7 to 36 6/7 weeks",
+        "37 to 38 weeks",
+        "39 weeks and beyond"
+      ],
+      "key": [
+        "20 0/7 to 36 6/7 weeks"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Preterm birth occurs from 20 0/7 through 36 6/7 weeks; before 20 weeks is a loss, and 37 weeks and beyond is term. Principle: anchor 'preterm' to the 20-to-37-week window.",
+      "rationale_distractors": {
+        "Before 20 weeks": "That range is defined as pregnancy loss/abortion.",
+        "37 to 38 weeks": "That is early term.",
+        "39 weeks and beyond": "That is full term."
+      },
+      "source": "ACOG PB 171 (2016)",
+      "keywords": [
+        "preterm",
+        "definition"
+      ]
+    },
+    {
+      "id": "2514-D3-315",
+      "objective_id": "2514-D3-4",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Understand",
+      "difficulty_target": "easy",
+      "stem": "The monitor shows 7 contractions in a 10-minute window averaged over 30 minutes. How should the nurse document this contraction pattern?",
+      "chart_data": {},
+      "options": [
+        "Normal labor pattern",
+        "Tachysystole",
+        "Hypotonic labor",
+        "Latent phase"
+      ],
+      "key": [
+        "Tachysystole"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "More than five contractions in 10 minutes averaged over 30 minutes is tachysystole. Principle: name the pattern precisely because it changes management of oxytocin.",
+      "rationale_distractors": {
+        "Normal labor pattern": "Normal is up to five contractions per 10 minutes.",
+        "Hypotonic labor": "Describes too-weak, infrequent contractions.",
+        "Latent phase": "Describes early cervical dilation, not contraction frequency."
+      },
+      "source": "ACOG-SMFM OCC No. 1 (2014)",
+      "keywords": [
+        "tachysystole",
+        "definition"
+      ]
+    },
+    {
+      "id": "2514-D4-415",
+      "objective_id": "2514-D4-5",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Understand",
+      "difficulty_target": "easy",
+      "stem": "Which fetal heart rate tracing does the nurse recognize as Category I (normal)?",
+      "chart_data": {},
+      "options": [
+        "Baseline 145, moderate variability, accelerations, no late or variable decelerations",
+        "Baseline 175, minimal variability, recurrent late decelerations",
+        "Absent variability with recurrent variable decelerations",
+        "Sinusoidal pattern"
+      ],
+      "key": [
+        "Baseline 145, moderate variability, accelerations, no late or variable decelerations"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Category I requires a normal baseline, moderate variability, and no concerning decelerations. Principle: moderate variability with a normal baseline is the hallmark of a reassuring tracing.",
+      "rationale_distractors": {
+        "Baseline 175, minimal variability, recurrent late decelerations": "Category II/III features.",
+        "Absent variability with recurrent variable decelerations": "Category III.",
+        "Sinusoidal pattern": "An abnormal Category III pattern."
+      },
+      "source": "Macones et al. (2008)",
+      "keywords": [
+        "FHR",
+        "Category I"
+      ]
+    },
+    {
+      "id": "2514-D4-416",
+      "objective_id": "2514-D4-6",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Physiological Adaptation",
+      "bloom": "Understand",
+      "difficulty_target": "easy",
+      "stem": "Which newborn assessment finding at 1 minute of life is most reassuring?",
+      "chart_data": {},
+      "options": [
+        "Heart rate 150 with a vigorous cry and flexed extremities",
+        "Heart rate 70 with weak respiratory effort",
+        "Central cyanosis and limp tone",
+        "Apnea with no response to stimulation"
+      ],
+      "key": [
+        "Heart rate 150 with a vigorous cry and flexed extremities"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "A heart rate above 100 with a strong cry and good tone indicates a vigorous newborn needing only routine care. Principle: heart rate and respiratory effort lead the newborn assessment.",
+      "rationale_distractors": {
+        "Heart rate 70 with weak respiratory effort": "Signals the need for positive pressure ventilation.",
+        "Central cyanosis and limp tone": "Concerning findings needing intervention.",
+        "Apnea with no response to stimulation": "Requires immediate resuscitation."
+      },
+      "source": "Weiner & Zaichkin (2021)",
+      "keywords": [
+        "newborn",
+        "reassuring",
+        "NRP"
+      ]
+    },
+    {
+      "id": "2514-D4-417",
+      "objective_id": "2514-D4-1",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Management of Care",
+      "bloom": "Understand",
+      "difficulty_target": "easy",
+      "stem": "Which finding is an accepted indication for an operative vaginal birth with vacuum or forceps?",
+      "chart_data": {},
+      "options": [
+        "Prolonged second stage with a reassuring but non-descending fetus at adequate station",
+        "Unengaged fetal head",
+        "Known cephalopelvic disproportion",
+        "Preterm fetus at 28 weeks as a routine measure"
+      ],
+      "key": [
+        "Prolonged second stage with a reassuring but non-descending fetus at adequate station"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Operative vaginal birth requires an engaged head at an adequate station with an appropriate indication such as prolonged second stage. Principle: station and engagement gate operative vaginal birth eligibility.",
+      "rationale_distractors": {
+        "Unengaged fetal head": "A contraindication — the head must be engaged.",
+        "Known cephalopelvic disproportion": "A contraindication favoring cesarean.",
+        "Preterm fetus at 28 weeks as a routine measure": "Not a routine indication and carries added risk."
+      },
+      "source": "ACOG PB 219 (2020)",
+      "keywords": [
+        "operative birth",
+        "indication"
+      ]
+    },
+    {
+      "id": "2514-D2-217",
+      "objective_id": "2514-D2-3",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Understand",
+      "difficulty_target": "easy",
+      "stem": "Which set of laboratory findings should the nurse recognize as consistent with HELLP syndrome?",
+      "chart_data": {},
+      "options": [
+        "High platelets, low liver enzymes, high haptoglobin",
+        "Low platelets, elevated liver enzymes, elevated LDH",
+        "Normal platelets, normal enzymes, normal LDH",
+        "High platelets, low LDH, high fibrinogen"
+      ],
+      "key": [
+        "Low platelets, elevated liver enzymes, elevated LDH"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "HELLP is hemolysis (high LDH), elevated liver enzymes, and low platelets. Principle: recognize HELLP as a low-platelet, high-enzyme, high-LDH triad.",
+      "rationale_distractors": {
+        "High platelets, low liver enzymes, high haptoglobin": "The opposite of the HELLP pattern.",
+        "Normal platelets, normal enzymes, normal LDH": "Rules HELLP out.",
+        "High platelets, low LDH, high fibrinogen": "Not the HELLP pattern."
+      },
+      "source": "ACOG PB 222 (2020)",
+      "keywords": [
+        "HELLP",
+        "labs",
+        "recognize"
+      ]
+    }
+  ]
+}

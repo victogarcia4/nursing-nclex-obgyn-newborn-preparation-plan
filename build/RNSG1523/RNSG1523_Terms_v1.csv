@@ -1,0 +1,122 @@
+front,back,tag,difficulty
+NGN,"Next Generation NCLEX; item formats include bowtie, trend, matrix, and SATA.",Framework,1
+NCJMM,NCSBN Clinical Judgment Measurement Model: Recognize→Analyze→Prioritize→Generate→Take Action→Evaluate.,Framework,2
+NCSBN,National Council of State Boards of Nursing; owns and writes the NCLEX.,Framework,1
+QSEN,"Quality and Safety Education for Nurses; six competencies structured as knowledge, skills, attitudes.",Framework,1
+SATA,"Select All That Apply; each option scored independently, no partial-credit guessing.",Framework,1
+EBP,"Evidence-Based Practice; integrating best evidence, clinical expertise, and patient values.",Framework,1
+LCJR,"Lasater Clinical Judgment Rubric: noticing, interpreting, responding, reflecting — a debriefing tool.",Framework,2
+GTPAL,"Gravida, Term, Preterm, Abortions, Living — five-element pregnancy-history shorthand.",OB history & dating,2
+Gravida (G),"Total number of pregnancies including the current one, regardless of outcome.",OB history & dating,1
+Para (P),"Number of births after 20 weeks, whether live or stillborn.",OB history & dating,2
+Term (GTPAL T),Births at or beyond 37 0/7 weeks of gestation.,OB history & dating,1
+Preterm (GTPAL P),Births from 20 0/7 through 36 6/7 weeks of gestation.,OB history & dating,1
+Abortions (GTPAL A),"Pregnancy losses before 20 weeks, spontaneous or induced.",OB history & dating,1
+Living (GTPAL L),"Number of children currently alive, regardless of current age.",OB history & dating,1
+LMP,Last Menstrual Period; the first day of it anchors Naegele's rule.,OB history & dating,1
+EDB,Estimated Date of Birth; modern preferred term for the due date.,OB history & dating,1
+EDC,Estimated Date of Confinement; traditional term for the due date.,OB history & dating,1
+GA,"Gestational Age, expressed in completed weeks plus days (e.g., 36 0/7).",OB history & dating,1
+AMA,Advanced Maternal Age; 35 years or older at delivery.,OB history & dating,1
+Naegele's rule,"LMP minus 3 months, plus 7 days, plus 1 year; assumes a 28-day cycle.",OB history & dating,2
+hCG / β-hCG,"Human Chorionic Gonadotropin; basis of pregnancy tests, doubles early in viable pregnancy.",Signs of pregnancy,1
+FHR,Fetal Heart Rate; a positive (diagnostic) sign of pregnancy.,Signs of pregnancy,1
+TVUS,Transvaginal Ultrasound; visualizes early gestation and confirms a positive sign.,Signs of pregnancy,1
+NT,Nuchal Translucency; aneuploidy screen with serum markers at 10 3/7–13 6/7 weeks.,Screening & diagnostics,2
+cfDNA,"Cell-free DNA; screens maternal plasma for trisomy 21/18/13. Screening, not diagnostic.",Screening & diagnostics,2
+NIPT / NIPS,Non-Invasive Prenatal Testing; trade term for cfDNA screening.,Screening & diagnostics,1
+MSAFP,"Maternal Serum Alpha-Fetoprotein; elevated suggests neural tube defect, low suggests aneuploidy.",Screening & diagnostics,2
+Quad screen,"AFP, hCG, unconjugated estriol, inhibin A; drawn at 15–22 weeks.",Screening & diagnostics,2
+NTD,Neural Tube Defect such as spina bifida or anencephaly; folic acid reduces risk.,Screening & diagnostics,1
+CVS,"Chorionic Villus Sampling; diagnostic karyotype at 10–13 weeks, earlier than amniocentesis.",Screening & diagnostics,2
+Amniocentesis,Diagnostic karyotype from amniotic fluid at 15 weeks or later.,Screening & diagnostics,2
+GCT,Glucose Challenge Test; 50 g non-fasting 1-hour screen for gestational diabetes.,Screening & diagnostics,2
+OGTT,Oral Glucose Tolerance Test; 100 g fasting 3-hour diagnostic for gestational diabetes.,Screening & diagnostics,2
+GBS,Group B Streptococcus; vaginal-rectal culture at 36 0/7–37 6/7 weeks.,Screening & diagnostics,2
+IAP,Intrapartum Antibiotic Prophylaxis; penicillin G first-line for GBS-positive labor.,Screening & diagnostics,2
+Rh(D),Rhesus D antigen; Rh-negative means the D antigen is absent.,Screening & diagnostics,2
+RhIG / RhoGAM,Rh(D) immune globulin; give at 28 weeks and within 72 h postpartum if infant Rh-positive.,Screening & diagnostics,3
+NST,"Non-Stress Test; reactive means adequate accelerations, reassuring fetal status.",Screening & diagnostics,2
+BPP,Biophysical Profile; five components scored 0–10 for fetal well-being.,Screening & diagnostics,2
+MCA Doppler,Middle Cerebral Artery Doppler; surveils for fetal anemia.,Screening & diagnostics,2
+U.S. MEC,U.S. Medical Eligibility Criteria for contraceptive use; CDC categories 1–4 by condition.,Contraception,2
+COC,Combined Oral Contraceptive with estrogen and progestin; estrogen raises VTE risk.,Contraception,2
+POP,Progestin-Only Pill; requires strict same-time daily dosing.,Contraception,2
+DMPA,"Depot medroxyprogesterone acetate; injection every 13 weeks, may reduce bone density.",Contraception,2
+LARC,"Long-Acting Reversible Contraception; IUDs and implant, most effective reversible methods.",Contraception,1
+LNG-IUD,"Levonorgestrel-releasing intrauterine device; thins endometrium, lightens menses.",Contraception,2
+Cu-IUD,"Copper IUD; non-hormonal, also effective as emergency contraception up to 5 days.",Contraception,2
+UPA,Ulipristal acetate; oral emergency contraceptive effective up to 120 hours.,Contraception,2
+LAM,"Lactational Amenorrhea Method; relies on exclusive breastfeeding, under 6 months, no menses.",Contraception,2
+VTE,Venous Thromboembolism; key risk of estrogen-containing contraceptives.,Contraception,2
+FSH / LH,Follicle-Stimulating and Luteinizing Hormones; FSH rises in menopause.,Menopause/Gyn,1
+VMS,Vasomotor Symptoms; hot flashes and night sweats of menopause.,Menopause/Gyn,1
+GSM,"Genitourinary Syndrome of Menopause; vaginal dryness, dyspareunia, urinary symptoms.",Menopause/Gyn,2
+MHT,Menopausal Hormone Therapy; most effective treatment for vasomotor symptoms.,Menopause/Gyn,2
+POI,Primary Ovarian Insufficiency; ovarian failure before age 40.,Menopause/Gyn,2
+AUB,Abnormal Uterine Bleeding; always evaluate postmenopausal bleeding for cancer.,Menopause/Gyn,2
+Primary dysmenorrhea,"Painful menses without pelvic pathology; prostaglandin-mediated, responds to NSAIDs.",Menopause/Gyn,2
+Secondary dysmenorrhea,Painful menses caused by pelvic pathology such as endometriosis or fibroids.,Menopause/Gyn,2
+BMI,Body Mass Index (kg/m²); sets recommended gestational weight-gain range.,Nutrition/Meds/Physiology,1
+GWG,Gestational Weight Gain; target set by prepregnancy BMI per IOM 2009.,Nutrition/Meds/Physiology,2
+Folic acid,0.4 mg daily preconception reduces neural tube defects; higher with prior NTD.,Nutrition/Meds/Physiology,2
+PLLR,Pregnancy and Lactation Labeling Rule; narrative labeling that replaced letter categories.,Nutrition/Meds/Physiology,2
+Legacy A/B/C/D/X,"Old FDA pregnancy letter categories, removed by the PLLR; still seen in textbooks.",Nutrition/Meds/Physiology,2
+ACE / ARB,"Angiotensin-converting-enzyme inhibitors / receptor blockers; fetotoxic, contraindicated in pregnancy.",Nutrition/Meds/Physiology,2
+WIC,"USDA supplemental nutrition program for Women, Infants, and Children.",Nutrition/Meds/Physiology,1
+ROM,"Rupture of Membranes; document time, color, odor, and fetal heart rate.",Nutrition/Meds/Physiology,1
+IPV,"Intimate Partner Violence; screen privately, pregnancy can escalate risk.",Nutrition/Meds/Physiology,2
+Physiologic anemia,"Plasma volume rises faster than red cells, lowering hematocrit; a dilutional normal.",Nutrition/Meds/Physiology,2
+KSA,"Knowledge, Skills, Attitudes; the structure of each QSEN competency.",Framework,1
+QI / PI,Quality / Performance Improvement; systematic effort to improve care processes and outcomes.,Framework,1
+EOC,Environment of Care; the safety thread covering physical and clinical surroundings.,Framework,1
+EDD,"Estimated Date of Delivery; synonym for the due date, used interchangeably with EDB.",OB history & dating,1
+0/7 notation,Weeks plus completed days; '36 0/7' means exactly 36 weeks and 0 days.,OB history & dating,1
+FHT,"Fetal Heart Tones; auscultated heartbeat, a positive sign of pregnancy.",Signs of pregnancy,1
+Quickening,"First maternal perception of fetal movement, around 16–20 weeks; a presumptive sign.",Signs of pregnancy,2
+Chadwick sign,Bluish discoloration of cervix and vagina from increased blood flow; a probable sign.,Signs of pregnancy,2
+Goodell sign,Softening of the cervix in early pregnancy; a probable sign.,Signs of pregnancy,2
+PAPP-A,Pregnancy-Associated Plasma Protein A; first-trimester serum aneuploidy marker.,Screening & diagnostics,2
+AFP,Alpha-Fetoprotein; elevated maternal serum suggests neural tube or abdominal wall defect.,Screening & diagnostics,2
+CMA,Chromosomal Microarray Analysis; detects submicroscopic deletions and duplications.,Screening & diagnostics,2
+GDM,Gestational Diabetes Mellitus; glucose intolerance first recognized in pregnancy.,Screening & diagnostics,1
+EOD (GBS),Early-Onset Disease; neonatal group B strep sepsis within the first 7 days.,Screening & diagnostics,2
+Hgb / Hct,"Hemoglobin / Hematocrit; screen for anemia, expect dilutional fall in pregnancy.",Screening & diagnostics,1
+HBsAg,Hepatitis B surface antigen; positive triggers neonatal vaccine plus immune globulin.,Screening & diagnostics,2
+CST,Contraction Stress Test; assesses fetal tolerance of contraction-induced hypoxic stress.,Screening & diagnostics,2
+CF carrier screen,Cystic Fibrosis carrier screening; offered to all pregnant patients preconception or prenatally.,Screening & diagnostics,2
+U.S. SPR,U.S. Selected Practice Recommendations; how to use a chosen contraceptive method correctly.,Contraception,2
+EC,"Emergency Contraception; copper IUD most effective, then ulipristal, then levonorgestrel.",Contraception,2
+FAM / FABM,Fertility Awareness-Based Methods; track cycle to avoid intercourse in the fertile window.,Contraception,2
+DVT / PE,Deep Vein Thrombosis / Pulmonary Embolism; the feared VTE outcomes of estrogen use.,Contraception,2
+Typical-use effectiveness,Failure rate reflecting real-world inconsistent use; the number to counsel patients on.,Contraception,3
+GnRH,Gonadotropin-Releasing Hormone; hypothalamic driver of the FSH/LH cycle.,Menopause/Gyn,1
+HT risk window,Menopausal hormone therapy safest when started under age 60 or within 10 years of menopause.,Menopause/Gyn,3
+BMD / DXA,Bone Mineral Density measured by dual-energy X-ray absorptiometry; screens for osteoporosis.,Menopause/Gyn,1
+Postmenopausal bleeding,Any bleeding after menopause; requires endometrial evaluation to exclude cancer.,Menopause/Gyn,3
+IOM / NASEM,"Institute of Medicine, now National Academy of Medicine; source of weight-gain guidance.",Nutrition/Meds/Physiology,1
+DFE,Dietary Folate Equivalents; unit accounting for better absorption of synthetic folic acid.,Nutrition/Meds/Physiology,2
+Iron in pregnancy,Increased demand for fetal stores and red-cell mass; supplement per anemia screening.,Nutrition/Meds/Physiology,2
+Listeria precautions,"Avoid unpasteurized dairy, deli meats, and cold smoked fish to prevent fetal infection.",Nutrition/Meds/Physiology,2
+Fish/mercury guidance,Limit high-mercury fish; mercury is a neurodevelopmental teratogen.,Nutrition/Meds/Physiology,2
+PROM (1523),Prelabor rupture of membranes at or after 37 weeks; formerly called 'premature'.,Nutrition/Meds/Physiology,2
+Supine hypotensive syndrome,Uterine compression of the vena cava when supine; relieve with left-lateral tilt.,Nutrition/Meds/Physiology,2
+Teratogen,Any agent causing structural or functional fetal harm; risk greatest during organogenesis.,Nutrition/Meds/Physiology,2
+EHR trending,"Electronic Health Record graphing of BP, weight, and fundal height across visits.",Nutrition/Meds/Physiology,1
+Distinguish presumptive from probable signs,"Presumptive = subjective (amenorrhea, nausea); probable = examiner-observed (Goodell, positive test).",Discrimination,3
+Distinguish probable from positive signs,"Probable can have other causes; positive proves a fetus: FHR, fetal movement felt by examiner, ultrasound.",Discrimination,3
+Distinguish screening from diagnostic tests,"Screening estimates risk (cfDNA, quad); diagnostic confirms with karyotype (CVS, amniocentesis).",Discrimination,3
+Distinguish GCT from OGTT,GCT is the 1-hour non-fasting screen; OGTT is the 3-hour fasting diagnostic.,Discrimination,2
+Distinguish EDC/EDB from GA,"EDB is the due date; GA is how far along now, in weeks and days.",Discrimination,2
+Distinguish COC from POP eligibility,Estrogen (COC) is contraindicated with high VTE or migraine-with-aura risk; POP is safer there.,Discrimination,3
+Distinguish primary from secondary dysmenorrhea,Primary has no pelvic pathology; secondary is caused by identifiable disease.,Discrimination,2
+Distinguish PLLR from letter categories,PLLR is narrative risk labeling; A/B/C/D/X are the removed legacy letters.,Discrimination,2
+Distinguish CVS from amniocentesis timing,CVS at 10–13 weeks gives an earlier karyotype; amniocentesis is done at 15+ weeks.,Discrimination,2
+Distinguish presumptive discomfort from warning sign,Nausea and urinary frequency are normal; vaginal bleeding and severe headache are warning signs.,Discrimination,3
+Distinguish LARC from short-acting methods,"LARC (IUD, implant) needs no daily adherence; pills and rings depend on consistent use.",Discrimination,2
+Distinguish reactive from non-reactive NST,Reactive shows adequate accelerations and is reassuring; non-reactive needs further testing.,Discrimination,2
+Distinguish VMS from GSM,Vasomotor symptoms are hot flashes/night sweats; GSM is vaginal and urinary tissue change.,Discrimination,2
+ACHES,"Estrogen contraceptive danger signs: Abdominal pain, Chest pain, Headache, Eye problems, Severe leg pain.",Mnemonic,2
+PATCH,"IUD danger signs: Period late, Abdominal pain, Chills/fever, Trouble/foul discharge, Heavy bleeding.",Mnemonic,2
+GTPAL,"Gravida, Term, Preterm, Abortions, Living; fires when documenting any obstetric history.",Mnemonic,2
+Naegele's rule,Due-date formula: LMP − 3 months + 7 days + 1 year; fires when LMP is known.,Mnemonic,2

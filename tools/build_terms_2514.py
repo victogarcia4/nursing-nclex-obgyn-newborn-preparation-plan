@@ -1,0 +1,200 @@
+#!/usr/bin/env python3
+"""build_terms_2514.py — WO-B terminology master deck for RNSG 2514 (Complications).
+
+Source: RNSG2514_Complications_LessonPlan_APA.md PART 1 (glossary §§1.1-1.8).
+Emits <COURSE>_Terms_v1.csv (front,back,tag,difficulty) + Markdown mirror.
+Card types: term, discrimination pair, mnemonic, and 'say this, not that' (§1.8).
+Run:  python tools/build_terms_2514.py
+"""
+import csv
+import os
+
+COURSE = "RNSG2514"
+OUT_DIR = os.path.join("build", COURSE)
+
+CARDS = [
+    # ---- §1.1 Regulatory / safety ----
+    ("SBAR", "Situation, Background, Assessment, Recommendation; structured handoff and escalation tool.", "Safety/Framework", 1),
+    ("AIM", "Alliance for Innovation on Maternal Health; source of national maternal safety bundles.", "Safety/Framework", 2),
+    ("MEWS / MEOWS", "Maternal Early Warning System; vital-sign triggers prompting rapid clinical review.", "Safety/Framework", 2),
+    ("RRT", "Rapid Response Team; summoned when early-warning criteria are met.", "Safety/Framework", 1),
+    ("QBL", "Quantitative Blood Loss; weighed measurement, QI-preferred over visual estimation.", "Safety/Framework", 2),
+    # ---- §1.2 Bleeding / hemorrhage ----
+    ("APH", "Antepartum Hemorrhage; any bleeding before birth, always evaluate before vaginal exam.", "Bleeding/Hemorrhage", 2),
+    ("PPH", "Postpartum Hemorrhage; ≥1,000 mL cumulative loss or loss with hypovolemia within 24 h.", "Bleeding/Hemorrhage", 2),
+    ("EPL", "Early Pregnancy Loss; nonviable intrauterine pregnancy before 13 0/7 weeks.", "Bleeding/Hemorrhage", 2),
+    ("Ectopic pregnancy", "Implantation outside the uterus; unilateral pain and bleeding, risk of rupture and shock.", "Bleeding/Hemorrhage", 2),
+    ("GTD / molar", "Gestational Trophoblastic Disease; grape-like villi, very high hCG, needs hCG follow-up.", "Bleeding/Hemorrhage", 2),
+    ("Placenta previa", "Placenta covering the internal os; painless bright-red bleeding, no digital exam.", "Bleeding/Hemorrhage", 3),
+    ("PAS", "Placenta Accreta Spectrum; abnormal invasion (accreta/increta/percreta), major hemorrhage risk.", "Bleeding/Hemorrhage", 3),
+    ("Vasa previa", "Fetal vessels crossing the os; rupture causes fetal exsanguination, not maternal.", "Bleeding/Hemorrhage", 3),
+    ("Abruptio placentae", "Premature separation of a normal placenta; painful dark bleeding, rigid tender uterus.", "Bleeding/Hemorrhage", 3),
+    ("DIC", "Disseminated Intravascular Coagulation; consumptive clotting then bleeding, oozing from sites.", "Bleeding/Hemorrhage", 3),
+    ("TXA", "Tranexamic acid; antifibrinolytic given within 3 hours for postpartum hemorrhage.", "Bleeding/Hemorrhage", 2),
+    ("PRBC / FFP", "Packed red cells / fresh frozen plasma; components of massive transfusion protocol.", "Bleeding/Hemorrhage", 2),
+    ("IUFD", "Intrauterine Fetal Demise; fetal death before birth, confirmed by absent cardiac activity.", "Bleeding/Hemorrhage", 2),
+    # ---- §1.3 Hypertensive disorders ----
+    ("HDP", "Hypertensive Disorders of Pregnancy; spectrum from gHTN to preeclampsia and HELLP.", "Hypertension", 1),
+    ("gHTN", "Gestational Hypertension; new hypertension after 20 weeks without proteinuria or severe features.", "Hypertension", 2),
+    ("cHTN", "Chronic Hypertension; hypertension before pregnancy or before 20 weeks.", "Hypertension", 2),
+    ("Preeclampsia", "New hypertension after 20 weeks with proteinuria or end-organ signs.", "Hypertension", 2),
+    ("Preeclampsia w/ severe features", "Severe BP, thrombocytopenia, renal/liver involvement, pulmonary edema, or CNS symptoms.", "Hypertension", 3),
+    ("HELLP", "Hemolysis, Elevated Liver enzymes, Low Platelets; a severe preeclampsia variant.", "Hypertension", 3),
+    ("LDH", "Lactate dehydrogenase; elevated with the hemolysis of HELLP.", "Hypertension", 2),
+    ("AST / ALT", "Liver transaminases; elevation signals hepatic involvement in HELLP or severe preeclampsia.", "Hypertension", 2),
+    ("P:C ratio", "Urine protein-to-creatinine ratio; quantifies proteinuria without a 24-hour collection.", "Hypertension", 2),
+    ("DTR", "Deep Tendon Reflexes; monitored on magnesium — loss signals rising toxicity.", "Hypertension", 2),
+    ("MgSO₄", "Magnesium sulfate; seizure prophylaxis in preeclampsia, not an antihypertensive.", "Hypertension", 3),
+    ("MAP", "Mean Arterial Pressure; average perfusion pressure across the cardiac cycle.", "Hypertension", 1),
+    ("Low-dose aspirin", "81 mg started 12–28 weeks for high-risk patients to reduce preeclampsia.", "Hypertension", 2),
+    ("Magnesium antidote", "Calcium gluconate reverses magnesium sulfate toxicity; keep it at the bedside.", "Hypertension", 3),
+    # ---- §1.4 Diabetes / hyperemesis ----
+    ("GDM A1 vs A2", "A1 gestational diabetes is diet-controlled; A2 requires medication.", "Diabetes/Hyperemesis", 2),
+    ("PGDM", "Pregestational Diabetes Mellitus; diabetes predating pregnancy, higher anomaly risk.", "Diabetes/Hyperemesis", 2),
+    ("HbA1c", "Glycosylated hemoglobin; reflects average glucose over roughly 3 months.", "Diabetes/Hyperemesis", 1),
+    ("DKA", "Diabetic Ketoacidosis; can occur at lower glucose in pregnancy, threatens the fetus.", "Diabetes/Hyperemesis", 3),
+    ("LGA / SGA", "Large / Small for Gestational Age; LGA follows poor glycemic control.", "Diabetes/Hyperemesis", 2),
+    ("HG", "Hyperemesis Gravidarum; severe vomiting with weight loss, ketosis, and electrolyte loss.", "Diabetes/Hyperemesis", 2),
+    ("PUQE", "Pregnancy-Unique Quantification of Emesis; scores nausea and vomiting severity.", "Diabetes/Hyperemesis", 1),
+    ("Neonatal hypoglycemia", "Low newborn glucose after maternal hyperglycemia caused fetal hyperinsulinism.", "Diabetes/Hyperemesis", 3),
+    # ---- §1.5 Preterm labor / membranes ----
+    ("PTL", "Preterm Labor; regular contractions with cervical change before 37 weeks.", "Preterm/Membranes", 2),
+    ("PROM", "Prelabor Rupture of Membranes at or after 37 weeks; formerly 'premature'.", "Preterm/Membranes", 2),
+    ("PPROM", "Preterm Prelabor Rupture of Membranes; rupture before 37 weeks, high infection risk.", "Preterm/Membranes", 3),
+    ("fFN", "Fetal Fibronectin; negative result strongly predicts NOT delivering within two weeks.", "Preterm/Membranes", 3),
+    ("Cervical length", "Transvaginal ultrasound measure; short cervix raises spontaneous preterm-birth risk.", "Preterm/Membranes", 2),
+    ("ACS", "Antenatal Corticosteroids (betamethasone/dexamethasone); accelerate fetal lung maturity.", "Preterm/Membranes", 3),
+    ("RDS", "Respiratory Distress Syndrome; surfactant-deficient preterm lung disease ACS helps prevent.", "Preterm/Membranes", 2),
+    ("17-OHPC", "17α-hydroxyprogesterone caproate; withdrawn from the U.S. market in 2023, no longer standard.", "Preterm/Membranes", 3),
+    ("Nifedipine (tocolytic)", "Calcium channel blocker used to delay preterm birth long enough for steroids.", "Preterm/Membranes", 2),
+    ("Indomethacin (tocolytic)", "NSAID tocolytic limited to before 32 weeks and short duration.", "Preterm/Membranes", 2),
+    ("Chorioamnionitis", "Intraamniotic infection; maternal fever, tachycardia, uterine tenderness, needs delivery.", "Preterm/Membranes", 2),
+    ("Mg neuroprotection", "Magnesium sulfate before ~32 weeks reduces cerebral palsy in the preterm neonate.", "Preterm/Membranes", 3),
+    ("Oligo / Poly", "Oligohydramnios (too little) / Polyhydramnios (too much) amniotic fluid.", "Preterm/Membranes", 2),
+    # ---- §1.6 Labor dysfunction / operative birth ----
+    ("Dystocia", "Difficult or abnormally slow labor; analyze via the 5 Ps.", "Labor/Operative", 2),
+    ("CPD", "Cephalopelvic Disproportion; fetal head too large for the maternal pelvis.", "Labor/Operative", 2),
+    ("Tachysystole", "More than 5 contractions in 10 minutes averaged over 30 minutes.", "Labor/Operative", 3),
+    ("MVU", "Montevideo Units; adequate labor is roughly ≥200 MVU per 10 minutes.", "Labor/Operative", 2),
+    ("Bishop score", "Cervical favorability (dilation, effacement, station, consistency, position) predicting induction success.", "Labor/Operative", 2),
+    ("Misoprostol (PGE₁)", "Cervical ripening agent; contraindicated with prior cesarean due to rupture risk.", "Labor/Operative", 3),
+    ("Dinoprostone (PGE₂)", "Prostaglandin cervical ripening agent; stop if tachysystole or Category II/III occurs.", "Labor/Operative", 2),
+    ("TOLAC / VBAC", "Trial of Labor / Vaginal Birth After Cesarean; main risk is uterine rupture.", "Labor/Operative", 2),
+    ("NTSV cesarean rate", "Nulliparous Term Singleton Vertex cesarean rate; a key obstetric QI metric.", "Labor/Operative", 2),
+    ("Shoulder dystocia", "Fetal shoulder impacted after head delivery; an unpredictable obstetric emergency.", "Labor/Operative", 3),
+    ("McRoberts maneuver", "Sharp maternal hip hyperflexion; first-line maneuver for shoulder dystocia.", "Labor/Operative", 2),
+    ("Labor arrest", "No cervical change despite adequate contractions and specified dilation; replaces 'failure to progress'.", "Labor/Operative", 3),
+    ("Operative vaginal birth", "Forceps- or vacuum-assisted birth; requires specified station and consent.", "Labor/Operative", 2),
+    # ---- §1.7 Fetal surveillance / neonatal ----
+    ("EFM", "Electronic Fetal Monitoring; continuous fetal heart rate and contraction tracing.", "Surveillance/Neonatal", 1),
+    ("Category I FHR", "Normal tracing; routine monitoring, no intervention needed.", "Surveillance/Neonatal", 2),
+    ("Category II FHR", "Indeterminate tracing; requires evaluation and intrauterine resuscitation, not immediate delivery.", "Surveillance/Neonatal", 3),
+    ("Category III FHR", "Abnormal tracing (absent variability with recurrent decels or bradycardia); expedite delivery.", "Surveillance/Neonatal", 3),
+    ("Intrauterine resuscitation", "Reposition, IV fluids, reduce uterotonics, treat hypotension — restore fetal oxygenation.", "Surveillance/Neonatal", 3),
+    ("Routine O₂ reversal", "ACOG 2025 advises against routine maternal oxygen for Category II/III without maternal hypoxia.", "Surveillance/Neonatal", 3),
+    ("FGR", "Fetal Growth Restriction; estimated weight or abdominal circumference below the 10th percentile.", "Surveillance/Neonatal", 2),
+    ("UA Doppler", "Umbilical artery Doppler; absent or reversed end-diastolic flow signals severe FGR.", "Surveillance/Neonatal", 3),
+    ("Uterine rupture", "Tearing of the uterine wall; loss of station, acute pain, Category III tracing.", "Surveillance/Neonatal", 3),
+    ("Cord prolapse", "Umbilical cord ahead of the presenting part; relieve compression and expedite birth.", "Surveillance/Neonatal", 3),
+    ("NRP", "Neonatal Resuscitation Program; the AAP/AHA algorithm for newborn resuscitation.", "Surveillance/Neonatal", 2),
+    ("PPV", "Positive Pressure Ventilation; the single most important NRP step for a non-breathing newborn.", "Surveillance/Neonatal", 3),
+    ("HIE", "Hypoxic-Ischemic Encephalopathy; brain injury from perinatal oxygen deprivation.", "Surveillance/Neonatal", 2),
+    ("Therapeutic hypothermia", "Neonatal cooling within 6 hours to limit brain injury after significant hypoxia.", "Surveillance/Neonatal", 2),
+    ("MAS", "Meconium Aspiration Syndrome; meconium below the cords causing respiratory distress.", "Surveillance/Neonatal", 2),
+    ("TTN", "Transient Tachypnea of the Newborn; self-limited from retained fetal lung fluid.", "Surveillance/Neonatal", 1),
+    ("NAS / NOWS", "Neonatal Abstinence / Opioid Withdrawal Syndrome; irritability, poor feeding, high-pitched cry.", "Surveillance/Neonatal", 2),
+    # ---- Supplementary term cards ----
+    ("SAB", "Spontaneous Abortion (miscarriage); pregnancy loss before 20 weeks.", "Bleeding/Hemorrhage", 1),
+    ("D&C / D&E", "Dilation and Curettage / Evacuation; uterine evacuation for loss or retained tissue.", "Bleeding/Hemorrhage", 1),
+    ("MVA", "Manual Vacuum Aspiration; office-based uterine evacuation for early pregnancy loss.", "Bleeding/Hemorrhage", 1),
+    ("RhIG after bleeding", "Rh(D) immune globulin for Rh-negative patients after loss, bleeding, or procedures.", "Bleeding/Hemorrhage", 2),
+    ("Uterine atony", "Failure of the uterus to contract after birth; the leading cause of PPH.", "Bleeding/Hemorrhage", 2),
+    ("RUQ pain", "Right upper quadrant pain; liver capsule signal in HELLP or severe preeclampsia.", "Hypertension", 2),
+    ("Creatinine (preeclampsia)", "Rising serum creatinine marks renal involvement, a severe feature.", "Hypertension", 2),
+    ("NPO", "Nothing by mouth; ordered before possible operative birth or for severe hyperemesis.", "Diabetes/Hyperemesis", 1),
+    ("TPN / PPN", "Total / Peripheral Parenteral Nutrition; IV nutrition when the gut cannot be used.", "Diabetes/Hyperemesis", 1),
+    ("SROM / AROM", "Spontaneous / Artificial Rupture of Membranes; note time, color, odor, and FHR.", "Preterm/Membranes", 1),
+    ("IVH", "Intraventricular Hemorrhage; a preterm brain complication ACS and Mg help reduce.", "Preterm/Membranes", 2),
+    ("NEC", "Necrotizing Enterocolitis; serious preterm bowel injury, feeding intolerance and distension.", "Preterm/Membranes", 2),
+    ("IUPC", "Intrauterine Pressure Catheter; measures contraction strength in Montevideo units.", "Labor/Operative", 2),
+    ("ECV", "External Cephalic Version; manual turning of a breech fetus to vertex.", "Labor/Operative", 2),
+    ("Intermittent auscultation", "Periodic fetal heart listening; an option for low-risk labor instead of continuous EFM.", "Surveillance/Neonatal", 1),
+    ("Cord gas", "Umbilical cord blood gas; documents fetal acid-base status at birth.", "Surveillance/Neonatal", 2),
+    # ---- Discrimination pairs ----
+    ("Distinguish previa from abruption", "Previa: painless bright-red bleeding, soft uterus. Abruption: painful dark bleeding, rigid tender uterus.", "Discrimination", 3),
+    ("Distinguish PROM from PPROM", "PROM is rupture at ≥37 weeks; PPROM is rupture before 37 weeks with higher infection risk.", "Discrimination", 3),
+    ("Distinguish symmetric from asymmetric FGR", "Symmetric FGR is early and global; asymmetric spares the head, suggesting placental insufficiency.", "Discrimination", 3),
+    ("Distinguish Category I/II/III", "I normal, no action; II indeterminate, resuscitate and evaluate; III abnormal, expedite delivery.", "Discrimination", 3),
+    ("Distinguish gHTN from preeclampsia", "gHTN is hypertension alone; preeclampsia adds proteinuria or end-organ dysfunction.", "Discrimination", 3),
+    ("Distinguish gHTN from chronic HTN", "gHTN starts after 20 weeks; chronic hypertension predates pregnancy or precedes 20 weeks.", "Discrimination", 2),
+    ("Distinguish HELLP from preeclampsia", "HELLP adds hemolysis, elevated liver enzymes, and low platelets; may occur with mild BP.", "Discrimination", 3),
+    ("Distinguish vasa previa from previa", "Vasa previa rupture bleeds the fetus; placenta previa bleeding is maternal.", "Discrimination", 3),
+    ("Distinguish early from late decelerations", "Early mirror contractions (head compression, benign); late lag behind (placental insufficiency, concerning).", "Discrimination", 3),
+    ("Distinguish variable from late decelerations", "Variable are abrupt and vary (cord compression); late are gradual and delayed (placental insufficiency).", "Discrimination", 3),
+    ("Distinguish MgSO₄ role from antihypertensive", "Magnesium prevents seizures; labetalol/hydralazine/nifedipine lower blood pressure.", "Discrimination", 3),
+    ("Distinguish tocolytic from uterotonic", "Tocolytics (nifedipine) stop contractions; uterotonics (oxytocin) cause them to treat hemorrhage.", "Discrimination", 3),
+    # ---- Mnemonics ----
+    ("4 Ts of PPH", "Tone (atony), Trauma (laceration), Tissue (retained placenta), Thrombin (coagulopathy).", "Mnemonic", 3),
+    ("5 Ps of labor", "Passenger, Passageway, Powers, Position, Psyche — the determinants of labor progress.", "Mnemonic", 2),
+    ("VEAL CHOP", "Variable→Cord compression; Early→Head compression; Accelerations→OK; Late→Placental insufficiency.", "Mnemonic", 3),
+    ("HELPERR", "Shoulder dystocia: Help, Episiotomy eval, Legs (McRoberts), Pressure suprapubic, Enter, Remove arm, Roll.", "Mnemonic", 3),
+    ("Magnesium toxicity sequence", "Loss of reflexes → respiratory depression → cardiac arrest; monitor DTRs, RR, and output.", "Mnemonic", 3),
+    # ---- 'Say this, not that' (§1.8 terminology corrections) ----
+    ("Say: prelabor ROM", "Not 'premature rupture of membranes' — say prelabor rupture of membranes (PROM).", "Say-this-not-that", 2),
+    ("Say: with/without severe features", "Not 'mild vs severe preeclampsia' — say preeclampsia without or with severe features.", "Say-this-not-that", 2),
+    ("Say: gestational hypertension", "Not 'PIH' — say gestational hypertension (gHTN).", "Say-this-not-that", 1),
+    ("Say: Category II or III", "Not 'nonreassuring fetal heart rate' — say Category II (indeterminate) or III (abnormal).", "Say-this-not-that", 2),
+    ("Say: fetal growth restriction", "Not 'IUGR' in obstetric documentation — say fetal growth restriction (FGR).", "Say-this-not-that", 2),
+    ("Say: preeclampsia", "Not 'toxemia' — say preeclampsia.", "Say-this-not-that", 1),
+    ("Say: labor arrest", "Not 'failure to progress' — say labor arrest with a defined stage and criteria.", "Say-this-not-that", 2),
+    ("Say: recurrent pregnancy loss", "Not 'habitual aborter' — say recurrent pregnancy loss.", "Say-this-not-that", 2),
+    ("Say: Category II/III with features", "Not 'fetal distress' — describe the Category II/III tracing with its specified features.", "Say-this-not-that", 2),
+]
+
+
+def word_count(s):
+    return len(s.split())
+
+
+def main():
+    os.makedirs(OUT_DIR, exist_ok=True)
+    over = [(f, word_count(b)) for f, b, _, _ in CARDS if word_count(b) > 25]
+    assert not over, f"backs over 25 words: {over}"
+    assert len(CARDS) >= 120, f"only {len(CARDS)} cards, need >= 120"
+
+    csv_path = os.path.join(OUT_DIR, f"{COURSE}_Terms_v1.csv")
+    with open(csv_path, "w", newline="", encoding="utf-8") as fh:
+        w = csv.DictWriter(fh, fieldnames=["front", "back", "tag", "difficulty"])
+        w.writeheader()
+        for front, back, tag, diff in CARDS:
+            w.writerow({"front": front, "back": back, "tag": tag, "difficulty": diff})
+
+    md_path = os.path.join(OUT_DIR, f"{COURSE}_Terms_v1.md")
+    by_tag = {}
+    for front, back, tag, diff in CARDS:
+        by_tag.setdefault(tag, []).append((front, back, diff))
+    with open(md_path, "w", encoding="utf-8") as fh:
+        fh.write(f"# {COURSE} Nursing III — Terminology Master Deck (WO-B)\n")
+        fh.write(f"**Cards:** {len(CARDS)} · **Source:** {COURSE} lesson plan PART 1 "
+                 f"(glossary §§1.1–1.8, including the terminology-correction table). "
+                 f"Anki/Quizlet-importable mirror of the CSV.\n\n")
+        fh.write("> Terminology follows current usage. The 'Say-this-not-that' set encodes "
+                 "the §1.8 corrections. 17-OHPC is presented as **withdrawn (2023)**.\n\n")
+        for tag in by_tag:
+            fh.write(f"## {tag}\n\n| Front | Back | Diff |\n|---|---|---|\n")
+            for front, back, diff in by_tag[tag]:
+                fh.write(f"| {front} | {back} | {diff} |\n")
+            fh.write("\n")
+        fh.write("## GATE REPORT\n")
+        fh.write("- Gate 1 Citation: N/A (terminology from lesson-plan glossary).\n")
+        fh.write("- Gate 3 Terminology: PASS — say-this-not-that set enforces prelabor ROM, "
+                 "severe features, gHTN, Category II/III, FGR, labor arrest.\n")
+        fh.write("- Gate 7 Safety: PASS — 17-OHPC labeled withdrawn (2023); O₂ reversal card present.\n")
+        fh.write(f"- Gate 8 Cognitive load: PASS — every back ≤ 25 words "
+                 f"(max = {max(word_count(b) for _, b, _, _ in CARDS)}).\n")
+    print(f"wrote {csv_path} and {md_path}: {len(CARDS)} cards, "
+          f"max back {max(word_count(b) for _, b, _, _ in CARDS)} words")
+
+
+if __name__ == "__main__":
+    main()

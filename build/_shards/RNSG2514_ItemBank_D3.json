@@ -1,0 +1,511 @@
+{
+  "course": "RNSG2514",
+  "day": 3,
+  "items": [
+    {
+      "id": "2514-D3-301",
+      "objective_id": "2514-D3-1",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Prioritize Hypotheses",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Analyze",
+      "difficulty_target": "moderate",
+      "stem": "A patient at 29 weeks reports regular painful contractions every 5 minutes. Cervical exam shows 2 cm dilation with change over 2 hours. Which is the priority goal of care?",
+      "chart_data": {},
+      "options": [
+        "Deliver immediately regardless of gestational age",
+        "Delay birth long enough to give antenatal corticosteroids and magnesium neuroprotection",
+        "Discharge home with activity restriction only",
+        "Begin oxytocin augmentation"
+      ],
+      "key": [
+        "Delay birth long enough to give antenatal corticosteroids and magnesium neuroprotection"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Confirmed preterm labor before 32 weeks prioritizes buying time for steroids (lung maturity) and magnesium (neuroprotection). Principle: in previable-to-preterm labor, the goal is latency for fetal benefit, not immediate birth.",
+      "rationale_distractors": {
+        "Deliver immediately regardless of gestational age": "Right only for contraindications to continuing (e.g., abruption, Category III), absent here.",
+        "Discharge home with activity restriction only": "Unsafe with documented cervical change.",
+        "Begin oxytocin augmentation": "Contradicts the goal of stopping preterm contractions."
+      },
+      "source": "ACOG PB 171 (2016); PB 234 (2021)",
+      "keywords": [
+        "preterm labor",
+        "steroids",
+        "neuroprotection"
+      ]
+    },
+    {
+      "id": "2514-D3-302",
+      "objective_id": "2514-D3-2",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Take Actions",
+      "client_needs": "Pharmacological and Parenteral Therapies",
+      "bloom": "Apply",
+      "difficulty_target": "moderate",
+      "stem": "A patient at 30 weeks in preterm labor is ordered betamethasone. The patient asks what it does. Which response is most accurate?",
+      "chart_data": {},
+      "options": [
+        "It stops contractions immediately",
+        "It accelerates fetal lung maturity to reduce respiratory distress",
+        "It treats an infection",
+        "It lowers your blood pressure"
+      ],
+      "key": [
+        "It accelerates fetal lung maturity to reduce respiratory distress"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Antenatal corticosteroids speed surfactant production, reducing RDS, IVH, and NEC. Principle: steroids protect the fetus; tocolytics only buy the time to give them.",
+      "rationale_distractors": {
+        "It stops contractions immediately": "That is the tocolytic's role, not the steroid's.",
+        "It treats an infection": "Right description for an antibiotic, not a corticosteroid.",
+        "It lowers your blood pressure": "Describes an antihypertensive, unrelated to ACS."
+      },
+      "source": "ACOG CO 713 (2017)",
+      "keywords": [
+        "betamethasone",
+        "ACS",
+        "lung maturity"
+      ]
+    },
+    {
+      "id": "2514-D3-303",
+      "objective_id": "2514-D3-3",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Prioritize Hypotheses",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Analyze",
+      "difficulty_target": "hard",
+      "stem": "A patient at 30 weeks has a sudden gush of clear fluid; nitrazine turns blue and ferning is seen. She is afebrile with no contractions. Which management approach is most appropriate?",
+      "chart_data": {},
+      "options": [
+        "Immediate induction of labor",
+        "Expectant management with monitoring, antibiotics, and steroids",
+        "Repeated digital cervical exams every 2 hours",
+        "Discharge home with no follow-up"
+      ],
+      "key": [
+        "Expectant management with monitoring, antibiotics, and steroids"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "PPROM before 34 weeks without infection or labor is managed expectantly with latency antibiotics and steroids while monitoring for infection. Principle: before 34 weeks, prematurity risk usually outweighs the risk of waiting — unless infection intervenes.",
+      "rationale_distractors": {
+        "Immediate induction of labor": "Right at or beyond 34 weeks or if infection/Category III develops.",
+        "Repeated digital cervical exams every 2 hours": "Digital exams raise infection risk and are minimized after ROM.",
+        "Discharge home with no follow-up": "Unsafe; PPROM requires inpatient surveillance."
+      },
+      "source": "ACOG PB 217 (2020)",
+      "keywords": [
+        "PPROM",
+        "expectant management"
+      ]
+    },
+    {
+      "id": "2514-D3-304",
+      "objective_id": "2514-D3-3",
+      "item_type": "matrix_multiple_choice",
+      "ncjmm_operation": "Analyze Cues",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Analyze",
+      "difficulty_target": "moderate",
+      "stem": "For each feature, indicate whether it describes PROM (term) or PPROM (preterm).",
+      "chart_data": {},
+      "options": {
+        "rows": [
+          "Rupture at 39 weeks",
+          "Rupture at 31 weeks",
+          "Higher infection latency concern",
+          "Often proceeds to prompt delivery at term"
+        ],
+        "columns": [
+          "PROM (term)",
+          "PPROM (preterm)"
+        ]
+      },
+      "key": {
+        "Rupture at 39 weeks": "PROM (term)",
+        "Rupture at 31 weeks": "PPROM (preterm)",
+        "Higher infection latency concern": "PPROM (preterm)",
+        "Often proceeds to prompt delivery at term": "PROM (term)"
+      },
+      "scoring": "0/1",
+      "rationale_correct": "PROM is rupture at term; PPROM is before 37 weeks and carries greater infection and prematurity concern during latency. Principle: gestational age at rupture drives the whole management plan.",
+      "rationale_distractors": {
+        "(any swap)": "Assigning a preterm feature to term (or vice versa) reverses the age-based logic that governs care."
+      },
+      "source": "ACOG PB 217 (2020)",
+      "keywords": [
+        "PROM",
+        "PPROM",
+        "matrix"
+      ]
+    },
+    {
+      "id": "2514-D3-305",
+      "objective_id": "2514-D3-4",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Take Actions",
+      "client_needs": "Pharmacological and Parenteral Therapies",
+      "bloom": "Apply",
+      "difficulty_target": "hard",
+      "stem": "During an oxytocin induction, the monitor shows 7 contractions in 10 minutes with a Category II tracing showing recurrent late decelerations. Which action should the nurse take first?",
+      "chart_data": {},
+      "options": [
+        "Increase the oxytocin rate",
+        "Stop or decrease the oxytocin and reposition the patient",
+        "Perform an immediate cesarean without other measures",
+        "Document and continue as ordered"
+      ],
+      "key": [
+        "Stop or decrease the oxytocin and reposition the patient"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Tachysystole with a concerning tracing calls for reducing uterine stimulation first — stop or decrease oxytocin, reposition, and give fluids/oxygen as indicated. Principle: remove the cause (excess stimulation) before escalating to surgery.",
+      "rationale_distractors": {
+        "Increase the oxytocin rate": "Would worsen tachysystole and fetal compromise.",
+        "Perform an immediate cesarean without other measures": "Right if intrauterine resuscitation fails or the tracing becomes Category III.",
+        "Document and continue as ordered": "Ignores an actionable, correctable problem."
+      },
+      "source": "ACOG-SMFM OCC No. 1 (2014)",
+      "keywords": [
+        "tachysystole",
+        "oxytocin",
+        "first action"
+      ]
+    },
+    {
+      "id": "2514-D3-306",
+      "objective_id": "2514-D3-4",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Analyze Cues",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Apply",
+      "difficulty_target": "moderate",
+      "stem": "Before an induction, a patient has a Bishop score of 3. Which statement best guides planning?",
+      "chart_data": {},
+      "options": [
+        "The cervix is favorable; expect rapid response to oxytocin",
+        "The cervix is unfavorable; cervical ripening is likely needed first",
+        "Induction is contraindicated at any Bishop score",
+        "A cesarean is mandatory"
+      ],
+      "key": [
+        "The cervix is unfavorable; cervical ripening is likely needed first"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "A low Bishop score signals an unfavorable cervix and predicts a longer induction, so ripening agents are often used first. Principle: the Bishop score sets expectations and the ripening plan before oxytocin.",
+      "rationale_distractors": {
+        "The cervix is favorable; expect rapid response": "Describes a high Bishop score.",
+        "Induction is contraindicated at any Bishop score": "Untrue; a low score guides method, not prohibition.",
+        "A cesarean is mandatory": "Not indicated by a low Bishop score alone."
+      },
+      "source": "ACOG-SMFM OCC No. 1 (2014)",
+      "keywords": [
+        "Bishop score",
+        "ripening"
+      ]
+    },
+    {
+      "id": "2514-D3-307",
+      "objective_id": "2514-D3-5",
+      "item_type": "cloze_dropdown",
+      "ncjmm_operation": "Analyze Cues",
+      "client_needs": "Physiological Adaptation",
+      "bloom": "Analyze",
+      "difficulty_target": "hard",
+      "stem": "Complete the statement. A nulliparous patient in active labor has no cervical change over 4 hours despite contractions of [1] adequacy. This pattern is documented as [2] rather than the outdated term 'failure to progress'.",
+      "chart_data": {},
+      "options": {
+        "1": [
+          "adequate (≥200 Montevideo units)",
+          "absent",
+          "irregular and weak"
+        ],
+        "2": [
+          "labor arrest",
+          "precipitous labor",
+          "normal latent phase"
+        ]
+      },
+      "key": {
+        "1": "adequate (≥200 Montevideo units)",
+        "2": "labor arrest"
+      },
+      "scoring": "0/1",
+      "rationale_correct": "Arrest requires adequate contractions with no cervical change over a defined interval; the current term is labor arrest with stated criteria. Principle: name the specific arrest diagnosis, not the vague legacy phrase.",
+      "rationale_distractors": {
+        "absent / irregular contractions": "Inadequate contractions would be a protraction issue, not true arrest.",
+        "precipitous labor / normal latent phase": "Both describe different labor patterns that do not fit a stalled active phase."
+      },
+      "source": "ACOG-SMFM OCC No. 1 (2014)",
+      "keywords": [
+        "labor arrest",
+        "cloze",
+        "5 Ps"
+      ]
+    },
+    {
+      "id": "2514-D3-308",
+      "objective_id": "2514-D3-1",
+      "item_type": "sata",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Understand",
+      "difficulty_target": "easy",
+      "stem": "Select all findings that should prompt evaluation for preterm labor before 37 weeks.",
+      "chart_data": {},
+      "options": [
+        "Regular uterine contractions",
+        "Low, dull backache and pelvic pressure",
+        "Change in vaginal discharge or leaking fluid",
+        "Occasional fetal hiccups",
+        "Menstrual-like cramping"
+      ],
+      "key": [
+        "Regular uterine contractions",
+        "Low, dull backache and pelvic pressure",
+        "Change in vaginal discharge or leaking fluid",
+        "Menstrual-like cramping"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Regular contractions, pelvic pressure, discharge change, and cramping are preterm-labor warning signs warranting evaluation. Principle: teach patients the subtle preterm cues, not only overt contractions.",
+      "rationale_distractors": {
+        "Occasional fetal hiccups": "A normal, benign fetal finding unrelated to preterm labor."
+      },
+      "source": "ACOG PB 171 (2016)",
+      "keywords": [
+        "preterm labor",
+        "warning signs",
+        "SATA"
+      ]
+    },
+    {
+      "id": "2514-D3-309",
+      "objective_id": "2514-D3-2",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Prioritize Hypotheses",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Analyze",
+      "difficulty_target": "moderate",
+      "stem": "Two patients are in preterm labor: Patient A at 26 weeks and Patient B at 36 weeks, both afebrile and stable. For which patient is antenatal corticosteroid benefit greatest?",
+      "chart_data": {},
+      "options": [
+        "Patient B, because she is closer to term",
+        "Patient A, because earlier gestation carries higher risk of respiratory distress",
+        "Neither, because steroids are not used in preterm labor",
+        "Both equally, gestational age does not matter"
+      ],
+      "key": [
+        "Patient A, because earlier gestation carries higher risk of respiratory distress"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "The earlier the gestation within the window, the greater the absolute reduction in RDS, IVH, and NEC from steroids. Principle: prioritize interventions where the baseline risk — and thus the benefit — is highest.",
+      "rationale_distractors": {
+        "Patient B, because she is closer to term": "Steroids still have a role near 34–36 weeks but the absolute benefit is smaller.",
+        "Neither, because steroids are not used": "False; ACS is standard in this window.",
+        "Both equally": "Ignores the gestational-age gradient of benefit."
+      },
+      "source": "ACOG CO 713 (2017)",
+      "keywords": [
+        "ACS",
+        "prioritize",
+        "gestational age"
+      ]
+    },
+    {
+      "id": "2514-D3-310",
+      "objective_id": "2514-D3-3",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Take Actions",
+      "client_needs": "Safety and Infection Control",
+      "bloom": "Apply",
+      "difficulty_target": "moderate",
+      "stem": "A patient with PPROM at 31 weeks is admitted. Which nursing measure best reduces her infection risk?",
+      "chart_data": {},
+      "options": [
+        "Perform frequent digital cervical checks",
+        "Minimize digital vaginal examinations and monitor temperature and fetal heart rate",
+        "Encourage tub bathing",
+        "Discontinue all monitoring to promote rest"
+      ],
+      "key": [
+        "Minimize digital vaginal examinations and monitor temperature and fetal heart rate"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "After ROM, each digital exam introduces organisms; minimizing exams and monitoring for infection protects the patient. Principle: fewer digital exams after ROM means fewer intraamniotic infections.",
+      "rationale_distractors": {
+        "Perform frequent digital cervical checks": "The opposite of safe practice after ROM.",
+        "Encourage tub bathing": "Not recommended after membrane rupture.",
+        "Discontinue all monitoring to promote rest": "Unsafe; surveillance for infection and fetal status is essential."
+      },
+      "source": "ACOG PB 217 (2020)",
+      "keywords": [
+        "PPROM",
+        "infection control"
+      ]
+    },
+    {
+      "id": "2514-D3-311",
+      "objective_id": "2514-D3-4",
+      "item_type": "trend",
+      "ncjmm_operation": "Evaluate Outcomes",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Analyze",
+      "difficulty_target": "hard",
+      "stem": "After oxytocin was decreased for tachysystole, review the tracing summary and select the interpretation that reflects the fetal response.",
+      "chart_data": {
+        "tracing": "hour 0: 7 contractions/10 min, late decels, minimal variability; hour 1: 5 contractions/10 min, occasional late decel, variability returning; hour 2: 4 contractions/10 min, no decels, moderate variability"
+      },
+      "options": [
+        "The intervention worked; contraction frequency and tracing improved",
+        "The fetus is deteriorating despite intervention",
+        "No change occurred after the intervention",
+        "Uterine activity increased further"
+      ],
+      "key": [
+        "The intervention worked; contraction frequency and tracing improved"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Across the three checks, contraction frequency falls to normal and variability recovers with resolving decelerations — an effective response. Principle: confirm intrauterine resuscitation worked by trending contractions and the tracing, not one strip.",
+      "rationale_distractors": {
+        "deteriorating / no change / increased activity": "Each fits a different trend; the recorded improvement excludes them."
+      },
+      "source": "ACOG-SMFM OCC No. 1 (2014)",
+      "keywords": [
+        "tachysystole",
+        "trend",
+        "evaluate"
+      ]
+    },
+    {
+      "id": "2514-D3-312",
+      "objective_id": "2514-D3-5",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Analyze Cues",
+      "client_needs": "Physiological Adaptation",
+      "bloom": "Analyze",
+      "difficulty_target": "moderate",
+      "stem": "A laboring patient with a fetus in the occiput posterior position reports intense back pain and slow progress. Using the 5 Ps, which factor best explains this pattern?",
+      "chart_data": {},
+      "options": [
+        "Powers (contraction strength)",
+        "Passenger (fetal position)",
+        "Psyche (maternal coping)",
+        "Passageway is absolutely inadequate"
+      ],
+      "key": [
+        "Passenger (fetal position)"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Occiput posterior positioning is a Passenger issue that causes back labor and slows descent. Principle: use the 5 Ps to localize the cause of dysfunctional labor before intervening.",
+      "rationale_distractors": {
+        "Powers (contraction strength)": "Right when contractions are inadequate by Montevideo units.",
+        "Psyche (maternal coping)": "Right when fear or exhaustion is impeding labor, not positional back pain.",
+        "Passageway is absolutely inadequate": "Overstates the data; malposition, not a fixed pelvic block, fits here."
+      },
+      "source": "ACOG-SMFM OCC No. 1 (2014)",
+      "keywords": [
+        "5 Ps",
+        "occiput posterior",
+        "dystocia"
+      ]
+    },
+    {
+      "id": "2514-D3-313",
+      "objective_id": "2514-D3-3",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Understand",
+      "difficulty_target": "easy",
+      "stem": "A patient reports leaking fluid. Which combination of bedside findings best supports rupture of membranes?",
+      "chart_data": {},
+      "options": [
+        "Nitrazine paper turns yellow and no ferning",
+        "Nitrazine paper turns blue and ferning is seen on microscopy",
+        "Acidic pH with heavy discharge",
+        "Absent fluid with intact membranes on exam"
+      ],
+      "key": [
+        "Nitrazine paper turns blue and ferning is seen on microscopy"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Alkaline amniotic fluid turns nitrazine blue and dries in a fern pattern, confirming rupture. Principle: blue nitrazine plus ferning together support ROM more than either alone.",
+      "rationale_distractors": {
+        "Nitrazine paper turns yellow and no ferning": "Suggests intact membranes or acidic secretions.",
+        "Acidic pH with heavy discharge": "Points away from amniotic fluid.",
+        "Absent fluid with intact membranes on exam": "Argues against rupture."
+      },
+      "source": "ACOG PB 217 (2020)",
+      "keywords": [
+        "ROM",
+        "nitrazine",
+        "ferning"
+      ]
+    },
+    {
+      "id": "2514-D3-314",
+      "objective_id": "2514-D3-1",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Understand",
+      "difficulty_target": "easy",
+      "stem": "Which gestational-age range defines preterm birth that the nurse teaches patients to watch for?",
+      "chart_data": {},
+      "options": [
+        "Before 20 weeks",
+        "20 0/7 to 36 6/7 weeks",
+        "37 to 38 weeks",
+        "39 weeks and beyond"
+      ],
+      "key": [
+        "20 0/7 to 36 6/7 weeks"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Preterm birth occurs from 20 0/7 through 36 6/7 weeks; before 20 weeks is a loss, and 37 weeks and beyond is term. Principle: anchor 'preterm' to the 20-to-37-week window.",
+      "rationale_distractors": {
+        "Before 20 weeks": "That range is defined as pregnancy loss/abortion.",
+        "37 to 38 weeks": "That is early term.",
+        "39 weeks and beyond": "That is full term."
+      },
+      "source": "ACOG PB 171 (2016)",
+      "keywords": [
+        "preterm",
+        "definition"
+      ]
+    },
+    {
+      "id": "2514-D3-315",
+      "objective_id": "2514-D3-4",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Understand",
+      "difficulty_target": "easy",
+      "stem": "The monitor shows 7 contractions in a 10-minute window averaged over 30 minutes. How should the nurse document this contraction pattern?",
+      "chart_data": {},
+      "options": [
+        "Normal labor pattern",
+        "Tachysystole",
+        "Hypotonic labor",
+        "Latent phase"
+      ],
+      "key": [
+        "Tachysystole"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "More than five contractions in 10 minutes averaged over 30 minutes is tachysystole. Principle: name the pattern precisely because it changes management of oxytocin.",
+      "rationale_distractors": {
+        "Normal labor pattern": "Normal is up to five contractions per 10 minutes.",
+        "Hypotonic labor": "Describes too-weak, infrequent contractions.",
+        "Latent phase": "Describes early cervical dilation, not contraction frequency."
+      },
+      "source": "ACOG-SMFM OCC No. 1 (2014)",
+      "keywords": [
+        "tachysystole",
+        "definition"
+      ]
+    }
+  ]
+}

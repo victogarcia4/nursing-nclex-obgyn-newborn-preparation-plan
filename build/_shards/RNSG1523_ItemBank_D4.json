@@ -1,0 +1,620 @@
+{
+  "course": "RNSG1523",
+  "day": 4,
+  "items": [
+    {
+      "id": "1523-D4-401",
+      "objective_id": "1523-D4-1",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Generate Solutions",
+      "client_needs": "Health Promotion and Maintenance",
+      "bloom": "Apply",
+      "difficulty_target": "moderate",
+      "stem": "A patient with a prepregnancy BMI in the normal range asks how much weight she should gain during a singleton pregnancy. Which range does the nurse cite from national guidance?",
+      "chart_data": {},
+      "options": [
+        "11 to 20 pounds",
+        "25 to 35 pounds",
+        "40 to 50 pounds",
+        "Weight gain should be avoided"
+      ],
+      "key": [
+        "25 to 35 pounds"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Normal-BMI patients are advised to gain about 25 to 35 pounds per the IOM 2009 guidance. Principle: individualize gestational weight-gain targets by prepregnancy BMI.",
+      "rationale_distractors": {
+        "11 to 20 pounds": "The range for patients with obesity.",
+        "40 to 50 pounds": "Exceeds recommendations for a normal-BMI singleton pregnancy.",
+        "Weight gain should be avoided": "Unsafe; appropriate gain supports fetal growth."
+      },
+      "source": "IOM/NRC (2009); ACOG CO 548 (2013)",
+      "keywords": [
+        "weight gain",
+        "BMI"
+      ]
+    },
+    {
+      "id": "1523-D4-402",
+      "objective_id": "1523-D4-1",
+      "item_type": "sata",
+      "ncjmm_operation": "Generate Solutions",
+      "client_needs": "Health Promotion and Maintenance",
+      "bloom": "Apply",
+      "difficulty_target": "moderate",
+      "stem": "Select all appropriate nutrition teaching points for a pregnant patient.",
+      "chart_data": {},
+      "options": [
+        "Take the recommended folic acid daily",
+        "Avoid unpasteurized dairy and deli meats unless heated",
+        "Limit high-mercury fish",
+        "Consume raw or undercooked eggs for protein",
+        "Include adequate iron-rich foods"
+      ],
+      "key": [
+        "Take the recommended folic acid daily",
+        "Avoid unpasteurized dairy and deli meats unless heated",
+        "Limit high-mercury fish",
+        "Include adequate iron-rich foods"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Prenatal nutrition emphasizes folate, listeria precautions, mercury limits, and iron. Principle: prenatal food safety is as important as adequate intake.",
+      "rationale_distractors": {
+        "Consume raw or undercooked eggs for protein": "Raises foodborne-illness risk and is not recommended."
+      },
+      "source": "IOM/NRC (2009); Lowdermilk 13th ed.",
+      "keywords": [
+        "nutrition",
+        "food safety",
+        "SATA"
+      ]
+    },
+    {
+      "id": "1523-D4-403",
+      "objective_id": "1523-D4-3",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Analyze Cues",
+      "client_needs": "Pharmacological and Parenteral Therapies",
+      "bloom": "Analyze",
+      "difficulty_target": "hard",
+      "stem": "A patient asks whether a medication is safe in pregnancy and points to an old 'Category C' label. How should the nurse explain current drug labeling?",
+      "chart_data": {},
+      "options": [
+        "Letter categories are still the official FDA system",
+        "The FDA replaced letter categories with narrative Pregnancy and Lactation Labeling",
+        "Category C means the drug is completely safe",
+        "All Category C drugs are contraindicated"
+      ],
+      "key": [
+        "The FDA replaced letter categories with narrative Pregnancy and Lactation Labeling"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "The PLLR replaced the A/B/C/D/X letters with narrative risk information; letters persist only in older references. Principle: interpret current labels as narrative risk summaries, not letters.",
+      "rationale_distractors": {
+        "Letter categories are still the official FDA system": "They were removed by the PLLR.",
+        "Category C means the drug is completely safe": "The letters never meant simple safety.",
+        "All Category C drugs are contraindicated": "Overgeneralizes; risk-benefit is individualized."
+      },
+      "source": "FDA PLLR (2014)",
+      "keywords": [
+        "PLLR",
+        "letter categories",
+        "over-sample"
+      ]
+    },
+    {
+      "id": "1523-D4-404",
+      "objective_id": "1523-D4-3",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Analyze Cues",
+      "client_needs": "Pharmacological and Parenteral Therapies",
+      "bloom": "Analyze",
+      "difficulty_target": "moderate",
+      "stem": "Which medication class should the nurse recognize as fetotoxic and generally contraindicated in pregnancy?",
+      "chart_data": {},
+      "options": [
+        "Prenatal vitamins",
+        "ACE inhibitors and ARBs",
+        "Acetaminophen at recommended doses",
+        "Iron supplements"
+      ],
+      "key": [
+        "ACE inhibitors and ARBs"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "ACE inhibitors and ARBs are fetotoxic, especially in later pregnancy, and are avoided. Principle: flag renally active antihypertensives as pregnancy-contraindicated.",
+      "rationale_distractors": {
+        "Prenatal vitamins": "Recommended in pregnancy.",
+        "Acetaminophen at recommended doses": "Generally considered acceptable for pain or fever.",
+        "Iron supplements": "Used to treat or prevent anemia."
+      },
+      "source": "FDA PLLR (2014)",
+      "keywords": [
+        "teratogen",
+        "ACE/ARB",
+        "PLLR"
+      ]
+    },
+    {
+      "id": "1523-D4-405",
+      "objective_id": "1523-D4-4",
+      "item_type": "matrix_multiple_choice",
+      "ncjmm_operation": "Analyze Cues",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Analyze",
+      "difficulty_target": "hard",
+      "stem": "For each report, indicate whether it is a Normal discomfort of pregnancy or a Warning sign requiring prompt evaluation.",
+      "chart_data": {},
+      "options": {
+        "rows": [
+          "Mild ankle swelling at the end of the day",
+          "Severe persistent headache with visual changes",
+          "Occasional heartburn",
+          "Vaginal bleeding",
+          "Sudden facial and hand edema"
+        ],
+        "columns": [
+          "Normal discomfort",
+          "Warning sign"
+        ]
+      },
+      "key": {
+        "Mild ankle swelling at the end of the day": "Normal discomfort",
+        "Severe persistent headache with visual changes": "Warning sign",
+        "Occasional heartburn": "Normal discomfort",
+        "Vaginal bleeding": "Warning sign",
+        "Sudden facial and hand edema": "Warning sign"
+      },
+      "scoring": "0/1",
+      "rationale_correct": "Severe headache with visual change, bleeding, and sudden facial/hand edema are warning signs; mild dependent swelling and heartburn are normal. Principle: severity, suddenness, and location separate danger from normal discomfort.",
+      "rationale_distractors": {
+        "(any swap)": "Calling a warning sign 'normal' risks missing preeclampsia or hemorrhage; calling normal heartburn a warning sign causes needless alarm."
+      },
+      "source": "Lowdermilk 13th ed.",
+      "keywords": [
+        "warning signs",
+        "discomforts",
+        "matrix",
+        "over-sample"
+      ]
+    },
+    {
+      "id": "1523-D4-406",
+      "objective_id": "1523-D4-6",
+      "item_type": "highlight",
+      "ncjmm_operation": "Prioritize Hypotheses",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Analyze",
+      "difficulty_target": "hard",
+      "stem": "Highlight the warning signs in this triage call note that require prompt evaluation. '28 weeks, reports mild nasal congestion, a severe headache that will not go away, blurred vision, mild ankle swelling, and sudden swelling of the face and hands.'",
+      "chart_data": {},
+      "options": [
+        "severe headache that will not go away",
+        "blurred vision",
+        "sudden swelling of the face and hands",
+        "mild nasal congestion",
+        "mild ankle swelling"
+      ],
+      "key": [
+        "severe headache that will not go away",
+        "blurred vision",
+        "sudden swelling of the face and hands"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Severe persistent headache, visual change, and sudden facial/hand edema suggest preeclampsia and need urgent evaluation. Principle: cluster these signs together — they point to one dangerous diagnosis.",
+      "rationale_distractors": {
+        "mild nasal congestion": "A common benign discomfort (rhinitis of pregnancy).",
+        "mild ankle swelling": "Normal dependent edema, unlike sudden facial/hand swelling."
+      },
+      "source": "Lowdermilk 13th ed.",
+      "keywords": [
+        "warning signs",
+        "highlight",
+        "preeclampsia",
+        "over-sample"
+      ]
+    },
+    {
+      "id": "1523-D4-407",
+      "objective_id": "1523-D4-6",
+      "item_type": "extended_drag_drop",
+      "ncjmm_operation": "Prioritize Hypotheses",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Apply",
+      "difficulty_target": "moderate",
+      "stem": "A prenatal patient calls the triage line with several complaints. Rank these reports from highest to lowest priority for the nurse to address.",
+      "chart_data": {},
+      "options": [
+        "Vaginal bleeding with cramping",
+        "Severe headache with blurred vision",
+        "Mild constipation",
+        "Occasional round ligament twinge"
+      ],
+      "key": [
+        "Vaginal bleeding with cramping",
+        "Severe headache with blurred vision",
+        "Mild constipation",
+        "Occasional round ligament twinge"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Bleeding and neurologic warning signs outrank benign discomforts; both danger signs are addressed before constipation or ligament pain. Principle: triage by threat to mother and fetus, not order of mention.",
+      "rationale_distractors": {
+        "Mild constipation / round ligament twinge": "Both are normal discomforts, correctly ranked lowest, not urgent."
+      },
+      "source": "Lowdermilk 13th ed.",
+      "keywords": [
+        "triage",
+        "warning signs",
+        "drag drop"
+      ]
+    },
+    {
+      "id": "1523-D4-408",
+      "objective_id": "1523-D4-2",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Evaluate Outcomes",
+      "client_needs": "Health Promotion and Maintenance",
+      "bloom": "Apply",
+      "difficulty_target": "easy",
+      "stem": "During exercise, which symptom should the nurse teach a pregnant patient to stop and seek evaluation for?",
+      "chart_data": {},
+      "options": [
+        "Mild increase in heart rate",
+        "Vaginal bleeding or fluid leakage",
+        "Feeling warm",
+        "Light perspiration"
+      ],
+      "key": [
+        "Vaginal bleeding or fluid leakage"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Bleeding or fluid leakage during exercise is a stop-and-evaluate warning sign; mild heart-rate rise and perspiration are expected. Principle: teach the specific stop-exercise danger signs.",
+      "rationale_distractors": {
+        "Mild increase in heart rate": "An expected exercise response.",
+        "Feeling warm": "Normal with activity; overheating specifically is the concern.",
+        "Light perspiration": "A normal exercise response."
+      },
+      "source": "ACOG CO 804 (2020)",
+      "keywords": [
+        "exercise",
+        "warning signs",
+        "evaluate"
+      ]
+    },
+    {
+      "id": "1523-D4-409",
+      "objective_id": "1523-D4-4",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Generate Solutions",
+      "client_needs": "Basic Care and Comfort",
+      "bloom": "Apply",
+      "difficulty_target": "easy",
+      "stem": "A patient in the first trimester reports nausea. Which self-care measure should the nurse suggest first?",
+      "chart_data": {},
+      "options": [
+        "Eat small, frequent, bland meals and crackers before rising",
+        "Skip breakfast entirely",
+        "Eat large high-fat meals",
+        "Take an antiemetic before trying any dietary change"
+      ],
+      "key": [
+        "Eat small, frequent, bland meals and crackers before rising"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Small, frequent, bland meals and dry crackers before rising are first-line for mild nausea of pregnancy. Principle: start with dietary and behavioral measures before medication.",
+      "rationale_distractors": {
+        "Skip breakfast entirely": "An empty stomach often worsens nausea.",
+        "Eat large high-fat meals": "Fatty, large meals aggravate nausea.",
+        "Take an antiemetic before trying any dietary change": "Medication follows non-pharmacologic measures for mild nausea."
+      },
+      "source": "ACOG PB 189 (2018); Lowdermilk 13th ed.",
+      "keywords": [
+        "discomforts",
+        "nausea",
+        "self-care"
+      ]
+    },
+    {
+      "id": "1523-D4-410",
+      "objective_id": "1523-D4-5",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Generate Solutions",
+      "client_needs": "Health Promotion and Maintenance",
+      "bloom": "Apply",
+      "difficulty_target": "easy",
+      "stem": "A patient planning to breastfeed asks about breast care in pregnancy. Which teaching is appropriate?",
+      "chart_data": {},
+      "options": [
+        "Vigorously scrub the nipples with soap to toughen them",
+        "Wear a supportive bra and avoid harsh soaps on the nipples",
+        "Apply alcohol to the nipples daily",
+        "Express colostrum frequently before term"
+      ],
+      "key": [
+        "Wear a supportive bra and avoid harsh soaps on the nipples"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Gentle breast care with a supportive bra and avoiding drying agents prepares for lactation. Principle: protect skin integrity rather than 'toughening' the nipples.",
+      "rationale_distractors": {
+        "Vigorously scrub the nipples with soap to toughen them": "Outdated and damaging advice.",
+        "Apply alcohol to the nipples daily": "Dries and cracks the skin.",
+        "Express colostrum frequently before term": "Not routinely advised and can stimulate contractions."
+      },
+      "source": "Lowdermilk 13th ed.",
+      "keywords": [
+        "breast care",
+        "lactation"
+      ]
+    },
+    {
+      "id": "1523-D4-411",
+      "objective_id": "1523-D4-1",
+      "item_type": "cloze_dropdown",
+      "ncjmm_operation": "Generate Solutions",
+      "client_needs": "Health Promotion and Maintenance",
+      "bloom": "Apply",
+      "difficulty_target": "moderate",
+      "stem": "Complete the counseling. A patient with a prepregnancy BMI in the obese range should be counseled to gain about [1] during a singleton pregnancy, and the nurse should [2].",
+      "chart_data": {},
+      "options": {
+        "1": [
+          "11 to 20 pounds",
+          "25 to 35 pounds",
+          "40 to 50 pounds"
+        ],
+        "2": [
+          "individualize the plan and avoid dieting for weight loss",
+          "recommend fasting one day per week",
+          "advise no weight monitoring"
+        ]
+      },
+      "key": {
+        "1": "11 to 20 pounds",
+        "2": "individualize the plan and avoid dieting for weight loss"
+      },
+      "scoring": "0/1",
+      "rationale_correct": "Patients with obesity are advised to gain about 11 to 20 pounds, with an individualized plan and no intentional weight-loss dieting in pregnancy. Principle: adjust the target to BMI while still supporting fetal growth.",
+      "rationale_distractors": {
+        "25 to 35 pounds / 40 to 50 pounds": "Ranges for normal-BMI or excessive gain.",
+        "recommend fasting / advise no weight monitoring": "Both are unsafe or non-standard."
+      },
+      "source": "IOM/NRC (2009)",
+      "keywords": [
+        "weight gain",
+        "obesity",
+        "cloze"
+      ]
+    },
+    {
+      "id": "1523-D4-412",
+      "objective_id": "1523-D4-4",
+      "item_type": "sata",
+      "ncjmm_operation": "Generate Solutions",
+      "client_needs": "Basic Care and Comfort",
+      "bloom": "Apply",
+      "difficulty_target": "moderate",
+      "stem": "Select all appropriate teaching points for common discomforts of pregnancy.",
+      "chart_data": {},
+      "options": [
+        "For heartburn, eat smaller meals and avoid lying down right after eating",
+        "For constipation, increase fiber and fluids and stay active",
+        "For back pain, use good body mechanics and supportive footwear",
+        "For leg cramps, point the toes downward and hold",
+        "For nausea, try small frequent bland meals"
+      ],
+      "key": [
+        "For heartburn, eat smaller meals and avoid lying down right after eating",
+        "For constipation, increase fiber and fluids and stay active",
+        "For back pain, use good body mechanics and supportive footwear",
+        "For nausea, try small frequent bland meals"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Evidence-based comfort teaching targets each discomfort; for leg cramps, dorsiflex (toes up), not point them down. Principle: match each discomfort to its specific relief measure.",
+      "rationale_distractors": {
+        "For leg cramps, point the toes downward and hold": "Plantarflexion can worsen the cramp; dorsiflexion relieves it."
+      },
+      "source": "Lowdermilk 13th ed.",
+      "keywords": [
+        "discomforts",
+        "teaching",
+        "SATA"
+      ]
+    },
+    {
+      "id": "1523-D4-413",
+      "objective_id": "1523-D4-3",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Pharmacological and Parenteral Therapies",
+      "bloom": "Understand",
+      "difficulty_target": "easy",
+      "stem": "What does the abbreviation PLLR stand for in current FDA medication labeling?",
+      "chart_data": {},
+      "options": [
+        "Pregnancy and Lactation Labeling Rule",
+        "Prenatal Laboratory and Lab Reference",
+        "Postpartum Lactation and Lipid Review",
+        "Pregnancy Letter Labeling Rule"
+      ],
+      "key": [
+        "Pregnancy and Lactation Labeling Rule"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "PLLR is the Pregnancy and Lactation Labeling Rule, the narrative labeling that replaced the letter categories. Principle: know the current labeling system by name.",
+      "rationale_distractors": {
+        "Prenatal Laboratory and Lab Reference": "Not a labeling system.",
+        "Postpartum Lactation and Lipid Review": "Fabricated term.",
+        "Pregnancy Letter Labeling Rule": "The PLLR specifically removed letters."
+      },
+      "source": "FDA PLLR (2014)",
+      "keywords": [
+        "PLLR",
+        "definition",
+        "over-sample"
+      ]
+    },
+    {
+      "id": "1523-D4-414",
+      "objective_id": "1523-D4-6",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Prioritize Hypotheses",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Analyze",
+      "difficulty_target": "hard",
+      "stem": "A patient at 30 weeks calls reporting several symptoms. Which report should the nurse address as the highest priority?",
+      "chart_data": {},
+      "options": [
+        "Mild lower back ache",
+        "Sudden gush of watery fluid from the vagina",
+        "Occasional Braxton Hicks contractions",
+        "Mild ankle swelling in the evening"
+      ],
+      "key": [
+        "Sudden gush of watery fluid from the vagina"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "A sudden gush of fluid suggests preterm rupture of membranes and needs immediate evaluation. Principle: possible membrane rupture before term outranks benign discomforts.",
+      "rationale_distractors": {
+        "Mild lower back ache": "Common in pregnancy unless it becomes rhythmic pressure.",
+        "Occasional Braxton Hicks contractions": "Normal practice contractions.",
+        "Mild ankle swelling in the evening": "Normal dependent edema."
+      },
+      "source": "Lowdermilk 13th ed.",
+      "keywords": [
+        "warning signs",
+        "prioritize",
+        "PROM"
+      ]
+    },
+    {
+      "id": "1523-D4-415",
+      "objective_id": "1523-D4-4",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Generate Solutions",
+      "client_needs": "Basic Care and Comfort",
+      "bloom": "Apply",
+      "difficulty_target": "easy",
+      "stem": "A pregnant patient reports constipation. Which self-care measure should the nurse recommend first?",
+      "chart_data": {},
+      "options": [
+        "Increase dietary fiber, fluids, and activity",
+        "Begin a daily stimulant laxative indefinitely",
+        "Restrict all fluids",
+        "Avoid all physical activity"
+      ],
+      "key": [
+        "Increase dietary fiber, fluids, and activity"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Fiber, fluids, and activity are first-line for constipation in pregnancy. Principle: use dietary and lifestyle measures before laxatives.",
+      "rationale_distractors": {
+        "Begin a daily stimulant laxative indefinitely": "Not first-line and not for indefinite use.",
+        "Restrict all fluids": "Worsens constipation.",
+        "Avoid all physical activity": "Activity helps bowel function."
+      },
+      "source": "Lowdermilk 13th ed.",
+      "keywords": [
+        "discomforts",
+        "constipation"
+      ]
+    },
+    {
+      "id": "1523-D4-416",
+      "objective_id": "1523-D4-2",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Generate Solutions",
+      "client_needs": "Health Promotion and Maintenance",
+      "bloom": "Apply",
+      "difficulty_target": "easy",
+      "stem": "A patient in an uncomplicated pregnancy asks about exercise. Which teaching is appropriate?",
+      "chart_data": {},
+      "options": [
+        "Most patients can do about 150 minutes of moderate activity weekly unless contraindicated",
+        "All exercise should stop during pregnancy",
+        "Only bed rest is safe",
+        "High-risk contact sports are encouraged"
+      ],
+      "key": [
+        "Most patients can do about 150 minutes of moderate activity weekly unless contraindicated"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Moderate activity (about 150 minutes weekly) is recommended in uncomplicated pregnancy. Principle: encourage safe activity while teaching the stop-exercise warning signs.",
+      "rationale_distractors": {
+        "All exercise should stop during pregnancy": "Contradicts guidance for uncomplicated pregnancy.",
+        "Only bed rest is safe": "Bed rest is not routinely recommended.",
+        "High-risk contact sports are encouraged": "Contact and fall-risk sports are discouraged."
+      },
+      "source": "ACOG CO 804 (2020)",
+      "keywords": [
+        "exercise",
+        "activity"
+      ]
+    },
+    {
+      "id": "1523-D4-417",
+      "objective_id": "1523-D4-1",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Analyze Cues",
+      "client_needs": "Health Promotion and Maintenance",
+      "bloom": "Analyze",
+      "difficulty_target": "hard",
+      "stem": "A patient reports following a strict vegan diet. Which nutrient deficiency should the nurse most specifically assess and counsel about in pregnancy?",
+      "chart_data": {},
+      "options": [
+        "Vitamin C",
+        "Vitamin B12",
+        "Vitamin K",
+        "Sodium"
+      ],
+      "key": [
+        "Vitamin B12"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Vitamin B12 is found mainly in animal products, so a strict vegan diet risks deficiency that affects fetal neurologic development. Principle: match the deficiency risk to the dietary pattern.",
+      "rationale_distractors": {
+        "Vitamin C": "Abundant in plant foods, rarely deficient in vegans.",
+        "Vitamin K": "Widely available in plant foods.",
+        "Sodium": "Rarely deficient; excess is the more common concern."
+      },
+      "source": "Lowdermilk 13th ed.",
+      "keywords": [
+        "nutrition",
+        "vegan",
+        "B12"
+      ]
+    },
+    {
+      "id": "1523-D4-418",
+      "objective_id": "1523-D4-6",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Understand",
+      "difficulty_target": "moderate",
+      "stem": "Which patient report during pregnancy should the nurse recognize as a warning sign of possible preeclampsia rather than a normal discomfort?",
+      "chart_data": {},
+      "options": [
+        "Mild swelling of the feet after standing",
+        "A severe, persistent headache with visual changes",
+        "Occasional heartburn",
+        "Round ligament pain with movement"
+      ],
+      "key": [
+        "A severe, persistent headache with visual changes"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "A severe persistent headache with visual changes is a preeclampsia warning sign, unlike benign dependent swelling or heartburn. Principle: pair neurologic-visual symptoms with hypertensive disease.",
+      "rationale_distractors": {
+        "Mild swelling of the feet after standing": "Normal dependent edema.",
+        "Occasional heartburn": "A common discomfort.",
+        "Round ligament pain with movement": "A normal stretching pain."
+      },
+      "source": "Lowdermilk 13th ed.",
+      "keywords": [
+        "warning signs",
+        "preeclampsia",
+        "over-sample"
+      ]
+    }
+  ]
+}

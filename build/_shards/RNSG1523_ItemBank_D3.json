@@ -1,0 +1,502 @@
+{
+  "course": "RNSG1523",
+  "day": 3,
+  "items": [
+    {
+      "id": "1523-D3-301",
+      "objective_id": "1523-D3-2",
+      "item_type": "matrix_grid",
+      "ncjmm_operation": "Analyze Cues",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Analyze",
+      "difficulty_target": "hard",
+      "stem": "Classify each prenatal test as a Screening test or a Diagnostic test.",
+      "chart_data": {},
+      "options": {
+        "rows": [
+          "Cell-free DNA (NIPT)",
+          "Quad screen",
+          "Chorionic villus sampling",
+          "Amniocentesis",
+          "1-hour glucose challenge test"
+        ],
+        "columns": [
+          "Screening",
+          "Diagnostic"
+        ]
+      },
+      "key": {
+        "Cell-free DNA (NIPT)": "Screening",
+        "Quad screen": "Screening",
+        "Chorionic villus sampling": "Diagnostic",
+        "Amniocentesis": "Diagnostic",
+        "1-hour glucose challenge test": "Screening"
+      },
+      "scoring": "0/1",
+      "rationale_correct": "Screening tests estimate risk (cfDNA, quad, GCT); diagnostic tests provide a karyotype (CVS, amniocentesis). Principle: a positive screen estimates probability and is confirmed by a diagnostic test.",
+      "rationale_distractors": {
+        "(any swap)": "Labeling cfDNA 'diagnostic' or amniocentesis 'screening' confuses risk estimation with confirmation and misguides counseling."
+      },
+      "source": "ACOG PB 226 (2020)",
+      "keywords": [
+        "screening vs diagnostic",
+        "matrix",
+        "over-sample"
+      ]
+    },
+    {
+      "id": "1523-D3-302",
+      "objective_id": "1523-D3-3",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Analyze Cues",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Analyze",
+      "difficulty_target": "hard",
+      "stem": "A patient's cell-free DNA screen returns 'high risk' for trisomy 21. How should the nurse explain the result?",
+      "chart_data": {},
+      "options": [
+        "It confirms the fetus has Down syndrome",
+        "It is a screening result that estimates increased risk and needs diagnostic confirmation",
+        "It rules out all other chromosomal conditions",
+        "It requires immediate pregnancy termination"
+      ],
+      "key": [
+        "It is a screening result that estimates increased risk and needs diagnostic confirmation"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "cfDNA is a screen; a high-risk result raises probability but requires diagnostic testing (CVS or amniocentesis) to confirm. Principle: never treat a screening result as a diagnosis.",
+      "rationale_distractors": {
+        "It confirms the fetus has Down syndrome": "Only a diagnostic karyotype confirms.",
+        "It rules out all other chromosomal conditions": "cfDNA targets specific trisomies, not all conditions.",
+        "It requires immediate pregnancy termination": "Directive and premature; counseling and confirmation come first."
+      },
+      "source": "ACOG PB 226 (2020)",
+      "keywords": [
+        "cfDNA",
+        "screening vs diagnostic",
+        "over-sample"
+      ]
+    },
+    {
+      "id": "1523-D3-303",
+      "objective_id": "1523-D3-2",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Understand",
+      "difficulty_target": "moderate",
+      "stem": "At which gestational-age window is a vaginal-rectal culture for group B streptococcus collected?",
+      "chart_data": {},
+      "options": [
+        "8 to 12 weeks",
+        "20 to 24 weeks",
+        "36 0/7 to 37 6/7 weeks",
+        "Only during active labor"
+      ],
+      "key": [
+        "36 0/7 to 37 6/7 weeks"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "GBS screening is done at 36 0/7 to 37 6/7 weeks so results guide intrapartum antibiotic prophylaxis. Principle: time GBS screening near term so the culture reflects labor-time colonization.",
+      "rationale_distractors": {
+        "8 to 12 weeks": "Too early to predict intrapartum status.",
+        "20 to 24 weeks": "Too early; colonization can change.",
+        "Only during active labor": "Culture results are not available quickly enough in labor."
+      },
+      "source": "ACOG CO 797 (2020)",
+      "keywords": [
+        "GBS",
+        "screening timing"
+      ]
+    },
+    {
+      "id": "1523-D3-304",
+      "objective_id": "1523-D3-4",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Generate Solutions",
+      "client_needs": "Management of Care",
+      "bloom": "Apply",
+      "difficulty_target": "moderate",
+      "stem": "A patient is offered amniocentesis for diagnostic testing. Which nursing action best supports ethical, patient-centered care?",
+      "chart_data": {},
+      "options": [
+        "Tell her she must have the test",
+        "Provide information and support her right to accept or decline",
+        "Perform the test without discussing risks",
+        "Decide for her based on her age"
+      ],
+      "key": [
+        "Provide information and support her right to accept or decline"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Diagnostic testing is elective; the nurse provides balanced information and supports informed, autonomous choice. Principle: informed consent means the patient may decline without coercion.",
+      "rationale_distractors": {
+        "Tell her she must have the test": "Violates autonomy.",
+        "Perform the test without discussing risks": "Violates informed consent.",
+        "Decide for her based on her age": "Removes her decision-making right."
+      },
+      "source": "ACOG PB 226 (2020)",
+      "keywords": [
+        "amniocentesis",
+        "informed consent",
+        "advocacy"
+      ]
+    },
+    {
+      "id": "1523-D3-305",
+      "objective_id": "1523-D3-5",
+      "item_type": "bowtie",
+      "ncjmm_operation": "Take Actions",
+      "client_needs": "Pharmacological and Parenteral Therapies",
+      "bloom": "Apply",
+      "difficulty_target": "hard",
+      "stem": "An Rh-negative patient at 28 weeks with a negative antibody screen is being evaluated. Select the 2 nursing actions, the 1 condition being prevented, and the 2 parameters to verify before administration.",
+      "chart_data": {},
+      "options": {
+        "actions_options": [
+          "Administer Rh(D) immune globulin as ordered",
+          "Educate about the purpose and timing of the injection",
+          "Withhold the injection because she has no symptoms",
+          "Give the rubella vaccine instead",
+          "Delay until after birth only"
+        ],
+        "condition_options": [
+          "Rh alloimmunization (sensitization)",
+          "Gestational diabetes",
+          "Group B streptococcal disease",
+          "Preeclampsia"
+        ],
+        "parameter_options": [
+          "Maternal Rh-negative status",
+          "Negative antibody screen",
+          "Blood glucose level",
+          "Deep tendon reflexes"
+        ]
+      },
+      "key": {
+        "actions": [
+          "Administer Rh(D) immune globulin as ordered",
+          "Educate about the purpose and timing of the injection"
+        ],
+        "condition": [
+          "Rh alloimmunization (sensitization)"
+        ],
+        "parameters": [
+          "Maternal Rh-negative status",
+          "Negative antibody screen"
+        ]
+      },
+      "scoring": "+/-",
+      "rationale_correct": "Routine 28-week Rh(D) immune globulin prevents alloimmunization in an unsensitized Rh-negative patient; verify Rh-negative status and a negative antibody screen first. Principle: give anti-D before sensitization can occur, not after.",
+      "rationale_distractors": {
+        "Withhold the injection because she has no symptoms": "Prophylaxis is routine, not symptom-driven.",
+        "Give the rubella vaccine instead": "A live vaccine deferred to postpartum, unrelated to Rh.",
+        "Blood glucose / Deep tendon reflexes": "Relevant to GDM and magnesium therapy, not anti-D."
+      },
+      "source": "ACOG PB 181 (2017)",
+      "keywords": [
+        "RhIG",
+        "bowtie",
+        "over-sample"
+      ]
+    },
+    {
+      "id": "1523-D3-306",
+      "objective_id": "1523-D3-5",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Take Actions",
+      "client_needs": "Pharmacological and Parenteral Therapies",
+      "bloom": "Apply",
+      "difficulty_target": "moderate",
+      "stem": "An Rh-negative patient gives birth to an Rh-positive infant. Within what time frame should Rh(D) immune globulin be given postpartum?",
+      "chart_data": {},
+      "options": [
+        "Within 72 hours of birth",
+        "Within 2 weeks of birth",
+        "Only at the next pregnancy",
+        "It is not needed if she received it at 28 weeks"
+      ],
+      "key": [
+        "Within 72 hours of birth"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Postpartum anti-D is given within 72 hours when the infant is Rh-positive, in addition to the 28-week dose. Principle: the postpartum dose covers the delivery-related fetomaternal bleed and is time-critical.",
+      "rationale_distractors": {
+        "Within 2 weeks of birth": "Too late; the 72-hour window is standard.",
+        "Only at the next pregnancy": "Sensitization would already have occurred.",
+        "It is not needed if she received it at 28 weeks": "The antenatal dose does not replace the postpartum dose."
+      },
+      "source": "ACOG PB 181 (2017)",
+      "keywords": [
+        "RhIG",
+        "postpartum",
+        "over-sample"
+      ]
+    },
+    {
+      "id": "1523-D3-307",
+      "objective_id": "1523-D3-1",
+      "item_type": "trend",
+      "ncjmm_operation": "Evaluate Outcomes",
+      "client_needs": "Health Promotion and Maintenance",
+      "bloom": "Analyze",
+      "difficulty_target": "moderate",
+      "stem": "Reviewing a patient's prenatal record across visits, select the interpretation that should prompt further evaluation.",
+      "chart_data": {
+        "visits": "week 24: BP 116/72, weight +6 lb; week 28: BP 128/82, weight +9 lb; week 32: BP 140/90, weight +12 lb"
+      },
+      "options": [
+        "Blood pressure and weight are trending normally",
+        "A rising blood pressure trend warrants closer evaluation",
+        "Fundal height is decreasing normally",
+        "No trend is discernible"
+      ],
+      "key": [
+        "A rising blood pressure trend warrants closer evaluation"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "A steady upward blood pressure trend across visits can signal an emerging hypertensive disorder and warrants evaluation. Principle: trend the prenatal record, not single readings, to catch developing problems early.",
+      "rationale_distractors": {
+        "normal trends / decreasing fundal height / no trend": "Each describes a different pattern; the recorded rising blood pressure contradicts them."
+      },
+      "source": "Lowdermilk 13th ed.",
+      "keywords": [
+        "prenatal trending",
+        "trend",
+        "evaluate"
+      ]
+    },
+    {
+      "id": "1523-D3-308",
+      "objective_id": "1523-D3-2",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Analyze Cues",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Apply",
+      "difficulty_target": "moderate",
+      "stem": "A patient's 1-hour 50 g glucose challenge test is elevated. Which is the appropriate next step?",
+      "chart_data": {},
+      "options": [
+        "Diagnose gestational diabetes and start insulin",
+        "Proceed to the 3-hour oral glucose tolerance test",
+        "Repeat the 1-hour test in 4 weeks",
+        "No further testing is needed"
+      ],
+      "key": [
+        "Proceed to the 3-hour oral glucose tolerance test"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "An abnormal 1-hour screen is confirmed with the diagnostic 3-hour OGTT. Principle: a positive screen leads to a diagnostic test, not directly to treatment.",
+      "rationale_distractors": {
+        "Diagnose gestational diabetes and start insulin": "Requires diagnostic confirmation first.",
+        "Repeat the 1-hour test in 4 weeks": "Delays diagnosis inappropriately.",
+        "No further testing is needed": "Ignores an abnormal screen."
+      },
+      "source": "ACOG PB 190 (2018)",
+      "keywords": [
+        "GDM",
+        "screening vs diagnostic",
+        "over-sample"
+      ]
+    },
+    {
+      "id": "1523-D3-309",
+      "objective_id": "1523-D3-1",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Health Promotion and Maintenance",
+      "bloom": "Understand",
+      "difficulty_target": "easy",
+      "stem": "In an uncomplicated pregnancy, which prenatal visit schedule should the nurse teach as typical?",
+      "chart_data": {},
+      "options": [
+        "Every 4 weeks until 28 weeks, every 2 weeks until 36 weeks, then weekly",
+        "Only one visit at term",
+        "Weekly from the first trimester",
+        "Every 8 weeks throughout"
+      ],
+      "key": [
+        "Every 4 weeks until 28 weeks, every 2 weeks until 36 weeks, then weekly"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "The traditional schedule increases visit frequency as term approaches to catch late-emerging problems. Principle: surveillance intensifies as risk of late complications rises.",
+      "rationale_distractors": {
+        "Only one visit at term": "Misses ongoing surveillance.",
+        "Weekly from the first trimester": "More frequent than needed early.",
+        "Every 8 weeks throughout": "Too infrequent, especially near term."
+      },
+      "source": "Lowdermilk 13th ed.",
+      "keywords": [
+        "prenatal schedule"
+      ]
+    },
+    {
+      "id": "1523-D3-310",
+      "objective_id": "1523-D3-3",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Analyze Cues",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Analyze",
+      "difficulty_target": "moderate",
+      "stem": "A patient asks the difference between chorionic villus sampling and amniocentesis. Which statement is accurate?",
+      "chart_data": {},
+      "options": [
+        "Both are screening tests only",
+        "CVS can be done earlier (about 10 to 13 weeks) than amniocentesis (15 weeks or later), and both are diagnostic",
+        "Amniocentesis is done before CVS",
+        "Neither provides a fetal karyotype"
+      ],
+      "key": [
+        "CVS can be done earlier (about 10 to 13 weeks) than amniocentesis (15 weeks or later), and both are diagnostic"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "CVS provides an earlier diagnostic karyotype than amniocentesis; both are diagnostic, not screening. Principle: choose the diagnostic test by gestational-age timing and clinical need.",
+      "rationale_distractors": {
+        "Both are screening tests only": "Both are diagnostic.",
+        "Amniocentesis is done before CVS": "CVS is the earlier option.",
+        "Neither provides a fetal karyotype": "Both yield a karyotype."
+      },
+      "source": "ACOG PB 226 (2020)",
+      "keywords": [
+        "CVS",
+        "amniocentesis",
+        "diagnostic"
+      ]
+    },
+    {
+      "id": "1523-D3-311",
+      "objective_id": "1523-D3-2",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Understand",
+      "difficulty_target": "easy",
+      "stem": "The quad screen is typically performed during which gestational-age window?",
+      "chart_data": {},
+      "options": [
+        "6 to 10 weeks",
+        "15 to 22 weeks",
+        "28 to 32 weeks",
+        "After 37 weeks"
+      ],
+      "key": [
+        "15 to 22 weeks"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "The quad screen is drawn at 15 to 22 weeks. Principle: match each screening test to its correct timing window.",
+      "rationale_distractors": {
+        "6 to 10 weeks": "Too early for the quad screen.",
+        "28 to 32 weeks": "Past the quad-screen window.",
+        "After 37 weeks": "Far too late."
+      },
+      "source": "ACOG PB 226 (2020)",
+      "keywords": [
+        "quad screen",
+        "timing",
+        "over-sample"
+      ]
+    },
+    {
+      "id": "1523-D3-312",
+      "objective_id": "1523-D3-3",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Analyze Cues",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Analyze",
+      "difficulty_target": "hard",
+      "stem": "A patient's quad screen returns 'screen positive.' Which nursing explanation is most accurate?",
+      "chart_data": {},
+      "options": [
+        "The fetus definitely has a chromosomal abnormality",
+        "The result indicates increased risk and diagnostic testing can be offered",
+        "The pregnancy must be ended",
+        "No further testing is available"
+      ],
+      "key": [
+        "The result indicates increased risk and diagnostic testing can be offered"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "A positive quad screen raises risk and prompts an offer of diagnostic testing; it does not diagnose. Principle: a positive screen is a probability statement, not a verdict.",
+      "rationale_distractors": {
+        "The fetus definitely has a chromosomal abnormality": "Only diagnostic testing confirms.",
+        "The pregnancy must be ended": "Directive and premature.",
+        "No further testing is available": "Diagnostic options exist (CVS, amniocentesis)."
+      },
+      "source": "ACOG PB 226 (2020)",
+      "keywords": [
+        "quad screen",
+        "screening vs diagnostic",
+        "over-sample"
+      ]
+    },
+    {
+      "id": "1523-D3-313",
+      "objective_id": "1523-D3-5",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Pharmacological and Parenteral Therapies",
+      "bloom": "Understand",
+      "difficulty_target": "easy",
+      "stem": "Rh(D) immune globulin is routinely offered to an unsensitized Rh-negative patient at which point in pregnancy?",
+      "chart_data": {},
+      "options": [
+        "At 12 weeks",
+        "At about 28 weeks",
+        "Only at birth",
+        "At every prenatal visit"
+      ],
+      "key": [
+        "At about 28 weeks"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Routine antenatal anti-D is given around 28 weeks, with an additional postpartum dose if the infant is Rh-positive. Principle: the 28-week dose prevents third-trimester sensitization.",
+      "rationale_distractors": {
+        "At 12 weeks": "Earlier than the routine antenatal dose.",
+        "Only at birth": "Misses antenatal prophylaxis.",
+        "At every prenatal visit": "Not how anti-D is dosed."
+      },
+      "source": "ACOG PB 181 (2017)",
+      "keywords": [
+        "RhIG",
+        "28 weeks",
+        "over-sample"
+      ]
+    },
+    {
+      "id": "1523-D3-314",
+      "objective_id": "1523-D3-5",
+      "item_type": "sata",
+      "ncjmm_operation": "Take Actions",
+      "client_needs": "Pharmacological and Parenteral Therapies",
+      "bloom": "Analyze",
+      "difficulty_target": "hard",
+      "stem": "Select all situations in which an Rh-negative, unsensitized patient should receive Rh(D) immune globulin.",
+      "chart_data": {},
+      "options": [
+        "Routinely at about 28 weeks",
+        "After a first-trimester miscarriage",
+        "After amniocentesis",
+        "Within 72 hours of birth if the infant is Rh-positive",
+        "When the patient is Rh-positive"
+      ],
+      "key": [
+        "Routinely at about 28 weeks",
+        "After a first-trimester miscarriage",
+        "After amniocentesis",
+        "Within 72 hours of birth if the infant is Rh-positive"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Anti-D is indicated at 28 weeks and after any sensitizing event — loss, invasive procedure, or Rh-positive birth. Principle: any fetomaternal bleeding in an Rh-negative patient triggers anti-D.",
+      "rationale_distractors": {
+        "When the patient is Rh-positive": "Rh-positive patients cannot be sensitized to D and do not need anti-D."
+      },
+      "source": "ACOG PB 181 (2017)",
+      "keywords": [
+        "RhIG",
+        "indications",
+        "SATA",
+        "over-sample"
+      ]
+    }
+  ]
+}

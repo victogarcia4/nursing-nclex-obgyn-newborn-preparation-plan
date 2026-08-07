@@ -1,0 +1,541 @@
+{
+  "course": "RNSG1523",
+  "day": 2,
+  "items": [
+    {
+      "id": "1523-D2-201",
+      "objective_id": "1523-D2-1",
+      "item_type": "matrix_grid",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Health Promotion and Maintenance",
+      "bloom": "Analyze",
+      "difficulty_target": "moderate",
+      "stem": "Classify each sign of pregnancy as Presumptive, Probable, or Positive.",
+      "chart_data": {},
+      "options": {
+        "rows": [
+          "Amenorrhea reported by the patient",
+          "Positive home pregnancy test",
+          "Fetal heartbeat auscultated by the examiner",
+          "Nausea reported by the patient",
+          "Fetal movement felt by the examiner"
+        ],
+        "columns": [
+          "Presumptive",
+          "Probable",
+          "Positive"
+        ]
+      },
+      "key": {
+        "Amenorrhea reported by the patient": "Presumptive",
+        "Positive home pregnancy test": "Probable",
+        "Fetal heartbeat auscultated by the examiner": "Positive",
+        "Nausea reported by the patient": "Presumptive",
+        "Fetal movement felt by the examiner": "Positive"
+      },
+      "scoring": "0/1",
+      "rationale_correct": "Presumptive signs are subjective, probable are examiner-observed but not conclusive, and positive signs prove a fetus. Principle: only examiner-detected fetal heartbeat, movement, or ultrasound are positive.",
+      "rationale_distractors": {
+        "(any misclassification)": "Calling a patient-reported symptom 'positive' or an examiner's fetal finding 'presumptive' reverses the certainty hierarchy."
+      },
+      "source": "Lowdermilk 13th ed.",
+      "keywords": [
+        "signs of pregnancy",
+        "matrix grid"
+      ]
+    },
+    {
+      "id": "1523-D2-202",
+      "objective_id": "1523-D2-1",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Analyze Cues",
+      "client_needs": "Health Promotion and Maintenance",
+      "bloom": "Analyze",
+      "difficulty_target": "moderate",
+      "stem": "A patient reports amenorrhea, nausea, and breast tenderness and has a positive urine pregnancy test. Which statement about these findings is accurate?",
+      "chart_data": {},
+      "options": [
+        "They positively confirm pregnancy",
+        "They are presumptive and probable signs but not positive confirmation",
+        "They rule out ectopic pregnancy",
+        "They indicate fetal viability"
+      ],
+      "key": [
+        "They are presumptive and probable signs but not positive confirmation"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Symptoms are presumptive and a positive test is probable; only examiner-detected fetal heart, movement, or ultrasound is positive. Principle: a positive test raises probability but does not prove an intrauterine, viable fetus.",
+      "rationale_distractors": {
+        "They positively confirm pregnancy": "Requires a positive sign such as ultrasound.",
+        "They rule out ectopic pregnancy": "They do not; location must be confirmed.",
+        "They indicate fetal viability": "Viability requires cardiac activity on imaging."
+      },
+      "source": "Lowdermilk 13th ed.",
+      "keywords": [
+        "presumptive",
+        "probable",
+        "positive"
+      ]
+    },
+    {
+      "id": "1523-D2-203",
+      "objective_id": "1523-D2-2",
+      "item_type": "cloze_dropdown",
+      "ncjmm_operation": "Take Actions",
+      "client_needs": "Health Promotion and Maintenance",
+      "bloom": "Apply",
+      "difficulty_target": "hard",
+      "stem": "Complete the GTPAL. A patient has one prior birth at 39 weeks, one birth at 34 weeks, one miscarriage at 10 weeks, and is currently pregnant; all three prior children are living. Her GTPAL is G[1] T[2] P[3] A[4] L[5].",
+      "chart_data": {},
+      "options": {
+        "1": [
+          "4",
+          "3",
+          "5"
+        ],
+        "2": [
+          "1",
+          "2",
+          "0"
+        ],
+        "3": [
+          "1",
+          "0",
+          "2"
+        ],
+        "4": [
+          "1",
+          "0",
+          "2"
+        ],
+        "5": [
+          "3",
+          "2",
+          "4"
+        ]
+      },
+      "key": {
+        "1": "4",
+        "2": "1",
+        "3": "1",
+        "4": "1",
+        "5": "3"
+      },
+      "scoring": "0/1",
+      "rationale_correct": "Gravida counts all pregnancies including the current (4); Term is births at or after 37 weeks (1); Preterm is 20 to 36 6/7 weeks (1); Abortions are losses before 20 weeks (1); Living children (3). Principle: count each element against its exact gestational-age boundary.",
+      "rationale_distractors": {
+        "(other options)": "Miscounting gravida (forgetting the current pregnancy) or placing the 34-week birth under Term instead of Preterm are the classic GTPAL errors."
+      },
+      "source": "Lowdermilk 13th ed.",
+      "keywords": [
+        "GTPAL",
+        "cloze",
+        "over-sample"
+      ]
+    },
+    {
+      "id": "1523-D2-204",
+      "objective_id": "1523-D2-2",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Take Actions",
+      "client_needs": "Health Promotion and Maintenance",
+      "bloom": "Apply",
+      "difficulty_target": "moderate",
+      "stem": "A patient is pregnant for the third time. She has twins born at 36 weeks (both living) and one miscarriage at 8 weeks. Which GTPAL is correct?",
+      "chart_data": {},
+      "options": [
+        "G3 T0 P1 A1 L2",
+        "G3 T1 P0 A1 L2",
+        "G3 T0 P2 A1 L2",
+        "G2 T0 P1 A1 L2"
+      ],
+      "key": [
+        "G3 T0 P1 A1 L2"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Gravida counts pregnancies (3); the 36-week birth is preterm and twins count as one birth event for parity (P1); the miscarriage is an abortion (A1); two living children (L2). Principle: multiples count once for para but by head for living children.",
+      "rationale_distractors": {
+        "G3 T1 P0 A1 L2": "Wrongly counts the 36-week birth as term.",
+        "G3 T0 P2 A1 L2": "Wrongly counts twins as two preterm births.",
+        "G2 T0 P1 A1 L2": "Forgets to count the current pregnancy in gravida."
+      },
+      "source": "Lowdermilk 13th ed.",
+      "keywords": [
+        "GTPAL",
+        "multiples",
+        "over-sample"
+      ]
+    },
+    {
+      "id": "1523-D2-205",
+      "objective_id": "1523-D2-3",
+      "item_type": "cloze_dropdown",
+      "ncjmm_operation": "Take Actions",
+      "client_needs": "Health Promotion and Maintenance",
+      "bloom": "Apply",
+      "difficulty_target": "moderate",
+      "stem": "Using Naegele's rule for a patient with a regular 28-day cycle and a last menstrual period of March 10, the estimated date of birth is [1], and if her cycles were irregular the nurse would rely instead on [2].",
+      "chart_data": {},
+      "options": {
+        "1": [
+          "December 17",
+          "December 3",
+          "January 17"
+        ],
+        "2": [
+          "ultrasound dating",
+          "the quad screen",
+          "fundal height alone"
+        ]
+      },
+      "key": {
+        "1": "December 17",
+        "2": "ultrasound dating"
+      },
+      "scoring": "0/1",
+      "rationale_correct": "Naegele's rule: LMP minus 3 months plus 7 days (March 10 → December 17). With irregular cycles, ultrasound dating supersedes it. Principle: Naegele assumes a 28-day cycle; imaging wins when that assumption fails.",
+      "rationale_distractors": {
+        "December 3 / January 17": "Result from omitting the +7 days or mis-subtracting the months.",
+        "the quad screen / fundal height alone": "Neither establishes dating; ultrasound does."
+      },
+      "source": "Lowdermilk 13th ed.",
+      "keywords": [
+        "Naegele",
+        "EDB",
+        "cloze",
+        "over-sample"
+      ]
+    },
+    {
+      "id": "1523-D2-206",
+      "objective_id": "1523-D2-3",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Take Actions",
+      "client_needs": "Health Promotion and Maintenance",
+      "bloom": "Apply",
+      "difficulty_target": "moderate",
+      "stem": "A patient's last menstrual period was July 5. Using Naegele's rule, which estimated date of birth should the nurse calculate?",
+      "chart_data": {},
+      "options": [
+        "April 12",
+        "April 28",
+        "March 28",
+        "May 12"
+      ],
+      "key": [
+        "April 12"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "July 5 minus 3 months is April 5; plus 7 days is April 12. Principle: apply the subtract-three-months-then-add-seven-days steps in order.",
+      "rationale_distractors": {
+        "April 28": "Adds too many days.",
+        "March 28": "Subtracts four months instead of three.",
+        "May 12": "Subtracts only two months."
+      },
+      "source": "Lowdermilk 13th ed.",
+      "keywords": [
+        "Naegele",
+        "EDB",
+        "over-sample"
+      ]
+    },
+    {
+      "id": "1523-D2-207",
+      "objective_id": "1523-D2-4",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Management of Care",
+      "bloom": "Apply",
+      "difficulty_target": "moderate",
+      "stem": "At an initial prenatal visit, which finding in the history most warrants prompt follow-up and safety planning?",
+      "chart_data": {},
+      "options": [
+        "Taking a prenatal vitamin daily",
+        "Disclosure of intimate partner violence",
+        "A craving for pickles",
+        "Occasional heartburn after meals"
+      ],
+      "key": [
+        "Disclosure of intimate partner violence"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Disclosure of intimate partner violence requires private assessment and safety planning; risk can rise in pregnancy. Principle: screen privately and respond to violence disclosure as a safety priority.",
+      "rationale_distractors": {
+        "Taking a prenatal vitamin daily": "A positive, expected behavior.",
+        "A craving for pickles": "A benign, common experience.",
+        "Occasional heartburn after meals": "A common discomfort managed with teaching."
+      },
+      "source": "Lowdermilk 13th ed.",
+      "keywords": [
+        "prenatal visit",
+        "IPV",
+        "safety"
+      ]
+    },
+    {
+      "id": "1523-D2-208",
+      "objective_id": "1523-D2-5",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Psychosocial Integrity",
+      "bloom": "Understand",
+      "difficulty_target": "easy",
+      "stem": "A patient in the first trimester expresses ambivalence about the pregnancy despite having planned it. How should the nurse interpret this?",
+      "chart_data": {},
+      "options": [
+        "It indicates rejection of the pregnancy requiring referral",
+        "Ambivalence is a common, normal early psychological response",
+        "It signals postpartum depression",
+        "It requires immediate psychiatric admission"
+      ],
+      "key": [
+        "Ambivalence is a common, normal early psychological response"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Early ambivalence, even in planned pregnancies, is a normal adaptive task of pregnancy. Principle: normalize early ambivalence while remaining alert for persistent distress.",
+      "rationale_distractors": {
+        "It indicates rejection of the pregnancy requiring referral": "Overinterprets a normal response.",
+        "It signals postpartum depression": "Postpartum depression occurs after birth.",
+        "It requires immediate psychiatric admission": "Not warranted by normal ambivalence."
+      },
+      "source": "Silbert-Flagg 9th ed.",
+      "keywords": [
+        "maternal adaptation",
+        "ambivalence"
+      ]
+    },
+    {
+      "id": "1523-D2-209",
+      "objective_id": "1523-D2-1",
+      "item_type": "highlight",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Health Promotion and Maintenance",
+      "bloom": "Analyze",
+      "difficulty_target": "easy",
+      "stem": "Highlight the positive (diagnostic) signs of pregnancy in the note. 'Patient reports amenorrhea and nausea; examiner notes a positive pregnancy test, auscultates a fetal heartbeat, palpates fetal movement, and ultrasound visualizes the fetus.'",
+      "chart_data": {},
+      "options": [
+        "auscultates a fetal heartbeat",
+        "palpates fetal movement",
+        "ultrasound visualizes the fetus",
+        "amenorrhea",
+        "positive pregnancy test"
+      ],
+      "key": [
+        "auscultates a fetal heartbeat",
+        "palpates fetal movement",
+        "ultrasound visualizes the fetus"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Examiner-detected fetal heartbeat, fetal movement, and ultrasound visualization are positive signs. Principle: only findings the examiner attributes directly to a fetus are positive.",
+      "rationale_distractors": {
+        "amenorrhea": "A presumptive (subjective) sign.",
+        "positive pregnancy test": "A probable sign, since other conditions can raise hCG."
+      },
+      "source": "Lowdermilk 13th ed.",
+      "keywords": [
+        "positive signs",
+        "highlight"
+      ]
+    },
+    {
+      "id": "1523-D2-210",
+      "objective_id": "1523-D2-4",
+      "item_type": "sata",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Management of Care",
+      "bloom": "Understand",
+      "difficulty_target": "moderate",
+      "stem": "Select all components appropriately included in a comprehensive initial prenatal visit.",
+      "chart_data": {},
+      "options": [
+        "Complete health and obstetric history",
+        "Baseline vital signs and physical assessment",
+        "Screening for intimate partner violence",
+        "Establishing estimated date of birth",
+        "Immediate cesarean scheduling"
+      ],
+      "key": [
+        "Complete health and obstetric history",
+        "Baseline vital signs and physical assessment",
+        "Screening for intimate partner violence",
+        "Establishing estimated date of birth"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "The initial visit gathers history, baseline assessment, risk screening, and dating. Principle: the first visit establishes the risk profile that guides the rest of prenatal care.",
+      "rationale_distractors": {
+        "Immediate cesarean scheduling": "Not a component of a routine initial prenatal visit."
+      },
+      "source": "Lowdermilk 13th ed.",
+      "keywords": [
+        "initial visit",
+        "components",
+        "SATA"
+      ]
+    },
+    {
+      "id": "1523-D2-211",
+      "objective_id": "1523-D2-2",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Health Promotion and Maintenance",
+      "bloom": "Understand",
+      "difficulty_target": "easy",
+      "stem": "In the GTPAL system, which letter represents the number of pregnancies that ended before 20 weeks?",
+      "chart_data": {},
+      "options": [
+        "T (Term)",
+        "P (Preterm)",
+        "A (Abortions)",
+        "L (Living)"
+      ],
+      "key": [
+        "A (Abortions)"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "In GTPAL, A counts losses before 20 weeks, spontaneous or induced. Principle: anchor the abortion count to the 20-week boundary.",
+      "rationale_distractors": {
+        "T (Term)": "Counts births at or after 37 weeks.",
+        "P (Preterm)": "Counts births from 20 to 36 6/7 weeks.",
+        "L (Living)": "Counts currently living children."
+      },
+      "source": "Lowdermilk 13th ed.",
+      "keywords": [
+        "GTPAL",
+        "definition",
+        "over-sample"
+      ]
+    },
+    {
+      "id": "1523-D2-212",
+      "objective_id": "1523-D2-2",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Take Actions",
+      "client_needs": "Health Promotion and Maintenance",
+      "bloom": "Apply",
+      "difficulty_target": "hard",
+      "stem": "A patient is currently pregnant and reports: a full-term son (living), a set of twins born at 35 weeks (both living), and one elective abortion at 11 weeks. Which GTPAL is correct?",
+      "chart_data": {},
+      "options": [
+        "G4 T1 P1 A1 L3",
+        "G4 T1 P2 A1 L3",
+        "G3 T1 P1 A1 L3",
+        "G4 T2 P0 A1 L3"
+      ],
+      "key": [
+        "G4 T1 P1 A1 L3"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Gravida 4 (three prior pregnancies plus current); one term birth; the twin birth is one preterm event (P1); one abortion; three living children. Principle: multiples count once for parity but individually for living children.",
+      "rationale_distractors": {
+        "G4 T1 P2 A1 L3": "Wrongly counts twins as two preterm births.",
+        "G3 T1 P1 A1 L3": "Omits the current pregnancy from gravida.",
+        "G4 T2 P0 A1 L3": "Wrongly classifies the 35-week twins as term."
+      },
+      "source": "Lowdermilk 13th ed.",
+      "keywords": [
+        "GTPAL",
+        "multiples",
+        "over-sample"
+      ]
+    },
+    {
+      "id": "1523-D2-213",
+      "objective_id": "1523-D2-3",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Take Actions",
+      "client_needs": "Health Promotion and Maintenance",
+      "bloom": "Apply",
+      "difficulty_target": "hard",
+      "stem": "A patient's last menstrual period was January 20 with regular cycles. Using Naegele's rule, which estimated date of birth is correct?",
+      "chart_data": {},
+      "options": [
+        "October 27",
+        "November 13",
+        "October 13",
+        "November 27"
+      ],
+      "key": [
+        "October 27"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "January 20 minus 3 months is October 20; plus 7 days is October 27. Principle: subtract three months, then add seven days, in that order.",
+      "rationale_distractors": {
+        "November 13": "Adds a month in error.",
+        "October 13": "Subtracts days instead of adding.",
+        "November 27": "Subtracts only two months."
+      },
+      "source": "Lowdermilk 13th ed.",
+      "keywords": [
+        "Naegele",
+        "EDB",
+        "over-sample"
+      ]
+    },
+    {
+      "id": "1523-D2-214",
+      "objective_id": "1523-D2-1",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Health Promotion and Maintenance",
+      "bloom": "Understand",
+      "difficulty_target": "easy",
+      "stem": "Which sign of pregnancy is considered positive (diagnostic)?",
+      "chart_data": {},
+      "options": [
+        "Amenorrhea",
+        "Positive home pregnancy test",
+        "Ultrasound visualization of the fetus",
+        "Breast tenderness"
+      ],
+      "key": [
+        "Ultrasound visualization of the fetus"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Ultrasound visualization is a positive sign because it directly demonstrates a fetus. Principle: only direct fetal evidence is positive.",
+      "rationale_distractors": {
+        "Amenorrhea": "A presumptive (subjective) sign.",
+        "Positive home pregnancy test": "A probable sign.",
+        "Breast tenderness": "A presumptive sign."
+      },
+      "source": "Lowdermilk 13th ed.",
+      "keywords": [
+        "positive signs",
+        "over-sample"
+      ]
+    },
+    {
+      "id": "1523-D2-215",
+      "objective_id": "1523-D2-2",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Analyze Cues",
+      "client_needs": "Health Promotion and Maintenance",
+      "bloom": "Analyze",
+      "difficulty_target": "hard",
+      "stem": "A nurse reviews a chart listing 'G5 T2 P1 A1 L3.' Which interpretation of this obstetric history is correct?",
+      "chart_data": {},
+      "options": [
+        "Five total pregnancies, two term births, one preterm birth, one loss before 20 weeks, three living children",
+        "Five living children",
+        "Two current pregnancies",
+        "One total pregnancy"
+      ],
+      "key": [
+        "Five total pregnancies, two term births, one preterm birth, one loss before 20 weeks, three living children"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "GTPAL reads as gravida 5, term 2, preterm 1, abortions 1, living 3. Principle: read each letter against its definition rather than guessing from position.",
+      "rationale_distractors": {
+        "Five living children": "Confuses gravida with living children.",
+        "Two current pregnancies": "Gravida counts total pregnancies, not simultaneous ones.",
+        "One total pregnancy": "Contradicts a gravida of 5."
+      },
+      "source": "Lowdermilk 13th ed.",
+      "keywords": [
+        "GTPAL",
+        "interpretation",
+        "over-sample"
+      ]
+    }
+  ]
+}

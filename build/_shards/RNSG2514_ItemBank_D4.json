@@ -1,0 +1,613 @@
+{
+  "course": "RNSG2514",
+  "day": 4,
+  "items": [
+    {
+      "id": "2514-D4-401",
+      "objective_id": "2514-D4-4",
+      "item_type": "extended_drag_drop",
+      "ncjmm_operation": "Take Actions",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Apply",
+      "difficulty_target": "hard",
+      "stem": "During a vaginal exam after rupture of membranes, the nurse palpates a pulsating cord in the vagina and the fetal heart rate drops to 70. Place the actions in the correct order.",
+      "chart_data": {},
+      "options": [
+        "Call for help and press the emergency call light",
+        "Use a gloved hand to lift the presenting part off the cord",
+        "Place the patient in knee-chest or steep Trendelenburg position",
+        "Prepare for immediate cesarean birth",
+        "Keep the examining hand in place during transport"
+      ],
+      "key": [
+        "Call for help and press the emergency call light",
+        "Use a gloved hand to lift the presenting part off the cord",
+        "Place the patient in knee-chest or steep Trendelenburg position",
+        "Prepare for immediate cesarean birth",
+        "Keep the examining hand in place during transport"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Cord prolapse is relieved by immediately lifting the presenting part and repositioning to offload the cord while expediting cesarean birth. Principle: the hand that finds the prolapse stays to protect perfusion until delivery.",
+      "rationale_distractors": {
+        "Place in knee-chest position": "Correct step, but manual elevation of the presenting part comes first to relieve compression instantly.",
+        "Keep the examining hand in place": "Correct — but it is a continuous action during transport, not the first step."
+      },
+      "source": "Lowdermilk 13th ed.",
+      "keywords": [
+        "cord prolapse",
+        "ordering",
+        "emergency"
+      ]
+    },
+    {
+      "id": "2514-D4-402",
+      "objective_id": "2514-D4-4",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Take Actions",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Apply",
+      "difficulty_target": "moderate",
+      "stem": "A patient's membranes rupture and the fetal heart rate immediately falls to the 70s with a cord palpable at the introitus. Which is the nurse's priority action?",
+      "chart_data": {},
+      "options": [
+        "Reinsert the cord into the uterus",
+        "Manually elevate the presenting part off the cord and call for help",
+        "Administer oxytocin to speed delivery",
+        "Place the patient supine and flat"
+      ],
+      "key": [
+        "Manually elevate the presenting part off the cord and call for help"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Relieving cord compression by lifting the presenting part restores fetal perfusion while help and cesarean are mobilized. Principle: in cord prolapse, offload the cord first — everything else follows.",
+      "rationale_distractors": {
+        "Reinsert the cord into the uterus": "Never done; handling the cord causes vasospasm.",
+        "Administer oxytocin to speed delivery": "Increases compression and worsens hypoxia.",
+        "Place the patient supine and flat": "Wrong position; knee-chest or Trendelenburg offloads the cord."
+      },
+      "source": "Lowdermilk 13th ed.",
+      "keywords": [
+        "cord prolapse",
+        "first action"
+      ]
+    },
+    {
+      "id": "2514-D4-403",
+      "objective_id": "2514-D4-5",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Prioritize Hypotheses",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Analyze",
+      "difficulty_target": "hard",
+      "stem": "A term fetal tracing shows recurrent late decelerations with minimal variability during a Category II pattern. The patient's oxygen saturation is 99% on room air. Which intervention is supported by current guidance?",
+      "chart_data": {},
+      "options": [
+        "Apply routine maternal oxygen by facemask",
+        "Reposition the patient, give IV fluids, and reduce uterine stimulation",
+        "Increase the oxytocin infusion",
+        "Take no action while variability is minimal"
+      ],
+      "key": [
+        "Reposition the patient, give IV fluids, and reduce uterine stimulation"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Current intrapartum guidance recommends against routine maternal oxygen for Category II/III without maternal hypoxia; intrauterine resuscitation is positioning, fluids, and reducing stimulation. Principle: with normal maternal saturation, oxygen adds no fetal benefit and is no longer routine.",
+      "rationale_distractors": {
+        "Apply routine maternal oxygen by facemask": "The 2025 ACOG guidance advises against this when maternal saturation is adequate — a superseded practice.",
+        "Increase the oxytocin infusion": "Worsens a concerning tracing by adding stimulation.",
+        "Take no action while variability is minimal": "Minimal variability with late decels demands active resuscitation."
+      },
+      "source": "ACOG (2025) intrapartum FHR CPG",
+      "keywords": [
+        "FHR",
+        "oxygen reversal",
+        "Category II"
+      ]
+    },
+    {
+      "id": "2514-D4-404",
+      "objective_id": "2514-D4-5",
+      "item_type": "matrix_multiple_choice",
+      "ncjmm_operation": "Analyze Cues",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Analyze",
+      "difficulty_target": "moderate",
+      "stem": "Using VEAL CHOP, match each fetal heart rate pattern to its most likely cause.",
+      "chart_data": {},
+      "options": {
+        "rows": [
+          "Variable decelerations",
+          "Early decelerations",
+          "Accelerations",
+          "Late decelerations"
+        ],
+        "columns": [
+          "Cord compression",
+          "Head compression",
+          "Well-oxygenated (OK)",
+          "Placental insufficiency"
+        ]
+      },
+      "key": {
+        "Variable decelerations": "Cord compression",
+        "Early decelerations": "Head compression",
+        "Accelerations": "Well-oxygenated (OK)",
+        "Late decelerations": "Placental insufficiency"
+      },
+      "scoring": "0/1",
+      "rationale_correct": "VEAL CHOP maps Variable→Cord, Early→Head, Accelerations→OK, Late→Placental insufficiency. Principle: name the physiology behind each deceleration to choose the right response.",
+      "rationale_distractors": {
+        "(any mismatch)": "Each pairing is specific; swapping late and variable, for example, would misdirect the intervention."
+      },
+      "source": "Macones et al. (2008)",
+      "keywords": [
+        "VEAL CHOP",
+        "decelerations",
+        "matrix"
+      ]
+    },
+    {
+      "id": "2514-D4-405",
+      "objective_id": "2514-D4-3",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Prioritize Hypotheses",
+      "client_needs": "Physiological Adaptation",
+      "bloom": "Analyze",
+      "difficulty_target": "hard",
+      "stem": "A patient attempting labor after a prior cesarean suddenly reports severe, tearing abdominal pain; the fetal station rises and the heart rate becomes bradycardic. Which complication is the priority concern?",
+      "chart_data": {},
+      "options": [
+        "Normal transition to second stage",
+        "Uterine rupture",
+        "Placenta previa",
+        "Braxton Hicks contractions"
+      ],
+      "key": [
+        "Uterine rupture"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Acute tearing pain, loss of station, and fetal bradycardia during TOLAC signal uterine rupture, requiring immediate surgery. Principle: sudden pain plus a rising station plus bradycardia during TOLAC is rupture until proven otherwise.",
+      "rationale_distractors": {
+        "Normal transition to second stage": "Station descends, not rises, and the fetus is not bradycardic.",
+        "Placenta previa": "Presents as painless bleeding, not tearing pain with lost station.",
+        "Braxton Hicks contractions": "Irregular and painless, not an acute deterioration."
+      },
+      "source": "ACOG PB 205 (2019)",
+      "keywords": [
+        "uterine rupture",
+        "TOLAC",
+        "prioritize"
+      ]
+    },
+    {
+      "id": "2514-D4-406",
+      "objective_id": "2514-D4-2",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Analyze",
+      "difficulty_target": "moderate",
+      "stem": "At 32 weeks, ultrasound shows an estimated fetal weight at the 6th percentile with an abdominal circumference lagging behind the head. Which condition do these findings indicate?",
+      "chart_data": {},
+      "options": [
+        "Macrosomia",
+        "Asymmetric fetal growth restriction",
+        "Normal growth variation",
+        "Polyhydramnios"
+      ],
+      "key": [
+        "Asymmetric fetal growth restriction"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "An EFW below the 10th percentile with head-sparing (lagging abdomen) is asymmetric FGR, often from placental insufficiency. Principle: head-sparing asymmetry points to a placental cause and prompts Doppler surveillance.",
+      "rationale_distractors": {
+        "Macrosomia": "Right for an EFW above the 90th percentile, the opposite finding.",
+        "Normal growth variation": "An EFW below the 10th percentile exceeds normal variation.",
+        "Polyhydramnios": "Describes excess amniotic fluid, a different measurement."
+      },
+      "source": "ACOG PB 227 (2021)",
+      "keywords": [
+        "FGR",
+        "asymmetric",
+        "recognize cues"
+      ]
+    },
+    {
+      "id": "2514-D4-407",
+      "objective_id": "2514-D4-6",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Take Actions",
+      "client_needs": "Physiological Adaptation",
+      "bloom": "Apply",
+      "difficulty_target": "moderate",
+      "stem": "A newborn is apneic and limp after birth with a heart rate of 80. After warming, drying, stimulating, and positioning the airway, what is the priority next step?",
+      "chart_data": {},
+      "options": [
+        "Begin chest compressions immediately",
+        "Initiate positive pressure ventilation",
+        "Administer epinephrine",
+        "Obtain a blood glucose"
+      ],
+      "key": [
+        "Initiate positive pressure ventilation"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "In NRP, effective ventilation is the priority for a non-breathing newborn with a heart rate below 100 after initial steps; compressions and epinephrine follow only if the rate stays low despite ventilation. Principle: ventilation is the cornerstone of newborn resuscitation.",
+      "rationale_distractors": {
+        "Begin chest compressions immediately": "Indicated only if the heart rate is below 60 after effective ventilation.",
+        "Administer epinephrine": "Reserved for persistent bradycardia despite ventilation and compressions.",
+        "Obtain a blood glucose": "Important later, not the resuscitation priority."
+      },
+      "source": "Weiner & Zaichkin (2021)",
+      "keywords": [
+        "NRP",
+        "PPV",
+        "neonate"
+      ]
+    },
+    {
+      "id": "2514-D4-408",
+      "objective_id": "2514-D4-1",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Generate Solutions",
+      "client_needs": "Management of Care",
+      "bloom": "Apply",
+      "difficulty_target": "easy",
+      "stem": "A patient is scheduled for a vacuum-assisted vaginal birth. Which nursing action supports safe care?",
+      "chart_data": {},
+      "options": [
+        "Encourage prolonged repeated vacuum attempts",
+        "Monitor for and document number and duration of vacuum applications and fetal status",
+        "Withhold information about the procedure from the patient",
+        "Discourage any analgesia"
+      ],
+      "key": [
+        "Monitor for and document number and duration of vacuum applications and fetal status"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Safe operative vaginal birth requires monitoring and limiting vacuum applications and tracking fetal status. Principle: bounded attempts and documentation protect both patient and fetus.",
+      "rationale_distractors": {
+        "Encourage prolonged repeated vacuum attempts": "Excess attempts raise neonatal injury risk.",
+        "Withhold information about the procedure": "Violates informed consent.",
+        "Discourage any analgesia": "Comfort measures are appropriate; nothing supports withholding them."
+      },
+      "source": "ACOG PB 219 (2020)",
+      "keywords": [
+        "operative birth",
+        "vacuum"
+      ]
+    },
+    {
+      "id": "2514-D4-409",
+      "objective_id": "2514-D4-7",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Evaluate Outcomes",
+      "client_needs": "Psychosocial Integrity",
+      "bloom": "Apply",
+      "difficulty_target": "moderate",
+      "stem": "A patient has experienced an intrauterine fetal demise at 36 weeks. Which nursing approach best supports the family?",
+      "chart_data": {},
+      "options": [
+        "Avoid mentioning the baby to spare feelings",
+        "Offer the option to see and hold the infant and create keepsakes if they wish",
+        "Encourage them to move on quickly",
+        "Limit the family's time with the infant"
+      ],
+      "key": [
+        "Offer the option to see and hold the infant and create keepsakes if they wish"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Bereavement care offers, without pressure, the chance to see, hold, name, and memorialize the infant, honoring individual and cultural wishes. Principle: follow the family's lead and support meaning-making rather than steering their grief.",
+      "rationale_distractors": {
+        "Avoid mentioning the baby": "Silence can feel dismissive; gentle acknowledgment is supportive.",
+        "Encourage them to move on quickly": "Rushing grief is harmful and disrespectful.",
+        "Limit the family's time with the infant": "Time with the infant should be the family's choice, not restricted."
+      },
+      "source": "ACOG OCC No. 10 (2020)",
+      "keywords": [
+        "bereavement",
+        "IUFD",
+        "evaluate outcomes"
+      ]
+    },
+    {
+      "id": "2514-D4-410",
+      "objective_id": "2514-D4-5",
+      "item_type": "bowtie",
+      "ncjmm_operation": "Prioritize Hypotheses",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Analyze",
+      "difficulty_target": "hard",
+      "stem": "A term tracing shows recurrent late decelerations with minimal variability; maternal SpO2 is 98%. Select the 2 immediate actions, the 1 most likely condition, and the 2 parameters to monitor.",
+      "chart_data": {},
+      "options": {
+        "actions_options": [
+          "Reposition to left lateral and give an IV fluid bolus",
+          "Reduce or stop uterine stimulants",
+          "Apply routine maternal oxygen despite normal saturation",
+          "Increase oxytocin",
+          "Place supine and flat"
+        ],
+        "condition_options": [
+          "Uteroplacental insufficiency",
+          "Head compression",
+          "Maternal hypoxia",
+          "Cord entanglement only"
+        ],
+        "parameter_options": [
+          "Fetal heart rate variability and decelerations",
+          "Contraction frequency",
+          "Maternal blood glucose",
+          "Deep tendon reflexes"
+        ]
+      },
+      "key": {
+        "actions": [
+          "Reposition to left lateral and give an IV fluid bolus",
+          "Reduce or stop uterine stimulants"
+        ],
+        "condition": [
+          "Uteroplacental insufficiency"
+        ],
+        "parameters": [
+          "Fetal heart rate variability and decelerations",
+          "Contraction frequency"
+        ]
+      },
+      "scoring": "+/-",
+      "rationale_correct": "Recurrent late decelerations reflect uteroplacental insufficiency; intrauterine resuscitation is repositioning, fluids, and reducing stimulation, tracked by variability and contractions. Principle: with normal maternal saturation, routine oxygen is not indicated.",
+      "rationale_distractors": {
+        "Apply routine maternal oxygen despite normal saturation": "Superseded by 2025 guidance when maternal SpO2 is adequate.",
+        "Head compression": "Would cause early, not late, decelerations.",
+        "Deep tendon reflexes": "Monitored on magnesium, not for this tracing."
+      },
+      "source": "ACOG (2025) intrapartum FHR CPG",
+      "keywords": [
+        "late decels",
+        "bowtie",
+        "oxygen reversal"
+      ]
+    },
+    {
+      "id": "2514-D4-411",
+      "objective_id": "2514-D4-6",
+      "item_type": "sata",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Physiological Adaptation",
+      "bloom": "Understand",
+      "difficulty_target": "easy",
+      "stem": "Select all findings that indicate a newborn needs further resuscitation rather than routine care.",
+      "chart_data": {},
+      "options": [
+        "Apneic or gasping respirations",
+        "Heart rate below 100",
+        "Central cyanosis persisting",
+        "Strong cry with flexed tone",
+        "Limp muscle tone"
+      ],
+      "key": [
+        "Apneic or gasping respirations",
+        "Heart rate below 100",
+        "Central cyanosis persisting",
+        "Limp muscle tone"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Apnea/gasping, heart rate under 100, persistent central cyanosis, and limp tone signal the need for resuscitation. Principle: breathing and heart rate drive the NRP decision, not color alone.",
+      "rationale_distractors": {
+        "Strong cry with flexed tone": "A reassuring sign of a vigorous newborn who needs only routine care."
+      },
+      "source": "Weiner & Zaichkin (2021)",
+      "keywords": [
+        "NRP",
+        "newborn",
+        "SATA"
+      ]
+    },
+    {
+      "id": "2514-D4-412",
+      "objective_id": "2514-D4-2",
+      "item_type": "extended_multiple_response",
+      "ncjmm_operation": "Generate Solutions",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Apply",
+      "difficulty_target": "moderate",
+      "stem": "For a fetus with growth restriction and abnormal umbilical artery Doppler, select the 3 surveillance or management measures that are appropriate.",
+      "chart_data": {},
+      "options": [
+        "Increased antenatal testing (NST/BPP and Doppler)",
+        "Plan timing of birth based on surveillance and gestational age",
+        "Corticosteroids if preterm birth is anticipated",
+        "Immediate discharge with routine visits only",
+        "Encourage a high-sodium diet to raise fetal weight",
+        "Stop all fetal monitoring"
+      ],
+      "key": [
+        "Increased antenatal testing (NST/BPP and Doppler)",
+        "Plan timing of birth based on surveillance and gestational age",
+        "Corticosteroids if preterm birth is anticipated"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "FGR with abnormal Doppler needs intensified surveillance, individualized delivery timing, and steroids if preterm birth is likely. Principle: FGR management balances the risks of prematurity against ongoing placental compromise.",
+      "rationale_distractors": {
+        "Immediate discharge with routine visits only": "Under-surveils a high-risk fetus.",
+        "Encourage a high-sodium diet": "Does not treat placental insufficiency and is not recommended.",
+        "Stop all fetal monitoring": "Directly unsafe for a compromised fetus."
+      },
+      "source": "ACOG PB 227 (2021)",
+      "keywords": [
+        "FGR",
+        "Doppler",
+        "extended response"
+      ]
+    },
+    {
+      "id": "2514-D4-413",
+      "objective_id": "2514-D4-3",
+      "item_type": "cloze_dropdown",
+      "ncjmm_operation": "Take Actions",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Apply",
+      "difficulty_target": "hard",
+      "stem": "Complete the statement. When uterine rupture is suspected during TOLAC, the priority is [1], and the nurse should anticipate [2].",
+      "chart_data": {},
+      "options": {
+        "1": [
+          "immediate preparation for emergency cesarean",
+          "increasing oxytocin",
+          "continued expectant management"
+        ],
+        "2": [
+          "neonatal resuscitation and maternal hemorrhage management",
+          "discharge planning",
+          "routine postpartum care"
+        ]
+      },
+      "key": {
+        "1": "immediate preparation for emergency cesarean",
+        "2": "neonatal resuscitation and maternal hemorrhage management"
+      },
+      "scoring": "0/1",
+      "rationale_correct": "Suspected rupture demands immediate surgical delivery with readiness for neonatal resuscitation and maternal hemorrhage. Principle: rupture is a dual emergency — fetal hypoxia and maternal bleeding — so prepare for both.",
+      "rationale_distractors": {
+        "increasing oxytocin / continued expectant management": "Both worsen a rupturing uterus.",
+        "discharge planning / routine postpartum care": "Irrelevant during an acute emergency."
+      },
+      "source": "ACOG PB 205 (2019)",
+      "keywords": [
+        "uterine rupture",
+        "cloze",
+        "take actions"
+      ]
+    },
+    {
+      "id": "2514-D4-414",
+      "objective_id": "2514-D4-7",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Evaluate Outcomes",
+      "client_needs": "Psychosocial Integrity",
+      "bloom": "Apply",
+      "difficulty_target": "easy",
+      "stem": "After a perinatal loss, which statement by the nurse best reflects culturally sensitive bereavement care?",
+      "chart_data": {},
+      "options": [
+        "\"You are young; you can have another baby.\"",
+        "\"Would you like to tell me how your family honors a loss like this?\"",
+        "\"It is best not to talk about it.\"",
+        "\"At least it happened early.\""
+      ],
+      "key": [
+        "\"Would you like to tell me how your family honors a loss like this?\""
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Inviting the family to share their traditions centers their values and supports individualized grieving. Principle: ask and follow the family's cultural and spiritual lead rather than minimizing the loss.",
+      "rationale_distractors": {
+        "\"You are young; you can have another baby.\"": "Minimizes the loss and dismisses this baby.",
+        "\"It is best not to talk about it.\"": "Discourages needed expression of grief.",
+        "\"At least it happened early.\"": "Invalidates the family's grief."
+      },
+      "source": "ACOG OCC No. 10 (2020)",
+      "keywords": [
+        "bereavement",
+        "culture",
+        "communication"
+      ]
+    },
+    {
+      "id": "2514-D4-415",
+      "objective_id": "2514-D4-5",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Reduction of Risk Potential",
+      "bloom": "Understand",
+      "difficulty_target": "easy",
+      "stem": "Which fetal heart rate tracing does the nurse recognize as Category I (normal)?",
+      "chart_data": {},
+      "options": [
+        "Baseline 145, moderate variability, accelerations, no late or variable decelerations",
+        "Baseline 175, minimal variability, recurrent late decelerations",
+        "Absent variability with recurrent variable decelerations",
+        "Sinusoidal pattern"
+      ],
+      "key": [
+        "Baseline 145, moderate variability, accelerations, no late or variable decelerations"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Category I requires a normal baseline, moderate variability, and no concerning decelerations. Principle: moderate variability with a normal baseline is the hallmark of a reassuring tracing.",
+      "rationale_distractors": {
+        "Baseline 175, minimal variability, recurrent late decelerations": "Category II/III features.",
+        "Absent variability with recurrent variable decelerations": "Category III.",
+        "Sinusoidal pattern": "An abnormal Category III pattern."
+      },
+      "source": "Macones et al. (2008)",
+      "keywords": [
+        "FHR",
+        "Category I"
+      ]
+    },
+    {
+      "id": "2514-D4-416",
+      "objective_id": "2514-D4-6",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Physiological Adaptation",
+      "bloom": "Understand",
+      "difficulty_target": "easy",
+      "stem": "Which newborn assessment finding at 1 minute of life is most reassuring?",
+      "chart_data": {},
+      "options": [
+        "Heart rate 150 with a vigorous cry and flexed extremities",
+        "Heart rate 70 with weak respiratory effort",
+        "Central cyanosis and limp tone",
+        "Apnea with no response to stimulation"
+      ],
+      "key": [
+        "Heart rate 150 with a vigorous cry and flexed extremities"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "A heart rate above 100 with a strong cry and good tone indicates a vigorous newborn needing only routine care. Principle: heart rate and respiratory effort lead the newborn assessment.",
+      "rationale_distractors": {
+        "Heart rate 70 with weak respiratory effort": "Signals the need for positive pressure ventilation.",
+        "Central cyanosis and limp tone": "Concerning findings needing intervention.",
+        "Apnea with no response to stimulation": "Requires immediate resuscitation."
+      },
+      "source": "Weiner & Zaichkin (2021)",
+      "keywords": [
+        "newborn",
+        "reassuring",
+        "NRP"
+      ]
+    },
+    {
+      "id": "2514-D4-417",
+      "objective_id": "2514-D4-1",
+      "item_type": "standalone_mc",
+      "ncjmm_operation": "Recognize Cues",
+      "client_needs": "Management of Care",
+      "bloom": "Understand",
+      "difficulty_target": "easy",
+      "stem": "Which finding is an accepted indication for an operative vaginal birth with vacuum or forceps?",
+      "chart_data": {},
+      "options": [
+        "Prolonged second stage with a reassuring but non-descending fetus at adequate station",
+        "Unengaged fetal head",
+        "Known cephalopelvic disproportion",
+        "Preterm fetus at 28 weeks as a routine measure"
+      ],
+      "key": [
+        "Prolonged second stage with a reassuring but non-descending fetus at adequate station"
+      ],
+      "scoring": "0/1",
+      "rationale_correct": "Operative vaginal birth requires an engaged head at an adequate station with an appropriate indication such as prolonged second stage. Principle: station and engagement gate operative vaginal birth eligibility.",
+      "rationale_distractors": {
+        "Unengaged fetal head": "A contraindication — the head must be engaged.",
+        "Known cephalopelvic disproportion": "A contraindication favoring cesarean.",
+        "Preterm fetus at 28 weeks as a routine measure": "Not a routine indication and carries added risk."
+      },
+      "source": "ACOG PB 219 (2020)",
+      "keywords": [
+        "operative birth",
+        "indication"
+      ]
+    }
+  ]
+}
