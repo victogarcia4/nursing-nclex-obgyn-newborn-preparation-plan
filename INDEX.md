@@ -17,6 +17,7 @@ Canonical inputs (do not edit): `RNSG1523_Antepartum_LessonPlan_Expanded_APA.md`
 | F | NGN item bank (JSON + MD mirror) | ✔ 61 items | ✔ 64 items |
 | G | Unfolding case studies | ✔ (6/6) | ✔ (8/8) |
 | I | High-yield sheets | ✔ | ✔ |
+| H | Exit tickets + prior-knowledge polls | ✔ (added post-critical-path) | ✔ |
 | — | Gate audit (`build/GATE_AUDIT_v1.md`) | ✔ 0 hard violations | |
 | — | NotebookLM companion | ⏸ blocked — not authenticated (see below) | |
 
@@ -34,8 +35,9 @@ authenticate. **To finish it yourself:**
 4. Students can then query the material and generate audio overviews.
 
 **Deferred (out of scope this build):** WO-C slides, WO-D facilitation guides,
-WO-E handouts, WO-H exit tickets, WO-J sim scripts, WO-K remediation (Phase 5 only),
-WO-L study paths, and all Spanish versions.
+WO-E handouts, WO-J sim scripts, WO-K remediation (Phase 5 only), WO-L study paths,
+and all Spanish versions. *(WO-H exit tickets were added after the critical path as the
+§7 daily-accuracy instrument.)*
 
 ---
 
