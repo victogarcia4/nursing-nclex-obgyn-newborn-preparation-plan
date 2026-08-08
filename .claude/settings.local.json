@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init *)",
+      "Bash(mkdir -p build/RNSG1523 build/RNSG2514 build/_shards tools)",
+      "Bash(python tools/gate_audit.py build/)",
+      "Bash(echo \"===exit $?===\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('tools/validate_bank.py'\\).read\\(\\)\\); print\\('validate_bank.py parses OK'\\)\")",
+      "Bash(python tools/build_terms_1523.py)",
+      "Bash(python tools/build_terms_2514.py)",
+      "Bash(python -c ' *)",
+      "Bash(python tools/build_bank_2514.py)",
+      "Bash(python tools/validate_bank.py build/RNSG2514/RNSG2514_ItemBank_v1.json build/RNSG2514/RNSG2514_Blueprint_Unit_v1.md)",
+      "Bash(python tools/build_bank_1523.py)",
+      "Bash(python tools/validate_bank.py build/RNSG1523/RNSG1523_ItemBank_v1.json build/RNSG1523/RNSG1523_Blueprint_Unit_v1.md)",
+      "Bash(echo \"1523 bank exit: $?\")",
+      "Bash(echo \"2514 bank exit: $?\")",
+      "Bash(python tools/gate_audit.py build/ --report)",
+      "mcp__notebooklm__get_health",
+      "Bash(git add *)",
+      "Bash(git commit -q -m ' *)",
+      "Bash(touch .git/objects/.wtest)",
+      "Bash(rm -f .git/objects/.wtest)",
+      "Bash(echo \"1523 exit $?\")",
+      "Bash(echo \"2514 exit $?\")",
+      "Bash(git ls-remote *)"
+    ]
+  }
+}

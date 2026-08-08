@@ -21,6 +21,7 @@ Canonical inputs (do not edit): `RNSG1523_Antepartum_LessonPlan_Expanded_APA.md`
 | G | Unfolding case studies | ✔ (6/6) | ✔ (8/8) |
 | I | High-yield sheets | ✔ | ✔ |
 | H | Exit tickets + prior-knowledge polls | ✔ (added post-critical-path) | ✔ |
+| C | Slide decks (4 sessions each; Markdown) | ✔ 4 decks, 36 slides each | ✔ 4 decks, 35 slides each |
 | — | Gate audit (`build/GATE_AUDIT_v1.md`) | ✔ 0 hard violations | |
 | — | NotebookLM companion | ⏸ blocked — not authenticated (see below) | |
 
@@ -37,7 +38,7 @@ authenticate. **To finish it yourself:**
    - each `build/<COURSE>/<COURSE>_Case_*.md`
 4. Students can then query the material and generate audio overviews.
 
-**Deferred (out of scope this build):** WO-C slides, WO-D facilitation guides,
+**Deferred (out of scope this build):** WO-D facilitation guides,
 WO-E handouts, WO-J sim scripts, WO-K remediation (Phase 5 only), WO-L study paths,
 and all Spanish versions. *(WO-H exit tickets were added after the critical path as the
 §7 daily-accuracy instrument.)*
